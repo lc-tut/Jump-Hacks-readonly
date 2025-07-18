@@ -25,7 +25,7 @@ Request Body:
 }
 [GET] http://localhost:8080/api/v1/profile - get current profile
 
-
+```
 digi-con-hackathon2025/
 ├── cmd/api/                    # 🚀 Application entry point
 │   └── main.go                # Server startup and routing setup
@@ -58,3 +58,4 @@ digi-con-hackathon2025/
 ├── Dockerfile.dev             # 🔄 Development container with hot reload
 ├── Makefile                   # 🎯 Common development commands
 └── .air.toml                  # ♨️ Hot reload configuration
+```
