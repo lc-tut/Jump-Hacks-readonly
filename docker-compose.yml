@@ -7,6 +7,13 @@ services:
       - "8080:8080"
     environment:
       - ENV=development
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-test}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-test}
+      - S3_BUCKET_NAME=${S3_BUCKET_NAME:-hackathon-uploads}
+      - S3_REGION=${S3_REGION:-us-east-1}
+      - AWS_ENDPOINT_URL=${AWS_ENDPOINT_URL:-http://localstack:4566}
+      - AWS_S3_FORCE_PATH_STYLE=${AWS_S3_FORCE_PATH_STYLE:-true}
       - DB_HOST=postgres
       - DB_PORT=5432
       - DB_NAME=hackathon_db
@@ -20,6 +27,7 @@ services:
     depends_on:
       - postgres
       - redis
+      - localstack
     networks:
       - hackathon-network
 
@@ -43,6 +51,21 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+    networks:
+      - hackathon-network
+
+  localstack:
+    image: localstack/localstack:3
+    environment:
+      - SERVICES=s3
+      - DEBUG=1
+      - AWS_DEFAULT_REGION=${AWS_REGION:-us-east-1}
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    ports:
+      - "4566:4566"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ./tools/localstack:/etc/localstack/init/ready.d
     networks:
       - hackathon-network
 

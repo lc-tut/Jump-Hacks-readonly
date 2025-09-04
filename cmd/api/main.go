@@ -90,6 +90,10 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 			protected.POST("/upload", handlers.UploadFile(db, cfg))
 			protected.GET("/files", handlers.ListFiles(db))
 			protected.DELETE("/files/:id", handlers.DeleteFile(db, cfg))
+
+			// Storage presign
+			protected.POST("/storage/presign", handlers.PresignUpload(db, cfg))
+			protected.POST("/storage/presign-get", handlers.PresignGet(db, cfg))
 		}
 
 		// Admin routes (admin role required)

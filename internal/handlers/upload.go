@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
-	"github.com/digi-con/hackathon-template/internal/database"
 	appconfig "github.com/digi-con/hackathon-template/internal/config"
+	"github.com/digi-con/hackathon-template/internal/database"
 	"github.com/digi-con/hackathon-template/internal/middleware"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
@@ -35,7 +35,7 @@ func UploadFile(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 		file, header, err := c.Request.FormFile("file")
 		if err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{
-				"error": "No file provided",
+				"error":   "No file provided",
 				"details": err.Error(),
 			})
 			return
@@ -54,7 +54,7 @@ func UploadFile(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 		// Validate file type
 		if !isAllowedFileType(header.Filename, cfg.Upload.AllowedFileTypes) {
 			c.JSON(http.StatusBadRequest, gin.H{
-				"error": "File type not allowed",
+				"error":         "File type not allowed",
 				"allowed_types": cfg.Upload.AllowedFileTypes,
 			})
 			return
@@ -64,7 +64,7 @@ func UploadFile(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 		s3URL, s3Key, err := uploadToS3(file, header, cfg)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": "Failed to upload file",
+				"error":   "Failed to upload file",
 				"details": err.Error(),
 			})
 			return
@@ -120,7 +120,7 @@ func ListFiles(db database.DB) gin.HandlerFunc {
 		// Get pagination parameters
 		page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
 		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
-		
+
 		if page < 1 {
 			page = 1
 		}
@@ -192,7 +192,7 @@ func DeleteFile(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 		// Delete from S3
 		if err := deleteFromS3(file.S3Key, cfg); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": "Failed to delete file from storage",
+				"error":   "Failed to delete file from storage",
 				"details": err.Error(),
 			})
 			return
@@ -208,6 +208,152 @@ func DeleteFile(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 
 		c.JSON(http.StatusOK, gin.H{
 			"message": "File deleted successfully",
+		})
+	}
+}
+
+// PresignUpload returns a presigned S3 PUT URL
+func PresignUpload(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		userID, exists := middleware.GetUserID(c)
+		if !exists {
+			c.JSON(http.StatusUnauthorized, gin.H{
+				"error": "User not authenticated",
+			})
+			return
+		}
+
+		var req struct {
+			FileName    string `json:"filename" binding:"required"`
+			ContentType string `json:"content_type"`
+		}
+		if err := c.ShouldBindJSON(&req); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"error":   "Invalid request data",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		if !isAllowedFileType(req.FileName, cfg.Upload.AllowedFileTypes) {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"error":         "File type not allowed",
+				"allowed_types": cfg.Upload.AllowedFileTypes,
+			})
+			return
+		}
+
+		awsCfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion(cfg.AWS.Region))
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "Failed to load AWS config",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		s3Client := s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+			if cfg.AWS.EndpointURL != "" {
+				o.BaseEndpoint = aws.String(cfg.AWS.EndpointURL)
+				o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+			}
+		})
+
+		presigner := s3.NewPresignClient(s3Client)
+
+		key := fmt.Sprintf("uploads/user-%d/%s", userID, generateFileName(req.FileName))
+		input := &s3.PutObjectInput{
+			Bucket:      aws.String(cfg.AWS.S3BucketName),
+			Key:         aws.String(key),
+			ContentType: aws.String(req.ContentType),
+		}
+
+		presigned, err := presigner.PresignPutObject(context.TODO(), input, s3.WithPresignExpires(10*time.Minute))
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "Failed to generate presigned URL",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		c.JSON(http.StatusOK, gin.H{
+			"method":       "PUT",
+			"url":          presigned.URL,
+			"headers":      presigned.SignedHeader,
+			"expires_in":   int(10 * 60),
+			"key":          key,
+			"bucket":       cfg.AWS.S3BucketName,
+			"content_type": req.ContentType,
+		})
+	}
+}
+
+// PresignGet returns a presigned S3 GET URL for a specific file
+func PresignGet(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		userID, exists := middleware.GetUserID(c)
+		if !exists {
+			c.JSON(http.StatusUnauthorized, gin.H{
+				"error": "User not authenticated",
+			})
+			return
+		}
+
+		var req struct {
+			ID uint `json:"id" binding:"required"`
+		}
+		if err := c.ShouldBindJSON(&req); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{
+				"error":   "Invalid request data",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		var fileRec database.File
+		if err := db.GetDB().Where("id = ? AND user_id = ?", req.ID, userID).First(&fileRec).Error; err != nil {
+			c.JSON(http.StatusNotFound, gin.H{
+				"error": "File not found",
+			})
+			return
+		}
+
+		awsCfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion(cfg.AWS.Region))
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "Failed to load AWS config",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		s3Client := s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+			if cfg.AWS.EndpointURL != "" {
+				o.BaseEndpoint = aws.String(cfg.AWS.EndpointURL)
+				o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+			}
+		})
+		presigner := s3.NewPresignClient(s3Client)
+
+		out, err := presigner.PresignGetObject(context.TODO(), &s3.GetObjectInput{
+			Bucket: aws.String(cfg.AWS.S3BucketName),
+			Key:    aws.String(fileRec.S3Key),
+		}, s3.WithPresignExpires(10*time.Minute))
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error":   "Failed to generate presigned URL",
+				"details": err.Error(),
+			})
+			return
+		}
+
+		c.JSON(http.StatusOK, gin.H{
+			"method":     "GET",
+			"url":        out.URL,
+			"expires_in": int(10 * 60),
+			"key":        fileRec.S3Key,
+			"bucket":     cfg.AWS.S3BucketName,
 		})
 	}
 }
@@ -244,25 +390,30 @@ func uploadToS3(file multipart.File, header *multipart.FileHeader, cfg *appconfi
 		return "", "", fmt.Errorf("failed to load AWS config: %w", err)
 	}
 
-	// Create S3 client
-	s3Client := s3.NewFromConfig(awsCfg)
+	// Create S3 client (supports LocalStack/custom endpoint)
+	s3Client := s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+		if cfg.AWS.EndpointURL != "" {
+			o.BaseEndpoint = aws.String(cfg.AWS.EndpointURL)
+			o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+		}
+	})
 
 	// Generate unique key
 	key := fmt.Sprintf("uploads/%s", generateFileName(header.Filename))
 
 	// Upload file
 	_, err = s3Client.PutObject(context.TODO(), &s3.PutObjectInput{
-		Bucket: aws.String(cfg.AWS.S3BucketName),
-		Key:    aws.String(key),
-		Body:   file,
+		Bucket:      aws.String(cfg.AWS.S3BucketName),
+		Key:         aws.String(key),
+		Body:        file,
 		ContentType: aws.String(header.Header.Get("Content-Type")),
 	})
 	if err != nil {
 		return "", "", fmt.Errorf("failed to upload to S3: %w", err)
 	}
 
-	// Generate URL
-	url := fmt.Sprintf("https://%s.s3.%s.amazonaws.com/%s", 
+	// Generate URL (for reference)
+	url := fmt.Sprintf("https://%s.s3.%s.amazonaws.com/%s",
 		cfg.AWS.S3BucketName, cfg.AWS.Region, key)
 
 	return url, key, nil
@@ -277,8 +428,13 @@ func deleteFromS3(key string, cfg *appconfig.Config) error {
 		return fmt.Errorf("failed to load AWS config: %w", err)
 	}
 
-	// Create S3 client
-	s3Client := s3.NewFromConfig(awsCfg)
+	// Create S3 client (supports LocalStack/custom endpoint)
+	s3Client := s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+		if cfg.AWS.EndpointURL != "" {
+			o.BaseEndpoint = aws.String(cfg.AWS.EndpointURL)
+			o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+		}
+	})
 
 	// Delete object
 	_, err = s3Client.DeleteObject(context.TODO(), &s3.DeleteObjectInput{
@@ -290,4 +446,4 @@ func deleteFromS3(key string, cfg *appconfig.Config) error {
 	}
 
 	return nil
-} 
+}
