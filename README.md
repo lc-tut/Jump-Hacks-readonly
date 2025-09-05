@@ -2,7 +2,8 @@
 ./scripts/start-dev.sh
 
 # Test it works
-curl http://localhost:8080/health
+API - curl http://localhost:8080/health
+Localstack Bucket - docker-compose exec localstack awslocal s3 ls
 
 - **API**: http://localhost:8080
 - **Database Admin**: http://localhost:8081 (Adminer)

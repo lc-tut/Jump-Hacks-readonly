@@ -98,11 +98,11 @@ func Load() *Config {
 		},
 
 		AWS: AWSConfig{
-			Region:            getEnv("AWS_REGION", "us-east-1"),
+			Region:            getEnv("AWS_REGION", "ap-northeast-1"),
 			AccessKeyID:       getEnv("AWS_ACCESS_KEY_ID", ""),
 			SecretAccessKey:   getEnv("AWS_SECRET_ACCESS_KEY", ""),
 			S3BucketName:      getEnv("S3_BUCKET_NAME", "hackathon-uploads"),
-			S3Region:          getEnv("S3_REGION", "us-east-1"),
+			S3Region:          getEnv("S3_REGION", "ap-northeast-1"),
 			EndpointURL:       getEnv("AWS_ENDPOINT_URL", ""),
 			PublicEndpointURL: getEnv("AWS_PUBLIC_ENDPOINT_URL", ""),
 			S3ForcePathStyle:  getEnvBool("AWS_S3_FORCE_PATH_STYLE", true),
