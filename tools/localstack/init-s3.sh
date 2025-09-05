@@ -1,6 +1,7 @@
 #!/bin/sh
 
-set -euo pipefail
+# BusyBox /bin/sh doesn't support 'pipefail'
+set -eu
 
 BUCKET_NAME=${S3_BUCKET_NAME:-hackathon-uploads}
 REGION=${AWS_REGION:-ap-northeast-1}

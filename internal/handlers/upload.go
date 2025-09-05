@@ -286,7 +286,7 @@ func PresignUpload(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 			return
 		}
 
-		c.JSON(http.StatusOK, gin.H{
+		c.PureJSON(http.StatusOK, gin.H{
 			"method":       "PUT",
 			"url":          presigned.URL,
 			"headers":      presigned.SignedHeader,
@@ -365,7 +365,7 @@ func PresignGet(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 			return
 		}
 
-		c.JSON(http.StatusOK, gin.H{
+		c.PureJSON(http.StatusOK, gin.H{
 			"method":     "GET",
 			"url":        out.URL,
 			"expires_in": int(10 * 60),
