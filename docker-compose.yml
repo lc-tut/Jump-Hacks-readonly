@@ -13,6 +13,7 @@ services:
       - S3_BUCKET_NAME=${S3_BUCKET_NAME:-hackathon-uploads}
       - S3_REGION=${S3_REGION:-us-east-1}
       - AWS_ENDPOINT_URL=${AWS_ENDPOINT_URL:-http://localstack:4566}
+      - AWS_PUBLIC_ENDPOINT_URL=${AWS_PUBLIC_ENDPOINT_URL:-http://localhost:4566}
       - AWS_S3_FORCE_PATH_STYLE=${AWS_S3_FORCE_PATH_STYLE:-true}
       - DB_HOST=postgres
       - DB_PORT=5432

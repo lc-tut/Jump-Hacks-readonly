@@ -49,13 +49,14 @@ type JWTConfig struct {
 }
 
 type AWSConfig struct {
-	Region           string
-	AccessKeyID      string
-	SecretAccessKey  string
-	S3BucketName     string
-	S3Region         string
-	EndpointURL      string
-	S3ForcePathStyle bool
+	Region            string
+	AccessKeyID       string
+	SecretAccessKey   string
+	S3BucketName      string
+	S3Region          string
+	EndpointURL       string
+	PublicEndpointURL string
+	S3ForcePathStyle  bool
 }
 
 type CORSConfig struct {
@@ -97,13 +98,14 @@ func Load() *Config {
 		},
 
 		AWS: AWSConfig{
-			Region:           getEnv("AWS_REGION", "us-east-1"),
-			AccessKeyID:      getEnv("AWS_ACCESS_KEY_ID", ""),
-			SecretAccessKey:  getEnv("AWS_SECRET_ACCESS_KEY", ""),
-			S3BucketName:     getEnv("S3_BUCKET_NAME", "hackathon-uploads"),
-			S3Region:         getEnv("S3_REGION", "us-east-1"),
-			EndpointURL:      getEnv("AWS_ENDPOINT_URL", ""),
-			S3ForcePathStyle: getEnvBool("AWS_S3_FORCE_PATH_STYLE", true),
+			Region:            getEnv("AWS_REGION", "us-east-1"),
+			AccessKeyID:       getEnv("AWS_ACCESS_KEY_ID", ""),
+			SecretAccessKey:   getEnv("AWS_SECRET_ACCESS_KEY", ""),
+			S3BucketName:      getEnv("S3_BUCKET_NAME", "hackathon-uploads"),
+			S3Region:          getEnv("S3_REGION", "us-east-1"),
+			EndpointURL:       getEnv("AWS_ENDPOINT_URL", ""),
+			PublicEndpointURL: getEnv("AWS_PUBLIC_ENDPOINT_URL", ""),
+			S3ForcePathStyle:  getEnvBool("AWS_S3_FORCE_PATH_STYLE", true),
 		},
 
 		CORS: CORSConfig{

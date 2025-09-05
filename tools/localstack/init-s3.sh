@@ -3,7 +3,7 @@
 set -euo pipefail
 
 BUCKET_NAME=${S3_BUCKET_NAME:-hackathon-uploads}
-REGION=${AWS_REGION:-us-east-1}
+REGION=${AWS_REGION:-ap-northeast-1
 
 echo "[localstack] Ensuring S3 bucket '$BUCKET_NAME' exists in region '$REGION'"
 

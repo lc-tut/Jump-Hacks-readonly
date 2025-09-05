@@ -25,6 +25,59 @@ Request Body:
 }
 [GET] http://localhost:8080/api/v1/profile - get current profile
 
+## File Uploads
+
+Organizer-hosted Presign (App Runner):
+
+```bash
+# Get presigned PUT URL
+curl -s -X POST "https://bpijpynumu.ap-northeast-1.awsapprunner.com/presign-upload" \
+  -H "X-Team-Id: <your-team-id>" \
+  -H "X-Team-Token: <your-team-token>" \
+  -H 'Content-Type: application/json' \
+  -d '{"filename":"hello.txt","content_type":"text/plain"}'
+
+# Upload your file with the returned URL
+printf 'Hello, Hackathon!\n' > hello.txt
+curl -X PUT --upload-file ./hello.txt -H 'Content-Type: text/plain' "<url-from-step-1>"
+
+# Presign GET to download
+curl -s -X POST "https://bpijpynumu.ap-northeast-1.awsapprunner.com/presign-get" \
+  -H "X-Team-Id: <your-team-id>" \
+  -H "X-Team-Token: <your-team-token>" \
+  -H 'Content-Type: application/json' \
+  -d '{"key":"uploads/<your-team-id>/<object-key>"}'
+```
+
+Local API + LocalStack (optional for local dev):
+
+```bash
+# Get presigned PUT URL (JWT required)
+TOKEN=<your-jwt>
+RES=$(curl -s -X POST http://localhost:8080/api/v1/storage/presign \
+  -H "Authorization: Bearer $TOKEN" \
+  -H 'Content-Type: application/json' \
+  -d '{"filename":"hello.txt","content_type":"text/plain"}')
+URL=$(echo "$RES" | jq -r .url)
+
+# Host override: the API now supports AWS_PUBLIC_ENDPOINT_URL. By default, it uses http://localhost:4566 for presigned URLs so you can upload from your host without edits.
+printf 'Hello, Hackathon!\n' > hello.txt
+curl -X PUT --upload-file ./hello.txt -H 'Content-Type: text/plain' "$URL"
+
+# One-step multipart upload (server-side)
+curl -X POST http://localhost:8080/api/v1/upload \
+  -H "Authorization: Bearer $TOKEN" \
+  -F "file=@hello.txt"
+```
+
+LocalStack note (ap-northeast-1):
+
+```bash
+docker-compose exec localstack awslocal s3api create-bucket \
+  --bucket hackathon-uploads \
+  --create-bucket-configuration LocationConstraint=ap-northeast-1
+```
+
 ```
 digi-con-hackathon2025/
 ├── cmd/api/                    # 🚀 Application entry point
@@ -38,15 +91,11 @@ digi-con-hackathon2025/
 │   ├── middleware/            # 🛡️ CORS, authentication, recovery
 │   └── upload/                # 📁 File upload utilities
 │
-├── deployments/               # 🚢 Deployment configurations
-│   ├── docker/               # (Empty - ready for production Docker configs)
-│   ├── kubernetes/           # (Empty - ready for K8s manifests)
-│   └── terraform/            # (Empty - ready for AWS infrastructure)
-│
 ├── scripts/                   # 🔧 Development & deployment scripts
 │   ├── start-dev.sh          # One-command development setup
 │   ├── test-api.sh           # API endpoint testing
-│   └── init-db.sql           # Database initialization
+│   ├── init-db.sql           # Database initialization
+│   └── (more scripts)
 │
 ├── pkg/                       # 📦 (Ready for reusable packages)
 ├── api/                       # 📋 (Ready for API documentation)

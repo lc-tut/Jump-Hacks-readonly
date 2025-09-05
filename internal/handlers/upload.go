@@ -259,7 +259,16 @@ func PresignUpload(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 			}
 		})
 
-		presigner := s3.NewPresignClient(s3Client)
+		// Use a public endpoint for presigned URLs (host visible to clients) if provided
+		presignBaseClient := s3Client
+		if cfg.AWS.PublicEndpointURL != "" {
+			presignBaseClient = s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+				o.BaseEndpoint = aws.String(cfg.AWS.PublicEndpointURL)
+				o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+			})
+		}
+
+		presigner := s3.NewPresignClient(presignBaseClient)
 
 		key := fmt.Sprintf("uploads/user-%d/%s", userID, generateFileName(req.FileName))
 		input := &s3.PutObjectInput{
@@ -334,7 +343,15 @@ func PresignGet(db database.DB, cfg *appconfig.Config) gin.HandlerFunc {
 				o.UsePathStyle = cfg.AWS.S3ForcePathStyle
 			}
 		})
-		presigner := s3.NewPresignClient(s3Client)
+		// Use a public endpoint for presigned URLs if provided
+		presignBaseClient := s3Client
+		if cfg.AWS.PublicEndpointURL != "" {
+			presignBaseClient = s3.NewFromConfig(awsCfg, func(o *s3.Options) {
+				o.BaseEndpoint = aws.String(cfg.AWS.PublicEndpointURL)
+				o.UsePathStyle = cfg.AWS.S3ForcePathStyle
+			})
+		}
+		presigner := s3.NewPresignClient(presignBaseClient)
 
 		out, err := presigner.PresignGetObject(context.TODO(), &s3.GetObjectInput{
 			Bucket: aws.String(cfg.AWS.S3BucketName),
