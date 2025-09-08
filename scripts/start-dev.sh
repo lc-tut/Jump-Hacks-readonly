@@ -53,6 +53,9 @@ else
     echo -e "${YELLOW}⚠️  API might still be starting up. Check logs with: $DOCKER_COMPOSE logs api${NC}"
 fi
 
+# Frontend hint
+echo -e "${GREEN}✅ Frontend is available at http://localhost:5173${NC}"
+
 echo -e "${GREEN}🎉 Development environment is ready!${NC}"
 echo ""
 echo -e "Available commands:"

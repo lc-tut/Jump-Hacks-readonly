@@ -1,3 +1,35 @@
+## Frontend (React + Vite)
+
+A React app lives in `frontend/` using Vite (TypeScript).
+
+### Local dev (without Docker)
+
+1. Start the API (Docker or `make run`) so it's available on `http://localhost:8080`.
+2. In another terminal:
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+The app runs at `http://localhost:5173`. API requests to `/health` and `/api/*` are proxied to the API.
+
+### Dev with Docker Compose
+
+Run the full stack:
+
+```
+docker compose up --build
+```
+
+Then open:
+- Frontend: `http://localhost:5173`
+- API: `http://localhost:8080`
+- DB Adminer: `http://localhost:8081`
+
+The frontend container uses `VITE_API_BASE_URL=http://api:8080` to reach the API service.
+
 # Start everything with one command
 ./scripts/start-dev.sh
 

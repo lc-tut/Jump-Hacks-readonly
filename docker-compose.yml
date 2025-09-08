@@ -32,6 +32,22 @@ services:
     networks:
       - hackathon-network
 
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE_URL=http://api:8080
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - api
+    networks:
+      - hackathon-network
+
   postgres:
     image: postgres:15-alpine
     environment:
