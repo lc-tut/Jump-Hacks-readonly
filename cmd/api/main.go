@@ -104,6 +104,11 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 			admin.GET("/users", handlers.ListUsers(db))
 			admin.GET("/stats", handlers.GetStats(db))
 		}
+
+		// 公開画像取得エンドポイント（認証不要）
+		// S3 のオブジェクトキーをパスとして受け取り、画像を返す
+		// 例: GET /api/v1/image/uploads/local-image.png
+		v1.GET("/image/*key", handlers.GetImage(cfg))
 	}
 
 	return router
