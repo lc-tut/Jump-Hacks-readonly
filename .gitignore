@@ -70,3 +70,6 @@ coverage.html
 
 # Air live reload
 tmp/ 
+
+# Private files not for git
+private_files/
