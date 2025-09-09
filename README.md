@@ -1,3 +1,7 @@
+## 構成図
+  
+  ![](./docs/readonly.drawio.svg)
+
 ## Frontend (React + Vite)
 
 A React app lives in `frontend/` using Vite (TypeScript).
