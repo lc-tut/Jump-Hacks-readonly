@@ -15,7 +15,7 @@ type SubImager interface {
 }
 
 func main() {
-	f, err := os.Open("test.jpg")
+	f, err := os.Open("internal/synthesic/IMG_0288.jpg")
 	if err != nil {
 		fmt.Println("open:", err)
 		return
@@ -36,7 +36,7 @@ func main() {
 	defer fso.Close()
 
 	m := image.NewRGBA(image.Rect(0, 0, 200, 200)) // 200x200 の画像に test.jpg をのせる
-	c := color.RGBA{0, 0, 255, 255}                // RGBA で色を指定(B が 255 なので青)
+	c := color.RGBA{255, 255, 255, 255}            // RGBA で色を指定(B が 255 なので青)
 
 	draw.Draw(m, m.Bounds(), &image.Uniform{c}, image.ZP, draw.Src) // 青い画像を描画
 
