@@ -42,5 +42,3 @@ func ocr(filename string) {
 	}
 }
 
-
-
