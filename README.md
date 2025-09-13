@@ -1,6 +1,10 @@
 ## 構成図
   
   ![](./docs/readonly.drawio.svg)
+  
+## 処理フロー
+
+　![](./docs/flow.drawio.svg)
 
 ## Frontend (React + Vite)
 
