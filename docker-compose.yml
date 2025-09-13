@@ -22,6 +22,8 @@ services:
       - DB_PASSWORD=password
       - REDIS_HOST=redis
       - REDIS_PORT=6379
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/service-account.json
+
     volumes:
       - .:/app
       - /app/bin
@@ -43,6 +45,7 @@ services:
     volumes:
       - ./frontend:/app
       - /app/node_modules
+      - ./service-account.json:/app/keys/service-account.json
     depends_on:
       - api
     networks:
