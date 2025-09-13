@@ -61,6 +61,11 @@ func drawSimpleVerticalText(img *image.RGBA, face font.Face, text string, width,
 		Face: face,
 	}
 
+	// フォントメトリクスを取得して行間を自動計算
+	metrics := face.Metrics()
+	charWidth := metrics.Height.Ceil() // 縦書きでは高さが幅になる
+	lineSpacing := charWidth - 7       // 文字幅 - 5px行間
+
 	// 行に分割
 	lines := strings.Split(text, "\n")
 
@@ -94,8 +99,8 @@ func drawSimpleVerticalText(img *image.RGBA, face font.Face, text string, width,
 			}
 		}
 
-		// 次の行へ移動（左へ）
-		currentX -= 50
+		// 次の行へ移動（左へ）- 文字幅 + 10px行間
+		currentX -= lineSpacing
 
 		// 左端に達したら終了
 		if currentX < 50 {
@@ -122,9 +127,9 @@ func savePNG(img image.Image, outputPath string) error {
 
 // TestSimpleVerticalText シンプルな縦書きテストの実行
 func TestSimpleVerticalText() {
-	text := `縦書き
-テスト
-文字列`
+	text := `Hello, World!
+こんにちは、世界！
+This is a test.`
 
 	err := CreateVerticalTextImage(text, "simple_vertical.png")
 	if err != nil {
