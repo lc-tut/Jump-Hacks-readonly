@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"image"
-	"image/color"
+	// "image/color"
 	"image/jpeg"
 	"os"
 
@@ -35,14 +35,47 @@ func main() {
 	}
 	defer fso.Close()
 
-	m := image.NewRGBA(image.Rect(0, 0, 200, 200)) // 200x200 の画像に test.jpg をのせる
-	c := color.RGBA{255, 255, 255, 255}            // RGBA で色を指定(B が 255 なので青)
+	// test.jpgの大きさに合わせてキャンバスを作成
+	bounds := img.Bounds()
+	m := image.NewRGBA(bounds)
+	// c := color.RGBA{255, 255, 255, 255} // RGBA で白色を指定
 
-	draw.Draw(m, m.Bounds(), &image.Uniform{c}, image.ZP, draw.Src) // 青い画像を描画
+	// まずtest.jpgを描画（背景として全体に描画）
+	draw.Draw(m, bounds, img, bounds.Min, draw.Src) // test.jpgを背景として描画
 
-	rct := image.Rectangle{image.Point{25, 25}, m.Bounds().Size()} // test.jpg をのせる位置を指定する(中央に配置する為に横:25 縦:25 の位置を指定)
+	// 上に貼り付ける画像を読み込み
+	f2, err := os.Open("output.jpg") // 貼り付ける画像のパス（適宜変更してください）
+	if err != nil {
+		fmt.Println("overlay image open:", err)
+		return
+	}
+	defer f2.Close()
 
-	draw.Draw(m, rct, img, image.Point{0, 0}, draw.Src) // 合成する画像を描画
+	overlayImg, _, err := image.Decode(f2)
+	if err != nil {
+		fmt.Println("overlay image decode:", err)
+		return
+	}
+
+	// その上に画像をそのままの大きさで描画（右下の位置から貼り付け）
+	imgWidth := bounds.Dx()
+	imgHeight := bounds.Dy()
+	overlayBounds := overlayImg.Bounds()
+	
+	// 貼り付け位置を指定（右下の位置から画像をそのまま貼り付け）
+	startX := imgWidth*3/4
+	startY := imgHeight*3/4
+	overlayRect := image.Rectangle{
+		image.Point{startX, startY}, 
+		image.Point{startX + overlayBounds.Dx(), startY + overlayBounds.Dy()},
+	} // 画像をそのままの大きさで配置
+	draw.Draw(m, overlayRect, overlayImg, overlayBounds.Min, draw.Src) // 既存画像をそのままの大きさで描画
+
+	// 白い矩形を描画する場合（コメントアウト）
+	// c := color.RGBA{255, 255, 255, 255} // RGBA で白色を指定
+	// draw.Draw(m, overlayRect, &image.Uniform{c}, image.ZP, draw.Src) // 白い矩形を部分的に描画
+
+
 
 	jpeg.Encode(fso, m, &jpeg.Options{Quality: 100})
 }

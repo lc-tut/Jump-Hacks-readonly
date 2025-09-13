@@ -14,13 +14,12 @@ import (
 )
 
 func main() {
-	// 512x256の白い画像を作る。
-	img := image.NewRGBA(image.Rect(0, 0, 512, 256))
+	// 4032x3024の白い画像を作る。
+	img := image.NewRGBA(image.Rect(0, 0, 4032, 3024))
 	draw.Draw(img, img.Bounds(), &image.Uniform{color.White}, image.Point{}, draw.Src)
 
-	// 描画する範囲を決めておく。
-	area := image.Rect(30, 20, 512-30, 256-20)
-	draw.Draw(img, area, &image.Uniform{color.Gray16{0xdddf}}, image.Point{}, draw.Src)
+	// 描画する範囲を決めておく（灰色背景は削除）
+	area := image.Rect(30, 20, 4032-30, 3024-20)
 
 	// フォントを読み込んで、image/font.faceを作る。
 	ttf, err := os.ReadFile("font.ttf")
@@ -32,7 +31,7 @@ func main() {
 		log.Fatal(err)
 	}
 	face := truetype.NewFace(font_, &truetype.Options{
-		Size: 24,
+		Size: 256,
 	})
 
 	// 描画用の構造体を準備する。
