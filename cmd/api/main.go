@@ -109,7 +109,99 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 		// S3 のオブジェクトキーをパスとして受け取り、画像を返す
 		// 例: GET /api/v1/image/uploads/local-image.png
 		v1.GET("/image/*key", handlers.GetImage(cfg))
+
+		// OCR テスト用エンドポイント（認証不要）
+		// GET /api/v1/get_ocr_img -> 呼び出し時に ocrTranslateReplace(cfg, key, pages) を実行
+		v1.GET("/get_ocr_img", func(c *gin.Context) {
+			// Try to read JSON body: {"pages": "...", "key": "..."}
+			var req struct {
+				Pages string `json:"pages"`
+				Key   string `json:"key"`
+			}
+			if err := c.ShouldBindJSON(&req); err != nil {
+				// Fallback to query parameters if no JSON provided
+				req.Pages = c.Query("pages")
+				req.Key = c.Query("key")
+			}
+			// If key not provided, derive from pages (convention: uploads/page-<pages>.jpg)
+			key := req.Key
+			if key == "" && req.Pages != "" {
+				key = "uploads/page-" + req.Pages + ".jpg"
+			}
+			// Call orchestrator with router's cfg
+			ocrTranslateReplace(cfg, key, req.Pages)
+			c.JSON(200, gin.H{"message": "Test executed", "pages": req.Pages, "key": key})
+		})
 	}
 
 	return router
+}
+
+func ocrTranslateReplace(cfg *config.Config, key string, pages string) {
+	if pages == "" {
+		log.Println("Test called without pages")
+		return
+	}
+	log.Printf("Test called with pages: %s, key: %s", pages, key)
+
+	// 1) Receive image using handlers (both bytes and base64 are available)
+	if key == "" {
+		log.Println("No key provided")
+		return
+	}
+	image, err := handlers.GetImageBytes(cfg, key)
+	if err != nil {
+		log.Printf("failed to fetch image bytes: %v", err)
+		return
+	}
+	b64, err := handlers.GetImageBase64(cfg, key)
+	if err != nil {
+		log.Printf("failed to fetch image base64: %v", err)
+		return
+	}
+	log.Printf("Received image bytes: %v, base64 len: %v", image, b64)
+
+	// 2) OCR (placeholder)
+	ocrText, boxes := ocrPlaceholder(image, pages)
+	log.Printf("OCR result: %s, boxes: %d", ocrText, len(boxes))
+
+	// 3) Translate (placeholder)
+	translated := translatePlaceholder(ocrText, "auto", "en")
+	log.Printf("Translated text: %s", translated)
+
+	// 4) Replace text on image (placeholder)
+	outImage := replaceTextPlaceholder(image, translated, boxes)
+	log.Printf("Replaced image size: %d", len(outImage))
+
+	// Done: in real flow you'd return or save outImage
+}
+
+// Box is a placeholder bounding box type for OCR results
+type Box struct {
+	X int
+	Y int
+	W int
+	H int
+}
+
+// ocrPlaceholder simulates OCR and returns detected text and bounding boxes
+func ocrPlaceholder(image []byte, pages string) (string, []Box) {
+	log.Printf("Simulating OCR for pages=%s, imageSize=%d", pages, len(image))
+	return "detected text", []Box{{X: 10, Y: 20, W: 100, H: 20}}
+}
+
+// translatePlaceholder simulates translation
+func translatePlaceholder(text, sourceLang, targetLang string) string {
+	log.Printf("Simulating translate from=%s to=%s", sourceLang, targetLang)
+	if text == "" {
+		return ""
+	}
+	return text + " (translated to " + targetLang + ")"
+}
+
+// replaceTextPlaceholder simulates drawing translated text onto the image and returns new bytes
+func replaceTextPlaceholder(image []byte, translated string, boxes []Box) []byte {
+	log.Printf("Simulating replace text: translated=%s boxes=%d", translated, len(boxes))
+	// no-op: return original image bytes
+	return image
 }
