@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"image"
+
 	// "image/color"
 	"image/jpeg"
 	"os"
@@ -14,7 +15,7 @@ type SubImager interface {
 	SubImage(r image.Rectangle) image.Image
 }
 
-func main() {
+func renderImage() {
 	f, err := os.Open("internal/synthesic/IMG_0288.jpg")
 	if err != nil {
 		fmt.Println("open:", err)
@@ -61,12 +62,12 @@ func main() {
 	imgWidth := bounds.Dx()
 	imgHeight := bounds.Dy()
 	overlayBounds := overlayImg.Bounds()
-	
+
 	// 貼り付け位置を指定（右下の位置から画像をそのまま貼り付け）
-	startX := imgWidth*3/4
-	startY := imgHeight*3/4
+	startX := imgWidth * 3 / 4
+	startY := imgHeight * 3 / 4
 	overlayRect := image.Rectangle{
-		image.Point{startX, startY}, 
+		image.Point{startX, startY},
 		image.Point{startX + overlayBounds.Dx(), startY + overlayBounds.Dy()},
 	} // 画像をそのままの大きさで配置
 	draw.Draw(m, overlayRect, overlayImg, overlayBounds.Min, draw.Src) // 既存画像をそのままの大きさで描画
@@ -75,7 +76,9 @@ func main() {
 	// c := color.RGBA{255, 255, 255, 255} // RGBA で白色を指定
 	// draw.Draw(m, overlayRect, &image.Uniform{c}, image.ZP, draw.Src) // 白い矩形を部分的に描画
 
-
-
 	jpeg.Encode(fso, m, &jpeg.Options{Quality: 100})
+}
+
+func main() {
+	renderImage()
 }

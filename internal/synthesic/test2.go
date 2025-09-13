@@ -13,7 +13,7 @@ import (
 	"golang.org/x/image/math/fixed"
 )
 
-func main() {
+func renderText() {
 	// 4032x3024の白い画像を作る。
 	img := image.NewRGBA(image.Rect(0, 0, 4032, 3024))
 	draw.Draw(img, img.Bounds(), &image.Uniform{color.White}, image.Point{}, draw.Src)
@@ -90,4 +90,8 @@ func main() {
 	if err := jpeg.Encode(out, img, nil); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func main() {
+	renderText()
 }
