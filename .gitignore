@@ -85,3 +85,5 @@ internal/asobi/textim
 internal/asobi/result_2.jpg 
 internal/asobi/result_1.jpg 
 internal/asobi/result_0.jpg
+internal/asobi/asobi_coco
+internal/asobi/output/model_final.pth
