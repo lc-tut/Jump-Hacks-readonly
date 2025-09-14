@@ -1,0 +1,5 @@
+- name: Set up Google credentials
+  run: echo "${{ secrets.GCP_SERVICE_ACCOUNT }}" > $HOME/service-account.json
+
+- name: Export credentials path
+  run: echo "GOOGLE_APPLICATION_CREDENTIALS=$HOME/service-account.json" >> $GITHUB_ENV
