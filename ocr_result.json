@@ -1,867 +1,1432 @@
 [
   {
     "id": 1,
-    "text": "面白い 本 だ",
+    "text": "面白い 本 メー ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_00.jpg"
   },
   {
     "id": 2,
-    "text": "美味しい お 肉 だ よー",
+    "text": "美味しい お 肉 だ よー ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_01.jpg"
   },
   {
     "id": 3,
-    "text": "ニャハハ ! 新鮮 な お 魚 だ ニャ !",
+    "text": "ニャハハ ! 新鮮 な お 魚 だ ニャ ! ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_02.jpg"
   },
   {
     "id": 4,
-    "text": "可愛らしい 『 どうぶつ 』 たち が … 様々 な お 店 を 開い て い ます",
+    "text": "可愛らしい 『 どうぶつ 』 たち が ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_03.jpg"
+  },
+  {
+    "id": 4,
+    "text": "様々 な お 店 を 開い て い ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_03.jpg"
   },
   {
     "id": 5,
-    "text": "ここ は 『 どうぶつ 村 』",
+    "text": "ここ は ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_04.jpg"
+  },
+  {
+    "id": 5,
+    "text": "『 どうぶつ 村 』 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_04.jpg"
   },
   {
     "id": 6,
-    "text": "✓ ....",
+    "text": "✓ .... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_00.jpg"
   },
   {
     "id": 7,
-    "text": "こん に ち は !",
+    "text": "こん に ち は ! ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_01.jpg"
   },
   {
     "id": 8,
-    "text": "引っ越し て き て 良かっ た な ･･･ これから 楽しく なり そう ･･･",
+    "text": "引っ越し て き て 良かっ た ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_02.jpg"
+  },
+  {
+    "id": 8,
+    "text": "な ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_02.jpg"
+  },
+  {
+    "id": 8,
+    "text": "これから 楽しく なり そう … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_02.jpg"
   },
   {
     "id": 9,
-    "text": "村 だ なぁ ･･･ にぎやか な : な",
+    "text": "にぎやか な 村 だ なぁ ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_04.jpg"
   },
   {
     "id": 10,
-    "text": "かえる くん",
+    "text": "かえる くん ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_square_03.jpg"
   },
   {
     "id": 11,
-    "text": "『 こわい や さん 』 です 『 こわい 』 を 売っ て おり ます !",
+    "text": "『 こわい や ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+  },
+  {
+    "id": 11,
+    "text": "『 こわい 』 を ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+  },
+  {
+    "id": 11,
+    "text": "さん 』 です ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+  },
+  {
+    "id": 11,
+    "text": "売っ て おり ます ! ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_00.jpg"
   },
   {
     "id": 12,
-    "text": "こん に ち は … ここ は 何 を 売っ て いる ん です ....",
+    "text": "こん に ち は … ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+  },
+  {
+    "id": 12,
+    "text": "ここ は 何 を 売っ て いる ん です ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+  },
+  {
+    "id": 12,
+    "text": ".... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_01.jpg"
   },
   {
     "id": 13,
-    "text": "どうぞ どうぞ ご 納得 いただか なけれ ば お代 は 一切 いただき ませ ん ので",
+    "text": "どうぞ どうぞ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_00.jpg"
+  },
+  {
+    "id": 13,
+    "text": "ご 納得 いただか なけれ ば お代 は 一切 いただき ませ ん ので ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_00.jpg"
   },
   {
     "id": 14,
-    "text": "え !",
+    "text": "え ! ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_01.jpg"
   },
   {
     "id": 15,
-    "text": "入れ ば わかり ます",
+    "text": "入れ ば わかり ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_02.jpg"
   },
   {
     "id": 16,
-    "text": "とりあえず 一度 入っ て み ませ ん か ?",
+    "text": "とりあえず 一度 入っ て み ませ ん か ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_04.jpg"
   },
   {
     "id": 17,
-    "text": "うーん … そう です ねえ …",
+    "text": "うーん … そう です ねえ ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_05.jpg"
   },
   {
     "id": 18,
-    "text": "怖い もの を 売っ て いる ん です か … ?",
+    "text": "怖い もの を 売っ て いる ん です か ... ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_06.jpg"
   },
   {
     "id": 19,
-    "text": "箱 でわ すい",
+    "text": "箱 でわ すい ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_00.jpg"
   },
   {
     "id": 20,
-    "text": "なに … ? この 箱 ･･･",
+    "text": "なに … ? この 箱 ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_01.jpg"
   },
   {
     "id": 21,
-    "text": "これ は",
+    "text": "これ は ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_02.jpg"
   },
   {
     "id": 22,
-    "text": "『 こわい 』 Ad ...",
+    "text": "『 こわい 』 Ad ... を ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_03.jpg"
   },
   {
     "id": 23,
-    "text": "さて さて … .. まずは 最初 の",
+    "text": "さて ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+  },
+  {
+    "id": 23,
+    "text": "さて … .. ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+  },
+  {
+    "id": 23,
+    "text": "まずは ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+  },
+  {
+    "id": 23,
+    "text": "最初 の ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_04.jpg"
   },
   {
     "id": 24,
-    "text": "お話 の はじまり はじまり …",
+    "text": "お話 の はじまり はじまり … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0008_speech_bubble_00.jpg"
   },
   {
     "id": 25,
-    "text": "『 こわい 』 に つい て の …",
+    "text": "『 こわい 』 に つい て の ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0008_speech_bubble_01.jpg"
   },
   {
     "id": 26,
-    "text": "そう 思っ て 見上げる と",
+    "text": "そう 思っ て 見上げる と ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_00.jpg"
   },
   {
     "id": 27,
-    "text": "やけに たくさん 鳥 が 飛ん で いる な って",
+    "text": "やけに たくさん 鳥 が 飛ん で いる な って ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_01.jpg"
   },
   {
     "id": 28,
-    "text": "その 日 ･･･",
+    "text": "その 日 : ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_02.jpg"
   },
   {
     "id": 29,
-    "text": "私 … ... 高 私 高校 で 園芸 部 な ん です けど ･･･",
+    "text": "私 ･･･ 高校 で ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_03.jpg"
+  },
+  {
+    "id": 29,
+    "text": "園芸 部 な ん です けど ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_03.jpg"
   },
   {
     "id": 30,
-    "text": "こんにちは ･･･ あの ... えんどう 遠藤 と 申し ます ･･･",
+    "text": "こんにちは ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_04.jpg"
+  },
+  {
+    "id": 30,
+    "text": "あの ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_04.jpg"
+  },
+  {
+    "id": 30,
+    "text": "えんどう 遠藤 と 申し ます ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_04.jpg"
   },
   {
     "id": 31,
-    "text": "話 拾 拾っ た 時 の 話 を し ます ...",
+    "text": "話 拾 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_05.jpg"
+  },
+  {
+    "id": 31,
+    "text": "拾っ た 時 の 話 を し ます ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_05.jpg"
   },
   {
     "id": 32,
-    "text": "あの ... 金属 球 を",
+    "text": "あの ... 金属 球 を ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_06.jpg"
   },
   {
     "id": 33,
-    "text": "カラス は 警戒 心 が 強い 生き物 です 何かしら の 変化 に 気付く と 群れ で 警戒 し て 飛び回る ん です",
+    "text": "カラス は 警戒 心 が 強い 生き物 です ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_00.jpg"
+  },
+  {
+    "id": 33,
+    "text": "何かしら の 変化 に 気付く と 群れ で 警戒 し て 飛び回る ん です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_00.jpg"
   },
   {
     "id": 34,
-    "text": "飛ん で い まし た ･･･",
+    "text": "飛ん で い まし た ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_01.jpg"
   },
   {
     "id": 35,
-    "text": "ものすごい 数 の カラス",
+    "text": "... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_02.jpg"
+  },
+  {
+    "id": 35,
+    "text": "ものすごい 数 の カラス ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_02.jpg"
   },
   {
     "id": 36,
-    "text": "た ス カラス でし た",
+    "text": "カラス でし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_03.jpg"
   },
   {
     "id": 37,
-    "text": "因果 が 逆 ･･･ なん です",
+    "text": "因果 が 逆 ･･･ なん です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_00.jpg"
   },
   {
     "id": 38,
-    "text": "実は ･･･ カラス が 不吉 な ん じゃ なく て ... 不吉 な こと が 起こる カラス って 騒ぐ ん です ・・・",
+    "text": "実は ･･･ カラス が 不吉 な ん じゃ なく て ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_01.jpg"
+  },
+  {
+    "id": 38,
+    "text": "不吉 な こと が 起こる と カラス って 騒ぐ ん です ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_01.jpg"
   },
   {
     "id": 39,
-    "text": "不吉 の 象徴 だ とか",
+    "text": "不吉 の 象徴 だ とか ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_02.jpg"
   },
   {
     "id": 40,
-    "text": "カラス って 不気味 な 鳥 だ と 思わ れ て い ます よ ね ･･･ て",
+    "text": "カラス って 不気味 な 鳥 だ と 思わ れ て い ます よ ね ・・・ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_03.jpg"
   },
   {
     "id": 41,
-    "text": "あと :",
+    "text": "あと : ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_00.jpg"
   },
   {
     "id": 42,
-    "text": "死 肉 より 生 ゴミ の ほうが 美味しい ですから …",
+    "text": "死 肉 より ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_01.jpg"
+  },
+  {
+    "id": 42,
+    "text": "生 ゴミ の ほうが 美味しい ですから ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_01.jpg"
   },
   {
     "id": 43,
-    "text": "都会 に 住ん で いる子 は ほとんど 食べ ませ ん",
+    "text": "都会 に 住ん で いる子 は ほとんど 食べ ませ ん ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_02.jpg"
   },
   {
     "id": 44,
-    "text": "カラス が 死体 を 食べ ちゃう イメージ ･･･ あれ も そんな こと なく て ...",
+    "text": "カラス が 死体 を 食べ ちゃう イメージ ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_03.jpg"
+  },
+  {
+    "id": 44,
+    "text": "あれ も そんな こと なく て ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_03.jpg"
   },
   {
     "id": 45,
-    "text": "です",
+    "text": "です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_04.jpg"
   },
   {
     "id": 46,
-    "text": "生き物 の 死体 とか ･･･",
+    "text": "生き物 の 死体 とか ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_05.jpg"
   },
   {
     "id": 47,
-    "text": "例えば ･･･ 騒ぐ 理由 で 一番 多い の は ･･･",
+    "text": "例えば ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_06.jpg"
+  },
+  {
+    "id": 47,
+    "text": "騒ぐ 理由 で 一番 多い の は ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_06.jpg"
   },
   {
     "id": 48,
-    "text": "園芸 部 の 仕事 なん です よ ･･･",
+    "text": "園芸 部 の 仕事 なん です よ … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_00.jpg"
   },
   {
     "id": 49,
-    "text": "実は そういう 学校 で 出 た 死骸 の 処理 って ･･･",
+    "text": "実は ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_01.jpg"
+  },
+  {
+    "id": 49,
+    "text": "そういう 学校 で 出 た 死骸 の 処理 って … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_01.jpg"
   },
   {
     "id": 50,
-    "text": "警戒 … し ます よ ね ･･･",
+    "text": "警戒 … し ます よ ね … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_02.jpg"
   },
   {
     "id": 51,
-    "text": "それ が 死ん だ 原因 が 近く に ある って こと ですから …",
+    "text": "それ が ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_03.jpg"
+  },
+  {
+    "id": 51,
+    "text": "死ん だ 原因 が 近く に ある ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_03.jpg"
+  },
+  {
+    "id": 51,
+    "text": "って こと ですから … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_03.jpg"
   },
   {
     "id": 52,
-    "text": "だって て",
+    "text": "だって ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_04.jpg"
   },
   {
     "id": 53,
-    "text": "死体 って 動物 から し て も 怖い もの なん です",
+    "text": "死体 って 動物 から し て も ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_05.jpg"
+  },
+  {
+    "id": 53,
+    "text": "怖い もの なん です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_05.jpg"
   },
   {
     "id": 54,
-    "text": "だから 生き物 が 死ん で いる の を 見つけ たら",
+    "text": "だから ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_00.jpg"
+  },
+  {
+    "id": 54,
+    "text": "生き物 が 死ん で いる ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_00.jpg"
+  },
+  {
+    "id": 54,
+    "text": "の を ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_00.jpg"
+  },
+  {
+    "id": 54,
+    "text": "見つけ たら ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_00.jpg"
   },
   {
     "id": 55,
-    "text": "園 芸 倉庫 の 裏 に … こっそり 小さな お 墓 を 作っ て い まし た",
+    "text": "園 芸 倉庫 の 裏 に … こっそり ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_01.jpg"
+  },
+  {
+    "id": 55,
+    "text": "小さな ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_01.jpg"
+  },
+  {
+    "id": 55,
+    "text": "お 墓 を 作っ て い まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_01.jpg"
   },
   {
     "id": 56,
-    "text": "私 で 呱 … HK ... ... 死骸 を ゴミ に 出す の が 嫌 な ん です ･･･",
+    "text": "私 で ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_02.jpg"
+  },
+  {
+    "id": 56,
+    "text": "私 ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_02.jpg"
+  },
+  {
+    "id": 56,
+    "text": ".... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_02.jpg"
+  },
+  {
+    "id": 56,
+    "text": "死骸 を ゴミ に 出す の が 嫌 な ん です ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_02.jpg"
   },
   {
     "id": 57,
-    "text": "燃える ゴミ な ん です よ",
+    "text": "燃える ゴミ な ん です よ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_03.jpg"
   },
   {
     "id": 58,
-    "text": "学校 の ルール 死ん だ では 生き物 って",
+    "text": "学校 の ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 58,
+    "text": "ルール ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 58,
+    "text": "死ん だ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 58,
+    "text": "では ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 58,
+    "text": "生き物 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 58,
+    "text": "って ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
   },
   {
     "id": 59,
-    "text": "そう し たら ……",
+    "text": "そう し ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_00.jpg"
+  },
+  {
+    "id": 59,
+    "text": "たら ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_00.jpg"
   },
   {
     "id": 60,
-    "text": "って 思っ て 校舎 裏 の 茂み を 探し て み た ん です …",
+    "text": "って 思っ て ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_01.jpg"
+  },
+  {
+    "id": 60,
+    "text": "校舎 裏 の 茂み を 探し て み た ん です ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_01.jpg"
   },
   {
     "id": 61,
-    "text": "もしかして けっこう 大きな もの が 死ん で いる かも しれ ない な ...",
+    "text": "もしかして けっこう 大きな もの が 死ん で いる ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_02.jpg"
+  },
+  {
+    "id": 61,
+    "text": "かも しれ ない な ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_02.jpg"
   },
   {
     "id": 62,
-    "text": "あの 日 も ･･･ あんなに カラス が 集まっ て いる なら …",
+    "text": "あの 日 も ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_03.jpg"
+  },
+  {
+    "id": 62,
+    "text": "あんなに カラス が 集まっ て いる ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_03.jpg"
+  },
+  {
+    "id": 62,
+    "text": "なら ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_03.jpg"
   },
   {
     "id": 63,
-    "text": "これ です",
+    "text": "これ です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_00.jpg"
   },
   {
     "id": 64,
-    "text": "その 時 に 差し出し た の が ･･･",
+    "text": "その 時 に 差し出し た ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_01.jpg"
+  },
+  {
+    "id": 64,
+    "text": "の が ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_01.jpg"
   },
   {
     "id": 65,
-    "text": "死に まし た",
+    "text": "死に まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_02.jpg"
   },
   {
     "id": 66,
-    "text": "ぶくぶく 口 から 泡 を 吐い て",
+    "text": "ぶくぶく 口 から 泡 を 吐い て ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_03.jpg"
   },
   {
     "id": 67,
-    "text": "近 私 に き て … 近づい て",
+    "text": "き 近 私 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_04.jpg"
+  },
+  {
+    "id": 67,
+    "text": "に ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_04.jpg"
+  },
+  {
+    "id": 67,
+    "text": "近づい て き て … ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_04.jpg"
+  },
+  {
+    "id": 67,
+    "text": "て ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_04.jpg"
   },
   {
     "id": 68,
-    "text": "その ･･･ でっかい 頭 の 生き物 が ･･･",
+    "text": "その ･･･ でっかい 頭 の 生き物 が ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_05.jpg"
   },
   {
     "id": 69,
-    "text": "すごく 悲しい 気持ち に なり まし た",
+    "text": "すごく 悲しい 気持ち に なり まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0020_speech_bubble_00.jpg"
   },
   {
     "id": 70,
-    "text": "お 墓 を 作っ て あげ た ん です",
+    "text": "お 墓 を 作っ て あげ た ん です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0020_speech_bubble_01.jpg"
   },
   {
     "id": 71,
-    "text": "遠藤 さん あなた ・・・",
+    "text": "遠藤 さん あなた ・・・ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0021_speech_bubble_00.jpg"
   },
   {
     "id": 72,
-    "text": "どう 見 て も 悲しい 顔 し て ませ ん よ",
+    "text": "どう 見 て も 悲しい 顔 し て ませ ん よ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0021_speech_bubble_01.jpg"
   },
   {
     "id": 73,
-    "text": "今ひとつ でし た か ? では ･･･ こちら は いかが ?",
+    "text": "今ひとつ でし た か ? ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_00.jpg"
+  },
+  {
+    "id": 73,
+    "text": "では ･･･ こちら は いかが ? ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_00.jpg"
+  },
+  {
+    "id": 73,
+    "text": "? は ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_00.jpg"
   },
   {
     "id": 74,
-    "text": "よく わから どういう ない よ ... こと ?",
+    "text": "よく わから ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_01.jpg"
+  },
+  {
+    "id": 74,
+    "text": "どういう ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_01.jpg"
+  },
+  {
+    "id": 74,
+    "text": "ない よ ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_01.jpg"
+  },
+  {
+    "id": 74,
+    "text": "こと ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_01.jpg"
   },
   {
     "id": 75,
-    "text": "その よう な 受け止め 方 も でき ます ☑x ...",
+    "text": "その よう な 受け止め 方 も でき ます xx ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_02.jpg"
+  },
+  {
+    "id": 75,
+    "text": "な ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_02.jpg"
   },
   {
     "id": 76,
-    "text": "何 その HO ... なぞなぞ ?",
+    "text": "何 その HO ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_03.jpg"
+  },
+  {
+    "id": 76,
+    "text": "なぞなぞ ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_03.jpg"
   },
   {
     "id": 77,
-    "text": "その 時 の 金属 の 球 で ござい ます",
+    "text": "その 時 の 金属 の 球 で ござい ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_04.jpg"
   },
   {
     "id": 78,
-    "text": "そして これ が",
+    "text": "そして これ が ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_05.jpg"
   },
   {
     "id": 79,
-    "text": "･･･ という お話 です",
+    "text": "･･･ という お話 です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_00.jpg"
   },
   {
     "id": 80,
-    "text": "シート に は べっとり と 水 が 残っ て いる ･･･",
+    "text": "それ は ･･･ 水死 し た 女性 の 霊 だっ た の だろ う か ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_01.jpg"
   },
   {
     "id": 81,
-    "text": "それ は ・・・ 水死 し た 女性 の 霊 だっ た の だろ う か ･･･",
+    "text": "シート に は べっとり と 水 が 残っ て いる ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_02.jpg"
   },
   {
     "id": 82,
-    "text": "振り向く と 消え て い て ･･･",
+    "text": "振り向く と 消え て い て ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_03.jpg"
   },
   {
     "id": 83,
-    "text": "そう です タクシー に 乗せ た お客 さん が ･･･",
+    "text": "そう です タクシー に 乗せ た ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_04.jpg"
+  },
+  {
+    "id": 83,
+    "text": "お客 さん が ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_04.jpg"
   },
   {
     "id": 84,
-    "text": "タクシー の 怪談 ･･･ ? って あの 有名 な … ?",
+    "text": "タクシー の 怪談 ･･･ ? ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_05.jpg"
+  },
+  {
+    "id": 84,
+    "text": "って あの 有名 な … ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_05.jpg"
   },
   {
     "id": 85,
-    "text": "タクシー の 怪談 って ご存じ ?",
+    "text": "タクシー の 怪談 って ご存じ ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_06.jpg"
   },
   {
     "id": 86,
-    "text": "この 水 に は こんな お話 が ある の です",
+    "text": "この 水 に は こんな お話 が ある の です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_00.jpg"
   },
   {
     "id": 87,
-    "text": "水 で ござい ます … って 言わ れ て も なぁ ...",
+    "text": "水 で ござい ます … って ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_01.jpg"
+  },
+  {
+    "id": 87,
+    "text": "言わ れ て も なぁ ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_01.jpg"
   },
   {
     "id": 88,
-    "text": "水 で ござい ます ……",
+    "text": "水 で ござい ます … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_02.jpg"
   },
   {
     "id": 89,
-    "text": "そして こちら が その 問題 の 幽霊 が 消え た 後 に 残っ た",
+    "text": "そして こちら が その 問題 の ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_03.jpg"
+  },
+  {
+    "id": 89,
+    "text": "幽霊 が 消え た 後 に 残っ た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_03.jpg"
   },
   {
     "id": 90,
-    "text": "そう で ござい ます ね",
+    "text": "そう で ござい ます ね ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_04.jpg"
   },
   {
     "id": 91,
-    "text": "誰 に 聞い た の か 分から ない けれど 有名 な 話 だ よ ね …",
+    "text": "誰 に 聞い た の か 分から ない けれど ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_05.jpg"
+  },
+  {
+    "id": 91,
+    "text": "有名 な 話 だ よ ね ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_05.jpg"
   },
   {
     "id": 92,
-    "text": "いえ ･･･ 実は そう でも ない の です",
+    "text": "も 実 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_02.jpg"
+  },
+  {
+    "id": 92,
+    "text": "いえ ･･･ 実は そう でも ない の です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_02.jpg"
   },
   {
     "id": 93,
-    "text": "タクシー 怪談 だけ を 研究 する の ? なんか マニアック だ ね ･･･",
+    "text": "タクシー 怪談 だけ を 研究 する の ? ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_03.jpg"
+  },
+  {
+    "id": 93,
+    "text": "なんか マニアック ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_03.jpg"
+  },
+  {
+    "id": 93,
+    "text": "だ ね ・・・ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_03.jpg"
   },
   {
     "id": 94,
-    "text": "タクシー 怪談 は とても メジャー な 分野 な の です",
+    "text": "タクシー 怪談 は とても メジャー な 分野 な の です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_00.jpg"
   },
   {
     "id": 95,
-    "text": "実は 民間 伝承 研究 に おいて ...",
+    "text": "実は 民間 伝承 研究 に おいて ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_01.jpg"
   },
   {
     "id": 96,
-    "text": "研究 テーマ は タクシー 怪談",
+    "text": "研究 テーマ は タクシー 怪談 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_04.jpg"
   },
   {
     "id": 97,
-    "text": "民俗 学者 の よねくら 米倉 さん は ･･･ 幽霊 や 妖怪 の 民族 伝承 に つい て 研究 し て い まし た",
+    "text": "民俗 学者 の ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_05.jpg"
+  },
+  {
+    "id": 97,
+    "text": "よねくら ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_05.jpg"
+  },
+  {
+    "id": 97,
+    "text": "米倉 さん は ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_05.jpg"
+  },
+  {
+    "id": 97,
+    "text": "幽霊 や 妖怪 の 民族 伝承 に つい て 研究 し て い まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_05.jpg"
   },
   {
     "id": 98,
-    "text": "6 ... なる ほど ...",
+    "text": "... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_speech_bubble_00.jpg"
+  },
+  {
+    "id": 98,
+    "text": "な … なる ほど ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_speech_bubble_00.jpg"
   },
   {
     "id": 99,
-    "text": "ハワイ で は 火山 の 女神 が 乗っ て 消える そう で ... 乗せる と 家 が 噴火 の 被害 に あわ ない とか … ..",
+    "text": "ハワイ で は 火山 の 女神 が 乗っ て 消える そう で ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_01.jpg"
+  },
+  {
+    "id": 99,
+    "text": "乗せる と ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_01.jpg"
+  },
+  {
+    "id": 99,
+    "text": "家 が 噴火 の 被害 に あわ ない とか ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_01.jpg"
   },
   {
     "id": 100,
-    "text": "出 て い ます 関連 書籍 も antit CAMCO",
+    "text": "出 て い ます 関連 書籍 も ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_02.jpg"
+  },
+  {
+    "id": 100,
+    "text": "antit ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_02.jpg"
+  },
+  {
+    "id": 100,
+    "text": "CAMOD ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_02.jpg"
   },
   {
     "id": 101,
-    "text": "消える ヒッチ ハイカー の 怪",
+    "text": "消える ヒッチ ハイカー の 怪 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_03.jpg"
   },
   {
     "id": 102,
-    "text": "聖書 に は 馬車 から 人 が 消える 描写 が あり ます し",
+    "text": "聖書 に は 馬車 から 人 が 消える 描写 が あり ます し ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_04.jpg"
   },
   {
     "id": 103,
-    "text": "例えば アメリカ に おける",
+    "text": "例えば アメリカ に おける ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_05.jpg"
   },
   {
     "id": 104,
-    "text": "そういう 物語 は 全 世界 に ある の です",
+    "text": "そういう 物語 は 全 世界 に ある の です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_06.jpg"
   },
   {
     "id": 105,
-    "text": "古く から 同じ 乗り物 に 乗り合わせ た 人物 が 消える",
+    "text": "古く から 同じ 乗り物 に 乗り合わせ た 人物 が 消える ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_07.jpg"
   },
   {
     "id": 106,
-    "text": "米倉 さん 被害 に あっ た もと タクシー の 下 に 急い で 向かい ます",
+    "text": "米倉 さん は 被害 に あっ た ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_00.jpg"
+  },
+  {
+    "id": 106,
+    "text": "もと ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_00.jpg"
+  },
+  {
+    "id": 106,
+    "text": "タクシー の 下 に 急い で 向かい ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_00.jpg"
   },
   {
     "id": 107,
-    "text": "ひとたび 連絡 が 来る と ･･･",
+    "text": "ひとたび ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_01.jpg"
+  },
+  {
+    "id": 107,
+    "text": "連絡 が 来る と ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_01.jpg"
   },
   {
     "id": 108,
-    "text": "もしも 万が一 タクシー に 幽霊 が 出 たら 教え て もらう 協力 を 得 ます",
+    "text": "もしも 万が一 タクシー に 幽霊 が 出 たら ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_02.jpg"
+  },
+  {
+    "id": 108,
+    "text": "教え て もらう 協力 を 得 ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_02.jpg"
   },
   {
     "id": 109,
-    "text": "まず の 会社 に タクシー 頼み込ん で ･･･",
+    "text": "まず の 会社 に ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_03.jpg"
+  },
+  {
+    "id": 109,
+    "text": "タクシー ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_03.jpg"
+  },
+  {
+    "id": 109,
+    "text": "頼み込ん で ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_03.jpg"
   },
   {
     "id": 110,
-    "text": "怪 談 研究者 米倉 さん の アプローチ は とても 斬新 な もの でし た",
+    "text": "怪 談 研究者 米倉 さん の アプローチ は ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_04.jpg"
+  },
+  {
+    "id": 110,
+    "text": "とても 斬新 な もの でし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_04.jpg"
   },
   {
     "id": 111,
-    "text": "ああ ... 頼む よ ･･･",
+    "text": "頼あ むあ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_speech_bubble_04.jpg"
   },
   {
     "id": 112,
-    "text": "どうも ･･･ 米倉 です",
+    "text": "どうも ･･･ 米倉 です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_speech_bubble_05.jpg"
   },
   {
     "id": 113,
-    "text": "終わっ たら 除 菌 と 乾燥 を 行い ･･･",
+    "text": "終わっ たら 除 菌 と 乾燥 を 行い ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_00.jpg"
   },
   {
     "id": 114,
-    "text": "ついでに 車内 も 軽く 清掃 し ます",
+    "text": "ついでに 車内 も 軽く 清掃 し ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_01.jpg"
   },
   {
     "id": 115,
-    "text": "強力 な 吸引 機 で 吸い出し ます",
+    "text": "強力 な 吸引 機 で 吸い出し ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_02.jpg"
   },
   {
     "id": 116,
-    "text": "米倉 さん は 幽霊 が 座っ て べっとり 濡れ た シート を",
+    "text": "米倉 さん は 幽霊 が 座っ て べっとり 濡れ た シート を ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_03.jpg"
   },
   {
     "id": 117,
-    "text": "成分 分析 する こと に し まし た",
+    "text": "成分 分析 する こと に し まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_00.jpg"
   },
   {
     "id": 118,
-    "text": "米倉 さん は その 吸っ た 『 幽霊 が 残し た 液体 』 を",
+    "text": "米倉 さん は その 吸っ た 『 幽霊 が 残し た 液体 』 を ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_01.jpg"
   },
   {
     "id": 119,
-    "text": "ラベル を 付け て 保存 し ます",
+    "text": "保 付 ラ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_02.jpg"
+  },
+  {
+    "id": 119,
+    "text": "保存 し ます ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_02.jpg"
+  },
+  {
+    "id": 119,
+    "text": "け べ を ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_02.jpg"
   },
   {
     "id": 120,
-    "text": "吸引 機 で 吸っ た 『 液体 』 は …",
+    "text": "吸引 機 で 吸っ た 『 液体 』 は … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_03.jpg"
   },
   {
     "id": 121,
-    "text": "いわば 幽霊 の 後片付け です 研究 の 一環 と は いえ ･･･",
+    "text": "いわば 幽霊 の 後片付け です ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_04.jpg"
+  },
+  {
+    "id": 121,
+    "text": "研究 の 一環 と は いえ ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_04.jpg"
   },
   {
     "id": 122,
-    "text": "無料 で 駆けつけ て くれる ので 米倉 さん は 様々 な タクシー 会社 に 呼ば れ ました",
+    "text": "無料 で 駆けつけ て くれる ので ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_05.jpg"
+  },
+  {
+    "id": 122,
+    "text": "米倉 さん は 様々 な タクシー 会社 に 呼ば れ ました ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_05.jpg"
   },
   {
     "id": 123,
-    "text": "④ 運転 中 に 自己 催眠 状態 に 陥った エンジン の 断続 的 な 20 以下 の 低い 音 や",
+    "text": "④ 運転 中 に 自己 催眠 状態 に 陥った ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_00.jpg"
+  },
+  {
+    "id": 123,
+    "text": "エンジン の 断続 的 な 20 以下 の 低い 音 や ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_00.jpg"
   },
   {
     "id": 124,
-    "text": "同じ リズム の 刺激 を 受け 続ける と 幻覚 を 見る 事 が ある ③ の ミス を 夢 と 統合 し て しまう",
+    "text": "同じ リズム の 刺激 を 受け 続ける と 幻覚 を 見る 事 が ある ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_01.jpg"
+  },
+  {
+    "id": 124,
+    "text": "③ の ミス を 夢 と 統合 し て しまう ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_01.jpg"
   },
   {
     "id": 125,
-    "text": "それら の ミス を 幽霊 の せい に し た",
+    "text": "それら の ミス を 幽霊 の せい に し た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_02.jpg"
   },
   {
     "id": 126,
-    "text": "③ 運転 手 に よる ミス の ごまかし 例えば 窓 を 開けっ放し で 車内 が 濡れ た",
+    "text": "③ 運転 手 に よる ミス の ごまかし ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_03.jpg"
+  },
+  {
+    "id": 126,
+    "text": "例えば ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_03.jpg"
+  },
+  {
+    "id": 126,
+    "text": "窓 を 開けっ放し で 車内 が 濡れ た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_03.jpg"
   },
   {
     "id": 127,
-    "text": "② そもそも 全部 ウソ",
+    "text": "② そもそも 全部 ウソ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_04.jpg"
   },
   {
     "id": 128,
-    "text": "① 人間 の イタズラ",
+    "text": "① 人間 の イタズラ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_05.jpg"
   },
   {
     "id": 129,
-    "text": "米倉 さん は この 現象 に つい て いくつ か の 仮説 を 考え て い まし た",
+    "text": "米倉 さん は この 現象 に つい て ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_06.jpg"
+  },
+  {
+    "id": 129,
+    "text": "いくつ か の 仮説 を 考え て い まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_06.jpg"
   },
   {
     "id": 130,
-    "text": "米倉 さん ･･･ あの 水 の だ けど ね",
+    "text": "米倉 さん ･･･ あの 水 の 件 だ けど ね ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_00.jpg"
   },
   {
     "id": 131,
-    "text": "成分 の 内容 ･ ･ ･ 電解質 ブドウ糖 ･･･ アミノ酸 ･･･ 脂質 ･･･ わずか に 重金属 が チラホラ …",
+    "text": "成分 の 内容 … ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_01.jpg"
+  },
+  {
+    "id": 131,
+    "text": "電解質 ブドウ糖 ･･･ アミノ酸 ･･･ 脂質 ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_01.jpg"
+  },
+  {
+    "id": 131,
+    "text": "わずか に 重金属 が チラホラ … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_01.jpg"
   },
   {
     "id": 132,
-    "text": "数 日 後 ･･･ 『 水 』 の 成分 結果 が 出 まし た",
+    "text": "数 日 後 ･･･ 『 水 』 の 成分 結果 が 出 まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_02.jpg"
   },
   {
     "id": 133,
-    "text": "6 幽霊 で ある",
+    "text": "( 6 ) ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_03.jpg"
+  },
+  {
+    "id": 133,
+    "text": "幽霊 で ある ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_03.jpg"
   },
   {
     "id": 134,
-    "text": "人 は コンマ 数 秒 の 短い 眠り で 夢 を 見る 事 が ある",
+    "text": "人 は コンマ 数 秒 の 短い 眠り で 夢 を 見る 事 が ある ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_04.jpg"
   },
   {
     "id": 135,
-    "text": "⑤ マイクロ スリープ 状態",
+    "text": "5 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_05.jpg"
+  },
+  {
+    "id": 135,
+    "text": "⑤ マイクロ スリープ 状態 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_05.jpg"
   },
   {
     "id": 136,
-    "text": "20 代 後半 から 30 代 の アジア 人 女性 ･･･ 双子 を 妊娠 中",
+    "text": "20 代 後半 から ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
+  },
+  {
+    "id": 136,
+    "text": "30 代 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
+  },
+  {
+    "id": 136,
+    "text": "の ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
+  },
+  {
+    "id": 136,
+    "text": "アジア 人 女性 ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
+  },
+  {
+    "id": 136,
+    "text": "双子 を 妊娠 中 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
   },
   {
     "id": 137,
-    "text": "この 液体 の 持ち主 は x ...",
+    "text": "この 液体 の 持ち主 は ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_01.jpg"
+  },
+  {
+    "id": 137,
+    "text": "ね ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_01.jpg"
   },
   {
     "id": 138,
-    "text": "無断 で 悪い が DNA 鑑定 も 行っ た よ",
+    "text": "無断 で 悪い が DNA 鑑定 も 行っ た よ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_03.jpg"
   },
   {
     "id": 139,
-    "text": "結論 から 言う と ね これ は 羊水 に 限り なく 近い",
+    "text": "結論 から 言う と ね ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_05.jpg"
+  },
+  {
+    "id": 139,
+    "text": "これ は 羊水 に 限り なく 近い ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_05.jpg"
   },
   {
     "id": 140,
-    "text": "さかがみ 坂 上 ■■ 大学 附属 法医学 研究所 研究員",
+    "text": "さかがみ 坂 上 ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_square_02.jpg"
+  },
+  {
+    "id": 140,
+    "text": "■■ 大学 附属 法医学 研究所 研究員 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_square_02.jpg"
   },
   {
     "id": 141,
-    "text": "羊水 ･･･ 妊娠 中 の 胎児 の 周り に ある 体液 …",
+    "text": "羊水 ･･･ 妊娠 中 の 胎児 の 周り に ある 体液 ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_square_04.jpg"
   },
   {
     "id": 142,
-    "text": "了解 … とりあえず 全部 見よう",
+    "text": "了解 ･ ･ ･ とりあえず 全部 見よう ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_00.jpg"
   },
   {
     "id": 143,
-    "text": "あ ･･･ この 液体 まだ ある ん あと です が ･･･ 1 瓶 ほど ･･･",
+    "text": "あ ･･･ この 液体 まだ ある ん ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_01.jpg"
+  },
+  {
+    "id": 143,
+    "text": "あと ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_01.jpg"
+  },
+  {
+    "id": 143,
+    "text": "です が ... ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_01.jpg"
+  },
+  {
+    "id": 143,
+    "text": "1 瓶 ほど ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_01.jpg"
   },
   {
     "id": 144,
-    "text": "とんでも な も ない な ...",
+    "text": "とんで ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_02.jpg"
+  },
+  {
+    "id": 144,
+    "text": "な ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_02.jpg"
+  },
+  {
+    "id": 144,
+    "text": "も ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_02.jpg"
+  },
+  {
+    "id": 144,
+    "text": "ない な ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_02.jpg"
   },
   {
     "id": 145,
-    "text": "もう少し 詳しく 調 詳 も 調べ たい",
+    "text": "もう少し 詳しく 調べ たい ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_03.jpg"
   },
   {
     "id": 146,
-    "text": "でも 仮に そう だっ た と し たら … そういう こと だ ...",
+    "text": "でも 仮に そう だっ た と し たら … ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_04.jpg"
+  },
+  {
+    "id": 146,
+    "text": "そういう こと だ ・・・ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_04.jpg"
   },
   {
     "id": 147,
-    "text": "面白い こと 言う ね ･･･ 君",
+    "text": "面白い こと 言う ね ･･･ 君 ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_05.jpg"
   },
   {
     "id": 148,
-    "text": "これ が ･･･ 幽霊 の DNA なん です ね ...",
+    "text": "これ が ... 幽霊 の DNA なん です ね ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_06.jpg"
   },
   {
     "id": 149,
-    "text": "ああ :",
+    "text": "ああ ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_00.jpg"
   },
   {
     "id": 150,
-    "text": "よろしく お願い し ます",
+    "text": "よろしく お願い し ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_01.jpg"
   },
   {
     "id": 151,
-    "text": "ふうん … そう か …",
+    "text": "ふうん … そう か ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_02.jpg"
   },
   {
     "id": 152,
-    "text": "それに つい て も 調べ て おくよ",
+    "text": "それに つい て も ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_03.jpg"
+  },
+  {
+    "id": 152,
+    "text": "調べ て おくよ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_03.jpg"
   },
   {
     "id": 153,
-    "text": "ちょっと ずつ 減る ん です",
+    "text": "ちょっと ずつ 減る ん です ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_04.jpg"
   },
   {
     "id": 154,
-    "text": "に は その 水 は どんなに 厳重 に 密閉 し て も ...",
+    "text": "に は ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_05.jpg"
+  },
+  {
+    "id": 154,
+    "text": "その 水 は どんなに 厳重 に 密閉 し て も ... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_05.jpg"
   },
   {
     "id": 155,
-    "text": "あ … そう いえ ば ･･･",
+    "text": "あ ・・・ そう いえ ば ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_06.jpg"
   },
   {
     "id": 156,
-    "text": "まさか ね ・・・",
+    "text": "まさか ね ・・・ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0037_speech_bubble_00.jpg"
   },
   {
     "id": 157,
-    "text": "幽霊 の 遺伝子 ･･･ 幽霊 も 生き物 な の か ... ?",
+    "text": "幽霊 の 遺伝子 ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0037_speech_bubble_01.jpg"
+  },
+  {
+    "id": 157,
+    "text": "幽霊 も 生き物 な の か ... ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0037_speech_bubble_01.jpg"
   },
   {
     "id": 158,
-    "text": "ふう",
+    "text": "ふう ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0038_speech_bubble_00.jpg"
   },
   {
     "id": 159,
-    "text": "おかしい な ･･",
+    "text": "おかしい な ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0039_speech_bubble_00.jpg"
   },
   {
     "id": 160,
-    "text": "減あ あれ ･･･ ? 減っ てる … ?",
+    "text": "減あ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0039_speech_bubble_01.jpg"
+  },
+  {
+    "id": 160,
+    "text": "あれ … ? 減っ てる . ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0039_speech_bubble_01.jpg"
   },
   {
     "id": 161,
-    "text": "今日 の 『 こわい 』 は おわり",
+    "text": "今日 の 『 こわい 』 は おわり ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_00.jpg"
   },
   {
     "id": 162,
-    "text": "さて ･",
+    "text": "さて … .. ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_01.jpg"
   },
   {
     "id": 163,
-    "text": "なんだかんだ けっこう 楽しかっ た よ",
+    "text": "け な ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_02.jpg"
+  },
+  {
+    "id": 163,
+    "text": "なんだかんだ けっこう 楽しかっ た よ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_02.jpg"
   },
   {
     "id": 164,
-    "text": "絶対 に やだ …",
+    "text": "絶対 に やだ … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_03.jpg"
   },
   {
     "id": 165,
-    "text": "の 飲 な ん ん ? じ で",
+    "text": "の 飲 な ん ん ? じ で ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_04.jpg"
   },
   {
     "id": 166,
-    "text": "さぁ ... 飲ん で み ます ?",
+    "text": "さあ ... 飲ん で み ます ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_05.jpg"
   },
   {
     "id": 167,
-    "text": "IK ....",
+    "text": "IK .... ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_06.jpg"
   },
   {
     "id": 168,
-    "text": "でも 暇つぶし に は … なっ た か な ･･･",
+    "text": "でも 暇つぶし に は … なっ た か な ･･･ ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_00.jpg"
   },
   {
     "id": 169,
-    "text": "変 な 店 …",
+    "text": "変 な 店 … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_01.jpg"
   },
   {
     "id": 170,
-    "text": "いこ い か で ?",
+    "text": "これ で いい か な ? ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_02.jpg"
   },
   {
     "id": 171,
-    "text": "いくら でも ･･･ . まいど ありがとう ござい ます",
+    "text": "いくら でも ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_03.jpg"
+  },
+  {
+    "id": 171,
+    "text": "まいど ありがとう ござい ます ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_03.jpg"
   },
   {
     "id": 172,
-    "text": "また の お越し お待ち し て おり ます ...",
+    "text": "また の お越し お待ち し て おり ます … ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0042_speech_bubble_00.jpg"
   },
   {
     "id": 173,
-    "text": "ご 来店 ありがとう ござい まし た",
+    "text": "ご 来店 ･･･ ",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0042_speech_bubble_01.jpg"
+  },
+  {
+    "id": 173,
+    "text": "ありがとう ござい まし た ",
     "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0042_speech_bubble_01.jpg"
   }
 ]

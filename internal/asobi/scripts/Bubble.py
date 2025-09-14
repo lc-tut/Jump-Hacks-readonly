@@ -10,13 +10,54 @@ from detectron2 import model_zoo
 cfg = get_cfg()
 cfg.merge_from_file(model_zoo.get_config_file("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"))
 cfg.MODEL.ROI_HEADS.NUM_CLASSES = 2  # square と speech_bubble の2クラス
-cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth") # 学習済みモデルを指定
+
+# 明示的に学習出力ディレクトリを internal/asobi/output に設定しておく
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+default_output = os.path.abspath(os.path.join(scripts_dir, '..', 'output'))
+cfg.OUTPUT_DIR = default_output
+
+# 学習済みモデルを指定
+cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")
+# もし model_final.pth が存在しなければ last_checkpoint を参照してフォールバック
+if not os.path.isfile(cfg.MODEL.WEIGHTS):
+    last_ck = os.path.join(cfg.OUTPUT_DIR, 'last_checkpoint')
+    if os.path.isfile(last_ck):
+        try:
+            with open(last_ck, 'r') as f:
+                ckname = f.read().strip()
+            candidate = os.path.join(cfg.OUTPUT_DIR, ckname)
+            if os.path.isfile(candidate):
+                cfg.MODEL.WEIGHTS = candidate
+        except Exception:
+            pass
+# 追加フォールバック: ローカルの学習済みモデルが見つからなければ Detectron2のmodel_zooを使う
+if not os.path.isfile(cfg.MODEL.WEIGHTS):
+    print(f"警告: 学習済みモデルが見つかりません: {cfg.MODEL.WEIGHTS}")
+    print("Detectron2 の事前学習モデルにフォールバックします。")
+    try:
+        cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml")
+        print(f"使用する重み: {cfg.MODEL.WEIGHTS}")
+    except Exception as e:
+        print(f"model_zoo からの取得に失敗しました: {e}")
+        # ここで例外を出して停止させるほうが安全
+        raise
+
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # 信頼度の閾値を学習時と一致させる
 predictor = DefaultPredictor(cfg)
 
 # 2. 新しい画像の読み込みと推論
-input_dir = "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/こわいやさん[第1話]"
-output_dir = "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/output"
+# スクリプトの位置を基準に、実際に存在するフォルダを優先して参照する
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+candidate1 = os.path.join(scripts_dir, 'こわいやさん[第1話]')  # 見つかったパス（scripts 内）
+candidate2 = os.path.abspath(os.path.join(scripts_dir, '..', 'こわいやさん[第1話]'))
+if os.path.isdir(candidate1):
+    input_dir = candidate1
+elif os.path.isdir(candidate2):
+    input_dir = candidate2
+else:
+    raise FileNotFoundError(f"入力ディレクトリが見つかりません: tried {candidate1} and {candidate2}")
+
+output_dir = os.path.abspath(os.path.join(scripts_dir, '..', 'output'))
 os.makedirs(output_dir, exist_ok=True)
 
 for filename in os.listdir(input_dir):

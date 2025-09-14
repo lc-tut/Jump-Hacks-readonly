@@ -14,7 +14,8 @@ import numpy as np
 
 BASE = Path(__file__).resolve().parents[1]  # internal/asobi
 CUT_OUTPUT = BASE / 'cut_output'
-MASK_TEXT_DIR = CUT_OUTPUT / 'mask_text2'
+# マスクテキストのソースディレクトリを `cut_output/mask_text2` から `internal/asobi/textim` に変更
+MASK_TEXT_DIR = BASE / 'textim'
 RESULTS_JSON = CUT_OUTPUT / 'cut_results.json'
 ORIG_DIR = BASE / 'output'
 OUT_DIR = BASE / 'koko'
