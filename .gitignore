@@ -73,3 +73,15 @@ tmp/
 
 # Google Cloud Service Account
 /internal/config/service-account.json
+
+
+internal/asobi/cut_output/
+internal/asobi/koko/
+internal/asobi/scripts/こわいやさん[第1話]
+internal/asobi/json
+internal/asobi/output
+internal/asobi/textim
+internal/asobi/textim 
+internal/asobi/result_2.jpg 
+internal/asobi/result_1.jpg 
+internal/asobi/result_0.jpg
