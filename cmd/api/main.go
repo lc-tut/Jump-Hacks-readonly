@@ -130,35 +130,35 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 			key := "uploads/"+ req.Title +"/page-" + req.Pages + ".jpg"
 			
 			// Call orchestrator with router's cfg
-			ocrTranslateReplace(cfg, key, req.Pages)
-			c.JSON(200, gin.H{"message": "Test executed", "pages": req.Pages, "key": key})
+			image_out := ocrTranslateReplace(cfg, key, req.Pages)
+			c.JSON(200, gin.H{"image": image_out})
 		})
 	}
 
 	return router
 }
 
-func ocrTranslateReplace(cfg *config.Config, key string, pages string) {
+func ocrTranslateReplace(cfg *config.Config, key string, pages string) []byte {
 	if pages == "" {
 		log.Println("Test called without pages")
-		return
+		return nil
 	}
 	log.Printf("Test called with pages: %s, key: %s", pages, key)
 
 	// 1) Receive image using handlers (both bytes and base64 are available)
 	if key == "" {
 		log.Println("No key provided")
-		return
+		return nil
 	}
 	image, err := handlers.GetImageBytes(cfg, key)
 	if err != nil {
 		log.Printf("failed to fetch image bytes: %v", err)
-		return
+		return nil
 	}
 	b64, err := handlers.GetImageBase64(cfg, key)
 	if err != nil {
 		log.Printf("failed to fetch image base64: %v", err)
-		return
+		return nil
 	}
 	log.Printf("Received image bytes: %d, base64 len: %d", len(image), len(b64))
 
@@ -182,7 +182,7 @@ func ocrTranslateReplace(cfg *config.Config, key string, pages string) {
 	outImage := replaceTextPlaceholder(image, translated, []Box{})
 	log.Printf("Replaced image size: %d", len(outImage))
 
-	// Done: in real flow you'd return or save outImage
+	return image
 }
 
 // Box is a placeholder bounding box type for OCR results
