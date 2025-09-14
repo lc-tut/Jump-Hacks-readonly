@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"os"
@@ -30,16 +31,18 @@ func TranslateAndReplaceJSONFile(inputFile, outputFile, sourceLang, targetLang s
 		return fmt.Errorf("failed to load OCR results: %v", err)
 	}
 
-	// 各テキストを翻訳して置き換え
+	// 各テキストを翻訳して置き換
 	for i, result := range ocrResults {
 		translatedText, err := TranslateText(result.Text, sourceLang, targetLang)
 		if err != nil {
-			return fmt.Errorf("failed to translate text '%s': %v", result.Text, err)
+			// フォールバック: エラーが出ても処理を続け、元のテキストを使う
+			log.Printf("warning: translate failed for id=%d text=%q: %v; using original text", result.ID, result.Text, err)
+			translatedText = result.Text
 		}
 
-		// 翻訳されたテキストで置き換え
+		// 翻訳（またはフォールバック）されたテキストで置き換え
 		ocrResults[i].Text = translatedText
-		
+
 		fmt.Printf("Translated %d/%d: %s\n", i+1, len(ocrResults), translatedText)
 	}
 
@@ -133,15 +136,39 @@ func TranslateText(text, sourceLang, targetLang string) (string, error) {
 	}
 	params.Set("text", text)
 
-	// 翻訳APIにリクエストを送信
+	// 翻訳APIにリクエストを送信（まずクエリパラメータ認証）
 	res, err := http.Get(apiURL + "?" + params.Encode())
 	if err != nil {
 		return "", fmt.Errorf("failed to send translation request: %v", err)
 	}
 	defer res.Body.Close()
 
-	// ステータスコードを確認してエラー時はレスポンスを返す
-	if res.StatusCode != http.StatusOK {
+	// ステータスコードを確認
+	if res.StatusCode == http.StatusForbidden {
+		// 403 の場合は、ヘッダーによる認証方式で再試行する
+		req, _ := http.NewRequest("GET", apiURL, nil)
+		req.Header.Set("Authorization", "DeepL-Auth-Key "+key)
+		q := req.URL.Query()
+		q.Set("text", text)
+		if sourceLang != "" {
+			q.Set("source_lang", strings.ToUpper(sourceLang))
+		}
+		if targetLang != "" {
+			q.Set("target_lang", strings.ToUpper(targetLang))
+		}
+		req.URL.RawQuery = q.Encode()
+
+		resp2, err2 := http.DefaultClient.Do(req)
+		if err2 != nil {
+			return "", fmt.Errorf("retry with header auth failed: %v", err2)
+		}
+		defer resp2.Body.Close()
+		if resp2.StatusCode != http.StatusOK {
+			body, _ := io.ReadAll(resp2.Body)
+			return "", fmt.Errorf("translation API returned status %d on header-auth retry: %s", resp2.StatusCode, strings.TrimSpace(string(body)))
+		}
+		res = resp2
+	} else if res.StatusCode != http.StatusOK {
 		body, _ := io.ReadAll(res.Body)
 		return "", fmt.Errorf("translation API returned status %d: %s", res.StatusCode, strings.TrimSpace(string(body)))
 	}

@@ -1,155 +1,177 @@
 [
   {
     "id": 1,
-    "text": "Graduated from the Faculty of Medicine, University of Sapporo",
+    "text": "What a lively village...",
     "bounds": [
       [
-        101,
-        53
+        134,
+        145
       ],
       [
-        303,
-        54
+        191,
+        145
       ],
       [
-        303,
-        77
+        191,
+        278
       ],
       [
-        101,
-        76
+        134,
+        278
       ]
     ]
   },
   {
     "id": 2,
-    "text": "8,000 people every year",
+    "text": "frog",
     "bounds": [
       [
-        95,
-        84
+        545,
+        263
       ],
       [
-        104,
-        84
+        562,
+        263
       ],
       [
-        104,
-        145
+        562,
+        375
       ],
       [
-        95,
-        145
+        545,
+        375
       ]
     ]
   },
   {
     "id": 3,
-    "text": "Graduating from a university medical school in Japan",
+    "text": "I'm glad I moved here.",
     "bounds": [
       [
-        58,
-        84
+        683,
+        512
       ],
       [
-        92,
-        84
+        735,
+        512
       ],
       [
-        92,
-        146
+        736,
+        650
       ],
       [
-        58,
-        146
+        684,
+        650
       ]
     ]
   },
   {
     "id": 4,
-    "text": "8 thousand ......",
+    "text": ".......",
     "bounds": [
       [
-        318,
-        47
+        658,
+        512
       ],
       [
-        327,
-        47
+        672,
+        512
       ],
       [
-        328,
-        98
+        671,
+        557
       ],
       [
-        319,
-        98
+        657,
+        557
       ]
     ]
   },
   {
     "id": 5,
-    "text": "Eiroku University School of Medicine Graduation Ceremony",
+    "text": "It's going to be fun from now on.",
     "bounds": [
       [
-        154,
-        171
+        562,
+        571
       ],
       [
-        255,
-        171
+        611,
+        571
       ],
       [
-        255,
-        181
+        610,
+        686
       ],
       [
-        154,
-        181
+        561,
+        686
       ]
     ]
   },
   {
     "id": 6,
-    "text": "You are",
+    "text": "Good day!",
     "bounds": [
       [
-        115,
-        344
+        658,
+        778
       ],
       [
-        124,
-        344
+        725,
+        778
       ],
       [
-        124,
-        374
+        725,
+        871
       ],
       [
-        115,
-        374
+        658,
+        871
       ]
     ]
   },
   {
     "id": 7,
-    "text": "That's 50 of the top 8,000!",
+    "text": "So ...",
     "bounds": [
       [
-        77,
-        343
+        536,
+        571
       ],
       [
-        111,
-        343
+        549,
+        571
       ],
       [
-        112,
-        406
+        549,
+        633
       ],
       [
-        78,
-        406
+        536,
+        633
+      ]
+    ]
+  },
+  {
+    "id": 8,
+    "text": "S ...",
+    "bounds": [
+      [
+        124,
+        780
+      ],
+      [
+        149,
+        780
+      ],
+      [
+        148,
+        838
+      ],
+      [
+        123,
+        838
       ]
     ]
   }
