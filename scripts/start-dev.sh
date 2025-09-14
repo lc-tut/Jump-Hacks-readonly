@@ -64,3 +64,8 @@ echo -e "  ${YELLOW}$DOCKER_COMPOSE logs postgres${NC} - View database logs"
 echo -e "  ${YELLOW}$DOCKER_COMPOSE down${NC}          - Stop all services"
 echo -e "  ${YELLOW}$DOCKER_COMPOSE restart api${NC}   - Restart API service"
 echo ""
+
+LOCAL_DIR="./private_files/kowaiyasan01"
+docker cp "$LOCAL_DIR" $(docker compose ps -q localstack):/tmp/uploads
+docker exec -it $(docker compose ps -q localstack) \
+  awslocal s3 cp /tmp/uploads s3://hackathon-uploads/uploads/ --recursive --exclude "*" --include "*.jpg" --include "*.png"

@@ -7,6 +7,7 @@ import (
 	"github.com/digi-con/hackathon-template/internal/database"
 	"github.com/digi-con/hackathon-template/internal/handlers"
 	"github.com/digi-con/hackathon-template/internal/middleware"
+	translate "github.com/digi-con/hackathon-template/internal/translate"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
@@ -165,8 +166,13 @@ func ocrTranslateReplace(cfg *config.Config, key string, pages string) {
 	ocrText, boxes := ocrPlaceholder(image, pages)
 	log.Printf("OCR result: %s, boxes: %d", ocrText, len(boxes))
 
-	// 3) Translate (placeholder)
-	translated := translatePlaceholder(ocrText, "auto", "en")
+	// 3) Translate (using internal/translate.TranslateText)
+	translated, err := translate.TranslateText(ocrText, "", "EN")
+	if err != nil {
+		log.Printf("translation failed: %v", err)
+		// fallback to original OCR text
+		translated = ocrText
+	}
 	log.Printf("Translated text: %s", translated)
 
 	// 4) Replace text on image (placeholder)
@@ -187,16 +193,7 @@ type Box struct {
 // ocrPlaceholder simulates OCR and returns detected text and bounding boxes
 func ocrPlaceholder(image []byte, pages string) (string, []Box) {
 	log.Printf("Simulating OCR for pages=%s, imageSize=%d", pages, len(image))
-	return "detected text", []Box{{X: 10, Y: 20, W: 100, H: 20}}
-}
-
-// translatePlaceholder simulates translation
-func translatePlaceholder(text, sourceLang, targetLang string) string {
-	log.Printf("Simulating translate from=%s to=%s", sourceLang, targetLang)
-	if text == "" {
-		return ""
-	}
-	return text + " (translated to " + targetLang + ")"
+	return "これは試験的な文字列です。", []Box{{X: 10, Y: 20, W: 100, H: 20}}
 }
 
 // replaceTextPlaceholder simulates drawing translated text onto the image and returns new bytes

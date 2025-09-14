@@ -1,4 +1,4 @@
-package main
+package translate
 
 import (
 	"encoding/json"
@@ -19,7 +19,7 @@ func main() {
 	test_word := "こんばんは"
 
 	// test_Wordを翻訳
-	translated_Word, err := translateText(test_word, "ja", "en")
+	translated_Word, err := TranslateText(test_word, "ja", "en")
 	if err != nil {
 		fmt.Printf("Failed to translate word: %v", err)
 		return
@@ -29,7 +29,7 @@ func main() {
 	fmt.Printf("%q\n", translated_Word)
 }
 
-func translateText(text, sourceLang, targetLang string) (string, error) {
+func TranslateText(text, sourceLang, targetLang string) (string, error) {
 	// 翻訳APIのURLとパラメータ
 	apiURL := "https://api-free.deepl.com/v2/translate"
 	params := url.Values{}
