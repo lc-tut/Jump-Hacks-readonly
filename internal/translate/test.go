@@ -1,4 +1,4 @@
-package translate
+package main
 
 import (
 	"encoding/json"
@@ -12,7 +12,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func main() {
+func test() {
 	// .env を読み込む（存在しなければ無視）
 	_ = godotenv.Load()
 
@@ -81,4 +81,12 @@ func TranslateText(text, sourceLang, targetLang string) (string, error) {
 // loadEnv は指定したキーの環境変数値を返します。未設定なら空文字を返します。
 func loadEnv(key string) string {
 	return strings.TrimSpace(os.Getenv(key))
+}
+
+func main() {
+	// .env を読み込む（存在しなければ無視）
+	_ = godotenv.Load()
+
+	test()
+	// test_Wordを翻訳
 }
