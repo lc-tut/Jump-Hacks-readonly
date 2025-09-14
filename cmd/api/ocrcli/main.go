@@ -88,5 +88,9 @@ func ocr(filename string) {
 		log.Fatalf("Failed to marshal json: %v", err)
 	}
 
-	fmt.Println(string(jsonData))
+	outputfile:="ocr_result.json"
+	if err:=os.WriteFile(outputfile,jsonData,0644); err != nil{
+		log.Fatalf("Failed to write json file: %v",err)
+	}
+	fmt.Printf("OCR結果を%sに保存しました\n",outputfile)
 }
