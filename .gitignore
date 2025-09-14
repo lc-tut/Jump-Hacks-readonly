@@ -73,3 +73,5 @@ tmp/
 
 # Google Cloud Service Account
 /internal/config/service-account.json
+
+mypace.env
