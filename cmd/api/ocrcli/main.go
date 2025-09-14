@@ -22,10 +22,22 @@ func main() {
 		log.Fatalf("%s /path/to/image.png", os.Args[0])
 	}
 	path := os.Args[1]
-	ocr(path)
+
+	blocks, err := OCR(path)
+	if err != nil {
+		log.Fatalf("OCR failed: %v", err)
+	}
+
+	err = SaveJSON("ocr_result.json", blocks)
+	if err != nil {
+		log.Fatalf("Failed to save JSON: %v", err)
+	}
+
+	fmt.Println("OCR結果をocr_result.jsonに保存しました")
 }
 
-func ocr(filename string) {
+// OCR は画像ファイルを受け取り OCRBlock のスライスを返す
+func OCR(filename string) ([]OCRBlock, error) {
 	ctx := context.Background()
 
 	client, err := vision.NewImageAnnotatorClient(
@@ -33,30 +45,28 @@ func ocr(filename string) {
 		option.WithCredentialsFile("./internal/config/service-account.json"),
 	)
 	if err != nil {
-		log.Fatalf("Failed to create client: %v", err)
+		return nil, fmt.Errorf("failed to create client: %w", err)
 	}
 	defer client.Close()
 
 	file, err := os.Open(filename)
 	if err != nil {
-		log.Fatalf("Failed to read file: %v", err)
+		return nil, fmt.Errorf("failed to open file: %w", err)
 	}
 	defer file.Close()
 
 	image, err := vision.NewImageFromReader(file)
 	if err != nil {
-		log.Fatalf("Failed to create image: %v", err)
+		return nil, fmt.Errorf("failed to create image: %w", err)
 	}
 
-	// ImageContext を省略して nil を渡す
 	annotation, err := client.DetectDocumentText(ctx, image, nil)
 	if err != nil {
-		log.Fatalf("Failed to detect text: %v", err)
+		return nil, fmt.Errorf("failed to detect text: %w", err)
 	}
 
 	var blocks []OCRBlock
 	id := 1
-
 	for _, page := range annotation.Pages {
 		for _, block := range page.Blocks {
 			var text string
@@ -65,7 +75,7 @@ func ocr(filename string) {
 					for _, symbol := range word.Symbols {
 						text += symbol.Text
 					}
-					text += " " // 単語間スペース
+					text += " "
 				}
 			}
 
@@ -83,14 +93,19 @@ func ocr(filename string) {
 		}
 	}
 
-	jsonData, err := json.MarshalIndent(blocks, "", "  ")
+	return blocks, nil
+}
+
+// SaveJSON は OCRBlock のスライスを JSON ファイルに保存する
+func SaveJSON(filename string, blocks []OCRBlock) error {
+	data, err := json.MarshalIndent(blocks, "", "  ")
 	if err != nil {
-		log.Fatalf("Failed to marshal json: %v", err)
+		return fmt.Errorf("failed to marshal JSON: %w", err)
 	}
 
-	outputfile:="ocr_result.json"
-	if err:=os.WriteFile(outputfile,jsonData,0644); err != nil{
-		log.Fatalf("Failed to write json file: %v",err)
+	if err := os.WriteFile(filename, data, 0644); err != nil {
+		return fmt.Errorf("failed to write file: %w", err)
 	}
-	fmt.Printf("OCR結果を%sに保存しました\n",outputfile)
+
+	return nil
 }
