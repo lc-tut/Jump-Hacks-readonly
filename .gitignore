@@ -71,8 +71,5 @@ coverage.html
 # Air live reload
 tmp/ 
 
-# Private files not for git
-private_files/
-
 # Google Cloud Service Account
 /internal/config/service-account.json
