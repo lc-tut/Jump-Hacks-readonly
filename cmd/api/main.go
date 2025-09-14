@@ -8,6 +8,7 @@ import (
 	"github.com/digi-con/hackathon-template/internal/handlers"
 	"github.com/digi-con/hackathon-template/internal/middleware"
 	translate "github.com/digi-con/hackathon-template/internal/translate"
+	ocr "github.com/digi-con/hackathon-template/internal/ocr"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
@@ -117,18 +118,17 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 			// Try to read JSON body: {"pages": "...", "key": "..."}
 			var req struct {
 				Pages string `json:"pages"`
-				Key   string `json:"key"`
+				Title   string `json:"title"`
 			}
 			if err := c.ShouldBindJSON(&req); err != nil {
 				// Fallback to query parameters if no JSON provided
 				req.Pages = c.Query("pages")
-				req.Key = c.Query("key")
+				req.Title = c.Query("title")
 			}
 			// If key not provided, derive from pages (convention: uploads/page-<pages>.jpg)
-			key := req.Key
-			if key == "" && req.Pages != "" {
-				key = "uploads/page-" + req.Pages + ".jpg"
-			}
+			
+			key := "uploads/"+ req.Title +"/page-" + req.Pages + ".jpg"
+			
 			// Call orchestrator with router's cfg
 			ocrTranslateReplace(cfg, key, req.Pages)
 			c.JSON(200, gin.H{"message": "Test executed", "pages": req.Pages, "key": key})
@@ -160,23 +160,26 @@ func ocrTranslateReplace(cfg *config.Config, key string, pages string) {
 		log.Printf("failed to fetch image base64: %v", err)
 		return
 	}
-	log.Printf("Received image bytes: %v, base64 len: %v", image, b64)
+	log.Printf("Received image bytes: %d, base64 len: %d", len(image), len(b64))
 
 	// 2) OCR (placeholder)
-	ocrText, boxes := ocrPlaceholder(image, pages)
-	log.Printf("OCR result: %s, boxes: %d", ocrText, len(boxes))
+	boxes, err := ocr.OCRBytes(image)
+	if err != nil{
+		log.Printf("failed to ocr: %v",err)
+	}
+	log.Printf("OCR result: %s, boxes: %d", boxes, len(boxes))
 
 	// 3) Translate (using internal/translate.TranslateText)
-	translated, err := translate.TranslateText(ocrText, "", "EN")
+	translated, err := translate.TranslateText("test", "", "EN")
 	if err != nil {
 		log.Printf("translation failed: %v", err)
 		// fallback to original OCR text
-		translated = ocrText
+		translated = "Test"
 	}
 	log.Printf("Translated text: %s", translated)
 
 	// 4) Replace text on image (placeholder)
-	outImage := replaceTextPlaceholder(image, translated, boxes)
+	outImage := replaceTextPlaceholder(image, translated, []Box{})
 	log.Printf("Replaced image size: %d", len(outImage))
 
 	// Done: in real flow you'd return or save outImage
@@ -188,12 +191,6 @@ type Box struct {
 	Y int
 	W int
 	H int
-}
-
-// ocrPlaceholder simulates OCR and returns detected text and bounding boxes
-func ocrPlaceholder(image []byte, pages string) (string, []Box) {
-	log.Printf("Simulating OCR for pages=%s, imageSize=%d", pages, len(image))
-	return "これは試験的な文字列です。", []Box{{X: 10, Y: 20, W: 100, H: 20}}
 }
 
 // replaceTextPlaceholder simulates drawing translated text onto the image and returns new bytes
