@@ -1,7 +1,6 @@
 [
   {
     "filename": "0001_speech_bubble_00.jpg",
-    "prov_filename": "0001_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0001_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -23,7 +22,6 @@
   },
   {
     "filename": "0001_speech_bubble_01.jpg",
-    "prov_filename": "0001_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0001_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -45,7 +43,6 @@
   },
   {
     "filename": "0001_speech_bubble_02.jpg",
-    "prov_filename": "0001_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0001_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -67,7 +64,6 @@
   },
   {
     "filename": "0001_square_03.jpg",
-    "prov_filename": "0001_square_03_prov.jpg",
     "mask_filename_png": "0001_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -89,7 +85,6 @@
   },
   {
     "filename": "0001_square_04.jpg",
-    "prov_filename": "0001_square_04_prov.jpg",
     "mask_filename_png": "0001_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -111,7 +106,6 @@
   },
   {
     "filename": "0002_speech_bubble_00.jpg",
-    "prov_filename": "0002_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0002_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -133,7 +127,6 @@
   },
   {
     "filename": "0002_speech_bubble_01.jpg",
-    "prov_filename": "0002_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0002_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -155,7 +148,6 @@
   },
   {
     "filename": "0002_speech_bubble_02.jpg",
-    "prov_filename": "0002_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0002_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -177,7 +169,6 @@
   },
   {
     "filename": "0002_square_03.jpg",
-    "prov_filename": "0002_square_03_prov.jpg",
     "mask_filename_png": "0002_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -199,7 +190,6 @@
   },
   {
     "filename": "0002_speech_bubble_04.jpg",
-    "prov_filename": "0002_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0002_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -221,7 +211,6 @@
   },
   {
     "filename": "0003_speech_bubble_00.jpg",
-    "prov_filename": "0003_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0003_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -243,7 +232,6 @@
   },
   {
     "filename": "0003_speech_bubble_01.jpg",
-    "prov_filename": "0003_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0003_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -265,7 +253,6 @@
   },
   {
     "filename": "0004_speech_bubble_00.jpg",
-    "prov_filename": "0004_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -287,7 +274,6 @@
   },
   {
     "filename": "0004_speech_bubble_01.jpg",
-    "prov_filename": "0004_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -309,7 +295,6 @@
   },
   {
     "filename": "0004_speech_bubble_02.jpg",
-    "prov_filename": "0004_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -331,7 +316,6 @@
   },
   {
     "filename": "0004_speech_bubble_03.jpg",
-    "prov_filename": "0004_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -353,7 +337,6 @@
   },
   {
     "filename": "0004_speech_bubble_04.jpg",
-    "prov_filename": "0004_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -375,7 +358,6 @@
   },
   {
     "filename": "0004_speech_bubble_05.jpg",
-    "prov_filename": "0004_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -397,7 +379,6 @@
   },
   {
     "filename": "0004_speech_bubble_06.jpg",
-    "prov_filename": "0004_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0004_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -419,7 +400,6 @@
   },
   {
     "filename": "0005_speech_bubble_00.jpg",
-    "prov_filename": "0005_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0005_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -441,7 +421,6 @@
   },
   {
     "filename": "0005_speech_bubble_01.jpg",
-    "prov_filename": "0005_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0005_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -463,7 +442,6 @@
   },
   {
     "filename": "0005_speech_bubble_02.jpg",
-    "prov_filename": "0005_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0005_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -485,7 +463,6 @@
   },
   {
     "filename": "0005_speech_bubble_03.jpg",
-    "prov_filename": "0005_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0005_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -507,7 +484,6 @@
   },
   {
     "filename": "0005_speech_bubble_04.jpg",
-    "prov_filename": "0005_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0005_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -529,7 +505,6 @@
   },
   {
     "filename": "0008_speech_bubble_00.jpg",
-    "prov_filename": "0008_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0008_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -551,7 +526,6 @@
   },
   {
     "filename": "0008_speech_bubble_01.jpg",
-    "prov_filename": "0008_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0008_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -573,7 +547,6 @@
   },
   {
     "filename": "0009_speech_bubble_00.jpg",
-    "prov_filename": "0009_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -595,7 +568,6 @@
   },
   {
     "filename": "0009_speech_bubble_01.jpg",
-    "prov_filename": "0009_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -617,7 +589,6 @@
   },
   {
     "filename": "0009_speech_bubble_02.jpg",
-    "prov_filename": "0009_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -639,7 +610,6 @@
   },
   {
     "filename": "0009_speech_bubble_03.jpg",
-    "prov_filename": "0009_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -661,7 +631,6 @@
   },
   {
     "filename": "0009_speech_bubble_04.jpg",
-    "prov_filename": "0009_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -683,7 +652,6 @@
   },
   {
     "filename": "0009_speech_bubble_05.jpg",
-    "prov_filename": "0009_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -705,7 +673,6 @@
   },
   {
     "filename": "0009_speech_bubble_06.jpg",
-    "prov_filename": "0009_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0009_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -727,7 +694,6 @@
   },
   {
     "filename": "0010_speech_bubble_00.jpg",
-    "prov_filename": "0010_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0010_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -749,7 +715,6 @@
   },
   {
     "filename": "0010_speech_bubble_01.jpg",
-    "prov_filename": "0010_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0010_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -771,7 +736,6 @@
   },
   {
     "filename": "0010_speech_bubble_02.jpg",
-    "prov_filename": "0010_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0010_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -793,7 +757,6 @@
   },
   {
     "filename": "0010_speech_bubble_03.jpg",
-    "prov_filename": "0010_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0010_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -815,7 +778,6 @@
   },
   {
     "filename": "0011_speech_bubble_00.jpg",
-    "prov_filename": "0011_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0011_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -837,7 +799,6 @@
   },
   {
     "filename": "0011_speech_bubble_01.jpg",
-    "prov_filename": "0011_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0011_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -859,7 +820,6 @@
   },
   {
     "filename": "0011_speech_bubble_02.jpg",
-    "prov_filename": "0011_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0011_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -881,7 +841,6 @@
   },
   {
     "filename": "0011_speech_bubble_03.jpg",
-    "prov_filename": "0011_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0011_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -903,7 +862,6 @@
   },
   {
     "filename": "0012_speech_bubble_00.jpg",
-    "prov_filename": "0012_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -925,7 +883,6 @@
   },
   {
     "filename": "0012_speech_bubble_01.jpg",
-    "prov_filename": "0012_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -947,7 +904,6 @@
   },
   {
     "filename": "0012_speech_bubble_02.jpg",
-    "prov_filename": "0012_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -969,7 +925,6 @@
   },
   {
     "filename": "0012_speech_bubble_03.jpg",
-    "prov_filename": "0012_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -991,7 +946,6 @@
   },
   {
     "filename": "0012_speech_bubble_04.jpg",
-    "prov_filename": "0012_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1013,7 +967,6 @@
   },
   {
     "filename": "0012_speech_bubble_05.jpg",
-    "prov_filename": "0012_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1035,7 +988,6 @@
   },
   {
     "filename": "0012_speech_bubble_06.jpg",
-    "prov_filename": "0012_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0012_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1057,7 +1009,6 @@
   },
   {
     "filename": "0013_speech_bubble_00.jpg",
-    "prov_filename": "0013_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1079,7 +1030,6 @@
   },
   {
     "filename": "0013_speech_bubble_01.jpg",
-    "prov_filename": "0013_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1101,7 +1051,6 @@
   },
   {
     "filename": "0013_speech_bubble_02.jpg",
-    "prov_filename": "0013_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1123,7 +1072,6 @@
   },
   {
     "filename": "0013_speech_bubble_03.jpg",
-    "prov_filename": "0013_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1145,7 +1093,6 @@
   },
   {
     "filename": "0013_speech_bubble_04.jpg",
-    "prov_filename": "0013_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1167,7 +1114,6 @@
   },
   {
     "filename": "0013_speech_bubble_05.jpg",
-    "prov_filename": "0013_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0013_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1189,7 +1135,6 @@
   },
   {
     "filename": "0014_speech_bubble_00.jpg",
-    "prov_filename": "0014_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0014_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1211,7 +1156,6 @@
   },
   {
     "filename": "0014_speech_bubble_01.jpg",
-    "prov_filename": "0014_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0014_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1233,7 +1177,6 @@
   },
   {
     "filename": "0014_speech_bubble_02.jpg",
-    "prov_filename": "0014_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0014_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1255,7 +1198,6 @@
   },
   {
     "filename": "0014_speech_bubble_03.jpg",
-    "prov_filename": "0014_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0014_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1277,7 +1219,6 @@
   },
   {
     "filename": "0014_speech_bubble_04.jpg",
-    "prov_filename": "0014_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0014_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1299,7 +1240,6 @@
   },
   {
     "filename": "0015_speech_bubble_00.jpg",
-    "prov_filename": "0015_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0015_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1321,7 +1261,6 @@
   },
   {
     "filename": "0015_speech_bubble_01.jpg",
-    "prov_filename": "0015_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0015_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1343,7 +1282,6 @@
   },
   {
     "filename": "0015_speech_bubble_02.jpg",
-    "prov_filename": "0015_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0015_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1365,7 +1303,6 @@
   },
   {
     "filename": "0015_speech_bubble_03.jpg",
-    "prov_filename": "0015_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0015_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1387,7 +1324,6 @@
   },
   {
     "filename": "0016_speech_bubble_27.jpg",
-    "prov_filename": "0016_speech_bubble_27_prov.jpg",
     "mask_filename_png": "0016_speech_bubble_27_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1409,7 +1345,6 @@
   },
   {
     "filename": "0017_speech_bubble_105.jpg",
-    "prov_filename": "0017_speech_bubble_105_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_105_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1431,7 +1366,6 @@
   },
   {
     "filename": "0017_speech_bubble_119.jpg",
-    "prov_filename": "0017_speech_bubble_119_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_119_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1453,7 +1387,6 @@
   },
   {
     "filename": "0017_speech_bubble_147.jpg",
-    "prov_filename": "0017_speech_bubble_147_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_147_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1475,7 +1408,6 @@
   },
   {
     "filename": "0017_speech_bubble_150.jpg",
-    "prov_filename": "0017_speech_bubble_150_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_150_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1497,7 +1429,6 @@
   },
   {
     "filename": "0017_speech_bubble_176.jpg",
-    "prov_filename": "0017_speech_bubble_176_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_176_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1519,7 +1450,6 @@
   },
   {
     "filename": "0017_speech_bubble_205.jpg",
-    "prov_filename": "0017_speech_bubble_205_prov.jpg",
     "mask_filename_png": "0017_speech_bubble_205_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1541,7 +1471,6 @@
   },
   {
     "filename": "0018_speech_bubble_00.jpg",
-    "prov_filename": "0018_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1563,7 +1492,6 @@
   },
   {
     "filename": "0018_speech_bubble_01.jpg",
-    "prov_filename": "0018_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1585,7 +1513,6 @@
   },
   {
     "filename": "0018_speech_bubble_02.jpg",
-    "prov_filename": "0018_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1607,7 +1534,6 @@
   },
   {
     "filename": "0018_speech_bubble_03.jpg",
-    "prov_filename": "0018_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1629,7 +1555,6 @@
   },
   {
     "filename": "0018_speech_bubble_04.jpg",
-    "prov_filename": "0018_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1651,7 +1576,6 @@
   },
   {
     "filename": "0018_speech_bubble_05.jpg",
-    "prov_filename": "0018_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0018_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1673,7 +1597,6 @@
   },
   {
     "filename": "0020_speech_bubble_00.jpg",
-    "prov_filename": "0020_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0020_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1695,7 +1618,6 @@
   },
   {
     "filename": "0020_speech_bubble_01.jpg",
-    "prov_filename": "0020_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0020_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1717,7 +1639,6 @@
   },
   {
     "filename": "0021_speech_bubble_00.jpg",
-    "prov_filename": "0021_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0021_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1739,7 +1660,6 @@
   },
   {
     "filename": "0021_speech_bubble_01.jpg",
-    "prov_filename": "0021_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0021_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1761,7 +1681,6 @@
   },
   {
     "filename": "0022_speech_bubble_00.jpg",
-    "prov_filename": "0022_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1783,7 +1702,6 @@
   },
   {
     "filename": "0022_speech_bubble_01.jpg",
-    "prov_filename": "0022_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1805,7 +1723,6 @@
   },
   {
     "filename": "0022_speech_bubble_02.jpg",
-    "prov_filename": "0022_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1827,7 +1744,6 @@
   },
   {
     "filename": "0022_speech_bubble_03.jpg",
-    "prov_filename": "0022_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1849,7 +1765,6 @@
   },
   {
     "filename": "0022_speech_bubble_04.jpg",
-    "prov_filename": "0022_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1871,7 +1786,6 @@
   },
   {
     "filename": "0022_speech_bubble_05.jpg",
-    "prov_filename": "0022_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0022_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1893,7 +1807,6 @@
   },
   {
     "filename": "0023_speech_bubble_00.jpg",
-    "prov_filename": "0023_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1915,7 +1828,6 @@
   },
   {
     "filename": "0023_speech_bubble_01.jpg",
-    "prov_filename": "0023_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1937,7 +1849,6 @@
   },
   {
     "filename": "0023_speech_bubble_02.jpg",
-    "prov_filename": "0023_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1959,7 +1870,6 @@
   },
   {
     "filename": "0023_speech_bubble_03.jpg",
-    "prov_filename": "0023_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -1981,7 +1891,6 @@
   },
   {
     "filename": "0023_speech_bubble_04.jpg",
-    "prov_filename": "0023_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2003,7 +1912,6 @@
   },
   {
     "filename": "0023_speech_bubble_05.jpg",
-    "prov_filename": "0023_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2025,7 +1933,6 @@
   },
   {
     "filename": "0023_speech_bubble_06.jpg",
-    "prov_filename": "0023_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0023_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2047,7 +1954,6 @@
   },
   {
     "filename": "0024_speech_bubble_00.jpg",
-    "prov_filename": "0024_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2069,7 +1975,6 @@
   },
   {
     "filename": "0024_speech_bubble_01.jpg",
-    "prov_filename": "0024_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2091,7 +1996,6 @@
   },
   {
     "filename": "0024_speech_bubble_02.jpg",
-    "prov_filename": "0024_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2113,7 +2017,6 @@
   },
   {
     "filename": "0024_speech_bubble_03.jpg",
-    "prov_filename": "0024_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2135,7 +2038,6 @@
   },
   {
     "filename": "0024_speech_bubble_04.jpg",
-    "prov_filename": "0024_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2157,7 +2059,6 @@
   },
   {
     "filename": "0024_speech_bubble_05.jpg",
-    "prov_filename": "0024_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0024_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2179,7 +2080,6 @@
   },
   {
     "filename": "0027_square_00.jpg",
-    "prov_filename": "0027_square_00_prov.jpg",
     "mask_filename_png": "0027_square_00_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2201,7 +2101,6 @@
   },
   {
     "filename": "0027_square_01.jpg",
-    "prov_filename": "0027_square_01_prov.jpg",
     "mask_filename_png": "0027_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2223,7 +2122,6 @@
   },
   {
     "filename": "0027_speech_bubble_02.jpg",
-    "prov_filename": "0027_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0027_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2245,7 +2143,6 @@
   },
   {
     "filename": "0027_speech_bubble_03.jpg",
-    "prov_filename": "0027_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0027_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2267,7 +2164,6 @@
   },
   {
     "filename": "0027_square_04.jpg",
-    "prov_filename": "0027_square_04_prov.jpg",
     "mask_filename_png": "0027_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2289,7 +2185,6 @@
   },
   {
     "filename": "0027_square_05.jpg",
-    "prov_filename": "0027_square_05_prov.jpg",
     "mask_filename_png": "0027_square_05_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2311,7 +2206,6 @@
   },
   {
     "filename": "0028_speech_bubble_00.jpg",
-    "prov_filename": "0028_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0028_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2333,7 +2227,6 @@
   },
   {
     "filename": "0028_square_01.jpg",
-    "prov_filename": "0028_square_01_prov.jpg",
     "mask_filename_png": "0028_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2355,7 +2248,6 @@
   },
   {
     "filename": "0028_square_02.jpg",
-    "prov_filename": "0028_square_02_prov.jpg",
     "mask_filename_png": "0028_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2377,7 +2269,6 @@
   },
   {
     "filename": "0028_square_03.jpg",
-    "prov_filename": "0028_square_03_prov.jpg",
     "mask_filename_png": "0028_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2399,7 +2290,6 @@
   },
   {
     "filename": "0028_square_04.jpg",
-    "prov_filename": "0028_square_04_prov.jpg",
     "mask_filename_png": "0028_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2421,7 +2311,6 @@
   },
   {
     "filename": "0028_square_05.jpg",
-    "prov_filename": "0028_square_05_prov.jpg",
     "mask_filename_png": "0028_square_05_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2443,7 +2332,6 @@
   },
   {
     "filename": "0028_square_06.jpg",
-    "prov_filename": "0028_square_06_prov.jpg",
     "mask_filename_png": "0028_square_06_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2465,7 +2353,6 @@
   },
   {
     "filename": "0028_square_07.jpg",
-    "prov_filename": "0028_square_07_prov.jpg",
     "mask_filename_png": "0028_square_07_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2487,7 +2374,6 @@
   },
   {
     "filename": "0029_square_00.jpg",
-    "prov_filename": "0029_square_00_prov.jpg",
     "mask_filename_png": "0029_square_00_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2509,7 +2395,6 @@
   },
   {
     "filename": "0029_square_01.jpg",
-    "prov_filename": "0029_square_01_prov.jpg",
     "mask_filename_png": "0029_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2531,7 +2416,6 @@
   },
   {
     "filename": "0029_square_02.jpg",
-    "prov_filename": "0029_square_02_prov.jpg",
     "mask_filename_png": "0029_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2553,7 +2437,6 @@
   },
   {
     "filename": "0029_square_03.jpg",
-    "prov_filename": "0029_square_03_prov.jpg",
     "mask_filename_png": "0029_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2575,7 +2458,6 @@
   },
   {
     "filename": "0029_square_04.jpg",
-    "prov_filename": "0029_square_04_prov.jpg",
     "mask_filename_png": "0029_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2597,7 +2479,6 @@
   },
   {
     "filename": "0030_square_00.jpg",
-    "prov_filename": "0030_square_00_prov.jpg",
     "mask_filename_png": "0030_square_00_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2619,7 +2500,6 @@
   },
   {
     "filename": "0030_square_01.jpg",
-    "prov_filename": "0030_square_01_prov.jpg",
     "mask_filename_png": "0030_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2641,7 +2521,6 @@
   },
   {
     "filename": "0030_square_02.jpg",
-    "prov_filename": "0030_square_02_prov.jpg",
     "mask_filename_png": "0030_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2663,7 +2542,6 @@
   },
   {
     "filename": "0030_square_03.jpg",
-    "prov_filename": "0030_square_03_prov.jpg",
     "mask_filename_png": "0030_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2685,7 +2563,6 @@
   },
   {
     "filename": "0030_speech_bubble_04.jpg",
-    "prov_filename": "0030_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0030_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2707,7 +2584,6 @@
   },
   {
     "filename": "0030_speech_bubble_05.jpg",
-    "prov_filename": "0030_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0030_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -2729,7 +2605,6 @@
   },
   {
     "filename": "0031_square_00.jpg",
-    "prov_filename": "0031_square_00_prov.jpg",
     "mask_filename_png": "0031_square_00_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2751,7 +2626,6 @@
   },
   {
     "filename": "0031_square_01.jpg",
-    "prov_filename": "0031_square_01_prov.jpg",
     "mask_filename_png": "0031_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2773,7 +2647,6 @@
   },
   {
     "filename": "0031_square_02.jpg",
-    "prov_filename": "0031_square_02_prov.jpg",
     "mask_filename_png": "0031_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2795,7 +2668,6 @@
   },
   {
     "filename": "0031_square_03.jpg",
-    "prov_filename": "0031_square_03_prov.jpg",
     "mask_filename_png": "0031_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2817,7 +2689,6 @@
   },
   {
     "filename": "0031_square_04.jpg",
-    "prov_filename": "0031_square_04_prov.jpg",
     "mask_filename_png": "0031_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2839,7 +2710,6 @@
   },
   {
     "filename": "0031_square_05.jpg",
-    "prov_filename": "0031_square_05_prov.jpg",
     "mask_filename_png": "0031_square_05_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2861,7 +2731,6 @@
   },
   {
     "filename": "0032_square_00.jpg",
-    "prov_filename": "0032_square_00_prov.jpg",
     "mask_filename_png": "0032_square_00_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2883,7 +2752,6 @@
   },
   {
     "filename": "0032_square_01.jpg",
-    "prov_filename": "0032_square_01_prov.jpg",
     "mask_filename_png": "0032_square_01_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2905,7 +2773,6 @@
   },
   {
     "filename": "0032_square_02.jpg",
-    "prov_filename": "0032_square_02_prov.jpg",
     "mask_filename_png": "0032_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2927,7 +2794,6 @@
   },
   {
     "filename": "0032_square_03.jpg",
-    "prov_filename": "0032_square_03_prov.jpg",
     "mask_filename_png": "0032_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2949,7 +2815,6 @@
   },
   {
     "filename": "0032_square_04.jpg",
-    "prov_filename": "0032_square_04_prov.jpg",
     "mask_filename_png": "0032_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2971,7 +2836,6 @@
   },
   {
     "filename": "0032_square_05.jpg",
-    "prov_filename": "0032_square_05_prov.jpg",
     "mask_filename_png": "0032_square_05_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -2993,7 +2857,6 @@
   },
   {
     "filename": "0032_square_06.jpg",
-    "prov_filename": "0032_square_06_prov.jpg",
     "mask_filename_png": "0032_square_06_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3015,7 +2878,6 @@
   },
   {
     "filename": "0033_speech_bubble_00.jpg",
-    "prov_filename": "0033_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0033_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3037,7 +2899,6 @@
   },
   {
     "filename": "0033_speech_bubble_01.jpg",
-    "prov_filename": "0033_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0033_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3059,7 +2920,6 @@
   },
   {
     "filename": "0033_square_02.jpg",
-    "prov_filename": "0033_square_02_prov.jpg",
     "mask_filename_png": "0033_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3081,7 +2941,6 @@
   },
   {
     "filename": "0033_square_03.jpg",
-    "prov_filename": "0033_square_03_prov.jpg",
     "mask_filename_png": "0033_square_03_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3103,7 +2962,6 @@
   },
   {
     "filename": "0033_square_04.jpg",
-    "prov_filename": "0033_square_04_prov.jpg",
     "mask_filename_png": "0033_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3125,7 +2983,6 @@
   },
   {
     "filename": "0033_square_05.jpg",
-    "prov_filename": "0033_square_05_prov.jpg",
     "mask_filename_png": "0033_square_05_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3147,7 +3004,6 @@
   },
   {
     "filename": "0034_speech_bubble_00.jpg",
-    "prov_filename": "0034_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0034_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3169,7 +3025,6 @@
   },
   {
     "filename": "0034_speech_bubble_01.jpg",
-    "prov_filename": "0034_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0034_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3191,7 +3046,6 @@
   },
   {
     "filename": "0034_square_02.jpg",
-    "prov_filename": "0034_square_02_prov.jpg",
     "mask_filename_png": "0034_square_02_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3213,7 +3067,6 @@
   },
   {
     "filename": "0034_speech_bubble_03.jpg",
-    "prov_filename": "0034_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0034_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3235,7 +3088,6 @@
   },
   {
     "filename": "0034_square_04.jpg",
-    "prov_filename": "0034_square_04_prov.jpg",
     "mask_filename_png": "0034_square_04_mask.png",
     "object_type": "square",
     "color": "cyan",
@@ -3257,7 +3109,6 @@
   },
   {
     "filename": "0034_speech_bubble_05.jpg",
-    "prov_filename": "0034_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0034_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3279,7 +3130,6 @@
   },
   {
     "filename": "0035_speech_bubble_00.jpg",
-    "prov_filename": "0035_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3301,7 +3151,6 @@
   },
   {
     "filename": "0035_speech_bubble_01.jpg",
-    "prov_filename": "0035_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3323,7 +3172,6 @@
   },
   {
     "filename": "0035_speech_bubble_02.jpg",
-    "prov_filename": "0035_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3345,7 +3193,6 @@
   },
   {
     "filename": "0035_speech_bubble_03.jpg",
-    "prov_filename": "0035_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3367,7 +3214,6 @@
   },
   {
     "filename": "0035_speech_bubble_04.jpg",
-    "prov_filename": "0035_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3389,7 +3235,6 @@
   },
   {
     "filename": "0035_speech_bubble_05.jpg",
-    "prov_filename": "0035_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3411,7 +3256,6 @@
   },
   {
     "filename": "0035_speech_bubble_06.jpg",
-    "prov_filename": "0035_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0035_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3433,7 +3277,6 @@
   },
   {
     "filename": "0036_speech_bubble_00.jpg",
-    "prov_filename": "0036_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3455,7 +3298,6 @@
   },
   {
     "filename": "0036_speech_bubble_01.jpg",
-    "prov_filename": "0036_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3477,7 +3319,6 @@
   },
   {
     "filename": "0036_speech_bubble_02.jpg",
-    "prov_filename": "0036_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3499,7 +3340,6 @@
   },
   {
     "filename": "0036_speech_bubble_03.jpg",
-    "prov_filename": "0036_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3521,7 +3361,6 @@
   },
   {
     "filename": "0036_speech_bubble_04.jpg",
-    "prov_filename": "0036_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3543,7 +3382,6 @@
   },
   {
     "filename": "0036_speech_bubble_05.jpg",
-    "prov_filename": "0036_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3565,7 +3403,6 @@
   },
   {
     "filename": "0036_speech_bubble_06.jpg",
-    "prov_filename": "0036_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0036_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3587,7 +3424,6 @@
   },
   {
     "filename": "0037_speech_bubble_00.jpg",
-    "prov_filename": "0037_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0037_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3609,7 +3445,6 @@
   },
   {
     "filename": "0037_speech_bubble_01.jpg",
-    "prov_filename": "0037_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0037_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3631,7 +3466,6 @@
   },
   {
     "filename": "0038_speech_bubble_00.jpg",
-    "prov_filename": "0038_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0038_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3653,7 +3487,6 @@
   },
   {
     "filename": "0039_speech_bubble_00.jpg",
-    "prov_filename": "0039_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0039_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3675,7 +3508,6 @@
   },
   {
     "filename": "0039_speech_bubble_01.jpg",
-    "prov_filename": "0039_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0039_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3697,7 +3529,6 @@
   },
   {
     "filename": "0040_speech_bubble_00.jpg",
-    "prov_filename": "0040_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3719,7 +3550,6 @@
   },
   {
     "filename": "0040_speech_bubble_01.jpg",
-    "prov_filename": "0040_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3741,7 +3571,6 @@
   },
   {
     "filename": "0040_speech_bubble_02.jpg",
-    "prov_filename": "0040_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3763,7 +3592,6 @@
   },
   {
     "filename": "0040_speech_bubble_03.jpg",
-    "prov_filename": "0040_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3785,7 +3613,6 @@
   },
   {
     "filename": "0040_speech_bubble_04.jpg",
-    "prov_filename": "0040_speech_bubble_04_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_04_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3807,7 +3634,6 @@
   },
   {
     "filename": "0040_speech_bubble_05.jpg",
-    "prov_filename": "0040_speech_bubble_05_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_05_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3829,7 +3655,6 @@
   },
   {
     "filename": "0040_speech_bubble_06.jpg",
-    "prov_filename": "0040_speech_bubble_06_prov.jpg",
     "mask_filename_png": "0040_speech_bubble_06_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3851,7 +3676,6 @@
   },
   {
     "filename": "0041_speech_bubble_00.jpg",
-    "prov_filename": "0041_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0041_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3873,7 +3697,6 @@
   },
   {
     "filename": "0041_speech_bubble_01.jpg",
-    "prov_filename": "0041_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0041_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3895,7 +3718,6 @@
   },
   {
     "filename": "0041_speech_bubble_02.jpg",
-    "prov_filename": "0041_speech_bubble_02_prov.jpg",
     "mask_filename_png": "0041_speech_bubble_02_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3917,7 +3739,6 @@
   },
   {
     "filename": "0041_speech_bubble_03.jpg",
-    "prov_filename": "0041_speech_bubble_03_prov.jpg",
     "mask_filename_png": "0041_speech_bubble_03_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3939,7 +3760,6 @@
   },
   {
     "filename": "0042_speech_bubble_00.jpg",
-    "prov_filename": "0042_speech_bubble_00_prov.jpg",
     "mask_filename_png": "0042_speech_bubble_00_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",
@@ -3961,7 +3781,6 @@
   },
   {
     "filename": "0042_speech_bubble_01.jpg",
-    "prov_filename": "0042_speech_bubble_01_prov.jpg",
     "mask_filename_png": "0042_speech_bubble_01_mask.png",
     "object_type": "speech_bubble",
     "color": "magenta",

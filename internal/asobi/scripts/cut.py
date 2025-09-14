@@ -149,29 +149,9 @@ def detect_colored_regions(image_path, output_dir):
         # tight crop を保存（黒背景）
         cv2.imwrite(output_path, tight_masked)
 
-        # provenance: どの画像のどの座標から切り出したかをわかるように注記画像を作成
-        prov_filename = f"{base_name}_{object_type}_{i:02d}_prov.jpg"
-        prov_path = os.path.join(output_dir, prov_filename)
-
-        # 注記用の画像を作成（元画像のコピーにテキストを重ねる）
-        prov_img = tight_masked.copy()
-        prov_text = f"{base_name} @{tight_x_start},{tight_y_start} {tight_w}x{tight_h}"
-        font = cv2.FONT_HERSHEY_SIMPLEX
-        font_scale = 0.5
-        thickness = 1
-        # テキストサイズを取得して背景矩形を描く
-        (text_w, text_h), _ = cv2.getTextSize(prov_text, font, font_scale, thickness)
-        padding = 4
-        rect_pt1 = (5, 5)
-        rect_pt2 = (5 + text_w + padding*2, 5 + text_h + padding*2)
-        # 白背景（視認性確保）
-        cv2.rectangle(prov_img, rect_pt1, rect_pt2, (255, 255, 255), -1)
-        # テキストを描画（黒）
-        text_org = (5 + padding, 5 + text_h + 0)
-        cv2.putText(prov_img, prov_text, text_org, font, font_scale, (0, 0, 0), thickness, cv2.LINE_AA)
-
-        # 注記画像を保存
-        cv2.imwrite(prov_path, prov_img)
+        # provenance（注記画像）の出力を無効化
+        # ユーザーの要求により *_prov.jpg は生成しない
+        #（以前はここで prov_filename を作成し、注記画像を生成して保存していました）
 
         # マスクを透過PNGとして保存（透明背景 + 白いマスク、アルファはマスク）
         alpha_mask = cv2.GaussianBlur(tight_mask, (5, 5), 0)
@@ -186,7 +166,6 @@ def detect_colored_regions(image_path, output_dir):
         # 結果情報を記録（JPGマスクは廃止、PNGマスクのみ）
         result_info = {
             "filename": output_filename,
-            "prov_filename": prov_filename,
             "mask_filename_png": mask_filename_png,
             "object_type": object_type,
             "color": color_code,
