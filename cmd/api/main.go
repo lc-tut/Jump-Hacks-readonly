@@ -118,18 +118,17 @@ func setupRouter(cfg *config.Config, db database.DB) *gin.Engine {
 			// Try to read JSON body: {"pages": "...", "key": "..."}
 			var req struct {
 				Pages string `json:"pages"`
-				Key   string `json:"key"`
+				Title   string `json:"title"`
 			}
 			if err := c.ShouldBindJSON(&req); err != nil {
 				// Fallback to query parameters if no JSON provided
 				req.Pages = c.Query("pages")
-				req.Key = c.Query("key")
+				req.Title = c.Query("title")
 			}
 			// If key not provided, derive from pages (convention: uploads/page-<pages>.jpg)
-			key := req.Key
-			if key == "" && req.Pages != "" {
-				key = "uploads/page-" + req.Pages + ".jpg"
-			}
+			
+			key := "uploads/"+ req.Title +"/page-" + req.Pages + ".jpg"
+			
 			// Call orchestrator with router's cfg
 			ocrTranslateReplace(cfg, key, req.Pages)
 			c.JSON(200, gin.H{"message": "Test executed", "pages": req.Pages, "key": key})
