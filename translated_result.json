@@ -1,178 +1,867 @@
 [
   {
     "id": 1,
-    "text": "What a lively village...",
-    "bounds": [
-      [
-        134,
-        145
-      ],
-      [
-        191,
-        145
-      ],
-      [
-        191,
-        278
-      ],
-      [
-        134,
-        278
-      ]
-    ]
+    "text": "Interesting book.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_00.jpg"
   },
   {
     "id": 2,
-    "text": "frog",
-    "bounds": [
-      [
-        545,
-        263
-      ],
-      [
-        562,
-        263
-      ],
-      [
-        562,
-        375
-      ],
-      [
-        545,
-        375
-      ]
-    ]
+    "text": "Delicious meat!",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_01.jpg"
   },
   {
     "id": 3,
-    "text": "I'm glad I moved here.",
-    "bounds": [
-      [
-        683,
-        512
-      ],
-      [
-        735,
-        512
-      ],
-      [
-        736,
-        650
-      ],
-      [
-        684,
-        650
-      ]
-    ]
+    "text": "Nyahaha! Fresh fish!",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_speech_bubble_02.jpg"
   },
   {
     "id": 4,
-    "text": ".......",
-    "bounds": [
-      [
-        658,
-        512
-      ],
-      [
-        672,
-        512
-      ],
-      [
-        671,
-        557
-      ],
-      [
-        657,
-        557
-      ]
-    ]
+    "text": "Cute animals are opening various stores.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_03.jpg"
   },
   {
     "id": 5,
-    "text": "It's going to be fun from now on.",
-    "bounds": [
-      [
-        562,
-        571
-      ],
-      [
-        611,
-        571
-      ],
-      [
-        610,
-        686
-      ],
-      [
-        561,
-        686
-      ]
-    ]
+    "text": "This is the Animal Village.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0001_square_04.jpg"
   },
   {
     "id": 6,
-    "text": "Good day!",
-    "bounds": [
-      [
-        658,
-        778
-      ],
-      [
-        725,
-        778
-      ],
-      [
-        725,
-        871
-      ],
-      [
-        658,
-        871
-      ]
-    ]
+    "text": "✓ ....",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_00.jpg"
   },
   {
     "id": 7,
-    "text": "So ...",
-    "bounds": [
-      [
-        536,
-        571
-      ],
-      [
-        549,
-        571
-      ],
-      [
-        549,
-        633
-      ],
-      [
-        536,
-        633
-      ]
-    ]
+    "text": "Good day!",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_01.jpg"
   },
   {
     "id": 8,
-    "text": "S ...",
-    "bounds": [
-      [
-        124,
-        780
-      ],
-      [
-        149,
-        780
-      ],
-      [
-        148,
-        838
-      ],
-      [
-        123,
-        838
-      ]
-    ]
+    "text": "I'm glad we moved here because I think we're going to have a lot of fun.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_02.jpg"
+  },
+  {
+    "id": 9,
+    "text": "It's a village, isn't it?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_speech_bubble_04.jpg"
+  },
+  {
+    "id": 10,
+    "text": "frog",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0002_square_03.jpg"
+  },
+  {
+    "id": 11,
+    "text": "We are \"Mr. Scary\" and we sell \"Scary\"!",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+  },
+  {
+    "id": 12,
+    "text": "Hello ... what do you sell here ....",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+  },
+  {
+    "id": 13,
+    "text": "Please, please, we will not charge you anything if you do not agree.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_00.jpg"
+  },
+  {
+    "id": 14,
+    "text": "Eh !",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_01.jpg"
+  },
+  {
+    "id": 15,
+    "text": "Come on in and we'll see.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_02.jpg"
+  },
+  {
+    "id": 16,
+    "text": "Would you like to join us for the first time?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_04.jpg"
+  },
+  {
+    "id": 17,
+    "text": "Um ... yes. Hey ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_05.jpg"
+  },
+  {
+    "id": 18,
+    "text": "Are you selling something scary ...?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0004_speech_bubble_06.jpg"
+  },
+  {
+    "id": 19,
+    "text": "Boxes are water.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_00.jpg"
+  },
+  {
+    "id": 20,
+    "text": "What ...? This box...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_01.jpg"
+  },
+  {
+    "id": 21,
+    "text": "This is",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_02.jpg"
+  },
+  {
+    "id": 22,
+    "text": "Scary\" Ad ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_03.jpg"
+  },
+  {
+    "id": 23,
+    "text": "Well, well, well ... First of all",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+  },
+  {
+    "id": 24,
+    "text": "The Beginning of a Story The Beginning of a Story ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0008_speech_bubble_00.jpg"
+  },
+  {
+    "id": 25,
+    "text": "About \"Scary\" ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0008_speech_bubble_01.jpg"
+  },
+  {
+    "id": 26,
+    "text": "And I look up and I see it.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_00.jpg"
+  },
+  {
+    "id": 27,
+    "text": "I thought, \"Why are there so many birds flying around?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_01.jpg"
+  },
+  {
+    "id": 28,
+    "text": "That day...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_02.jpg"
+  },
+  {
+    "id": 29,
+    "text": "I'm a... I'm in the gardening club in high school.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_03.jpg"
+  },
+  {
+    "id": 30,
+    "text": "Hello. - Um... My name is Endo Endo.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_04.jpg"
+  },
+  {
+    "id": 31,
+    "text": "I'm going to tell you a story about a time when I picked up ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_05.jpg"
+  },
+  {
+    "id": 32,
+    "text": "The ... The metal ball.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0009_speech_bubble_06.jpg"
+  },
+  {
+    "id": 33,
+    "text": "Ravens are very wary creatures, and when they notice any change, they fly around in flocks, on alert.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_00.jpg"
+  },
+  {
+    "id": 34,
+    "text": "He was flying...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_01.jpg"
+  },
+  {
+    "id": 35,
+    "text": "A tremendous number of crows",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_02.jpg"
+  },
+  {
+    "id": 36,
+    "text": "It was a crow that was a crow.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0010_speech_bubble_03.jpg"
+  },
+  {
+    "id": 37,
+    "text": "Causes and effects are reversed.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_00.jpg"
+  },
+  {
+    "id": 38,
+    "text": "Actually, it's not that crows are bad luck. It's just that crows make a lot of noise when bad things happen.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_01.jpg"
+  },
+  {
+    "id": 39,
+    "text": "They say it's a symbol of bad luck.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_02.jpg"
+  },
+  {
+    "id": 40,
+    "text": "Crows are considered to be creepy birds.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0011_speech_bubble_03.jpg"
+  },
+  {
+    "id": 41,
+    "text": "Also :.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_00.jpg"
+  },
+  {
+    "id": 42,
+    "text": "Garbage tastes better than dead meat, so ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_01.jpg"
+  },
+  {
+    "id": 43,
+    "text": "Most city dwellers don't eat.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_02.jpg"
+  },
+  {
+    "id": 44,
+    "text": "The image of crows eating corpses... That's not true either...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_03.jpg"
+  },
+  {
+    "id": 45,
+    "text": "is",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_04.jpg"
+  },
+  {
+    "id": 46,
+    "text": "Dead creatures and...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_05.jpg"
+  },
+  {
+    "id": 47,
+    "text": "For example... . ..the most common reason for making a fuss is...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0012_speech_bubble_06.jpg"
+  },
+  {
+    "id": 48,
+    "text": "It's a job for the horticulture department.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_00.jpg"
+  },
+  {
+    "id": 49,
+    "text": "Actually, what do you do with all the carcasses from schools like that?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_01.jpg"
+  },
+  {
+    "id": 50,
+    "text": "It's a little bit alarming.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_02.jpg"
+  },
+  {
+    "id": 51,
+    "text": "That means that the cause of his death is nearby...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_03.jpg"
+  },
+  {
+    "id": 52,
+    "text": "because",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_04.jpg"
+  },
+  {
+    "id": 53,
+    "text": "A dead body is a scary thing, even for an animal.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0013_speech_bubble_05.jpg"
+  },
+  {
+    "id": 54,
+    "text": "So, if you find a dead creature...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_00.jpg"
+  },
+  {
+    "id": 55,
+    "text": "Behind the warehouse, they secretly built a small grave.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_01.jpg"
+  },
+  {
+    "id": 56,
+    "text": "I'm in the world ... HK ... ... I don't like to take the carcass to the garbage.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_02.jpg"
+  },
+  {
+    "id": 57,
+    "text": "It's burnable trash.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_03.jpg"
+  },
+  {
+    "id": 58,
+    "text": "School rules, dead creatures.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0014_speech_bubble_04.jpg"
+  },
+  {
+    "id": 59,
+    "text": "If so, please contact us at ......",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_00.jpg"
+  },
+  {
+    "id": 60,
+    "text": "So I went looking in the bushes behind the school building ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_01.jpg"
+  },
+  {
+    "id": 61,
+    "text": "Maybe there's something very big dead in there...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_02.jpg"
+  },
+  {
+    "id": 62,
+    "text": "If there were that many crows there that day...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0015_speech_bubble_03.jpg"
+  },
+  {
+    "id": 63,
+    "text": "Here it is.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_00.jpg"
+  },
+  {
+    "id": 64,
+    "text": "And that's when I offered him...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_01.jpg"
+  },
+  {
+    "id": 65,
+    "text": "He died.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_02.jpg"
+  },
+  {
+    "id": 66,
+    "text": "Foaming at the mouth.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_03.jpg"
+  },
+  {
+    "id": 67,
+    "text": "Come closer to me ... come closer to me.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_04.jpg"
+  },
+  {
+    "id": 68,
+    "text": "The creature with the big head...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0018_speech_bubble_05.jpg"
+  },
+  {
+    "id": 69,
+    "text": "I felt very sad.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0020_speech_bubble_00.jpg"
+  },
+  {
+    "id": 70,
+    "text": "I built him a tomb.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0020_speech_bubble_01.jpg"
+  },
+  {
+    "id": 71,
+    "text": "Mr. Endo, you...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0021_speech_bubble_00.jpg"
+  },
+  {
+    "id": 72,
+    "text": "You don't look sad by any stretch of the imagination.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0021_speech_bubble_01.jpg"
+  },
+  {
+    "id": 73,
+    "text": "Not good enough? Well... how about this one?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_00.jpg"
+  },
+  {
+    "id": 74,
+    "text": "I don't know. I don't know. I don't know... What do you mean?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_01.jpg"
+  },
+  {
+    "id": 75,
+    "text": "You can also take it that way ☑x ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_02.jpg"
+  },
+  {
+    "id": 76,
+    "text": "What that ho ... Riddle ?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_03.jpg"
+  },
+  {
+    "id": 77,
+    "text": "It is the metal ball of the time.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_04.jpg"
+  },
+  {
+    "id": 78,
+    "text": "And this is it.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0022_speech_bubble_05.jpg"
+  },
+  {
+    "id": 79,
+    "text": "I'd like to talk about...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_00.jpg"
+  },
+  {
+    "id": 80,
+    "text": "The sheets are sticky with water...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_01.jpg"
+  },
+  {
+    "id": 81,
+    "text": "Is it... the spirit of the drowned woman?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_02.jpg"
+  },
+  {
+    "id": 82,
+    "text": "When I turned around, it was gone.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_03.jpg"
+  },
+  {
+    "id": 83,
+    "text": "Yes, sir. The customer in the cab...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_04.jpg"
+  },
+  {
+    "id": 84,
+    "text": "A ghost story about a cab...? You mean that famous ...?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_05.jpg"
+  },
+  {
+    "id": 85,
+    "text": "Have you ever heard of a ghost story about a cab?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0023_speech_bubble_06.jpg"
+  },
+  {
+    "id": 86,
+    "text": "This water has a story to tell.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_00.jpg"
+  },
+  {
+    "id": 87,
+    "text": "I'm sorry to hear that...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_01.jpg"
+  },
+  {
+    "id": 88,
+    "text": "Water is available at ......",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_02.jpg"
+  },
+  {
+    "id": 89,
+    "text": "And here's what's left after the ghost in question has vanished.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_03.jpg"
+  },
+  {
+    "id": 90,
+    "text": "That's right.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_04.jpg"
+  },
+  {
+    "id": 91,
+    "text": "I don't know who told you this, but it's a famous story...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0024_speech_bubble_05.jpg"
+  },
+  {
+    "id": 92,
+    "text": "No, actually, not really.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_02.jpg"
+  },
+  {
+    "id": 93,
+    "text": "You only study cab ghost stories? You're kind of a fanatic, aren't you?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_speech_bubble_03.jpg"
+  },
+  {
+    "id": 94,
+    "text": "Cab ghost stories are a very major field.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_00.jpg"
+  },
+  {
+    "id": 95,
+    "text": "In fact, in the study of folklore ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_01.jpg"
+  },
+  {
+    "id": 96,
+    "text": "His research theme is \"Taxi Ghost Stories.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_04.jpg"
+  },
+  {
+    "id": 97,
+    "text": "Folklorist Yonekura Yonekura was researching the folklore of ghosts and monsters.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0027_square_05.jpg"
+  },
+  {
+    "id": 98,
+    "text": "6 ... I'll be right back. ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_speech_bubble_00.jpg"
+  },
+  {
+    "id": 99,
+    "text": "In Hawaii, it is said that a volcano goddess rides a volcano to disappear. If you let her ride, your house won't be damaged by the eruption.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_01.jpg"
+  },
+  {
+    "id": 100,
+    "text": "Related books are also available at antit CAMCO",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_02.jpg"
+  },
+  {
+    "id": 101,
+    "text": "The Mystery of the Disappearing Hitchhiker",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_03.jpg"
+  },
+  {
+    "id": 102,
+    "text": "The Bible describes the disappearance of a man from a carriage.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_04.jpg"
+  },
+  {
+    "id": 103,
+    "text": "For example, in the U.S.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_05.jpg"
+  },
+  {
+    "id": 104,
+    "text": "There are stories like that all over the world.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_06.jpg"
+  },
+  {
+    "id": 105,
+    "text": "People who have ridden together in the same vehicle for a long time disappear.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0028_square_07.jpg"
+  },
+  {
+    "id": 106,
+    "text": "Mr. Yonekura, I'm going to go to the damaged cab as soon as possible.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_00.jpg"
+  },
+  {
+    "id": 107,
+    "text": "Once the call comes in...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_01.jpg"
+  },
+  {
+    "id": 108,
+    "text": "If by any chance your cab is haunted, we'll get help from someone who can tell us.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_02.jpg"
+  },
+  {
+    "id": 109,
+    "text": "First, I asked the company for a cab, and...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_03.jpg"
+  },
+  {
+    "id": 110,
+    "text": "Mr. Yonekura, a researcher of ghost stories, took a very original approach.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0029_square_04.jpg"
+  },
+  {
+    "id": 111,
+    "text": "Oh... Please...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_speech_bubble_04.jpg"
+  },
+  {
+    "id": 112,
+    "text": "Hi, I'm Yonekura.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_speech_bubble_05.jpg"
+  },
+  {
+    "id": 113,
+    "text": "When finished, sterilize and dry.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_00.jpg"
+  },
+  {
+    "id": 114,
+    "text": "And while you're at it, give the inside of the car a quick clean as well.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_01.jpg"
+  },
+  {
+    "id": 115,
+    "text": "Powerful suction sucks out the material.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_02.jpg"
+  },
+  {
+    "id": 116,
+    "text": "Yonekura-san sat on a sheet that was soaked with ghosts.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0030_square_03.jpg"
+  },
+  {
+    "id": 117,
+    "text": "We decided to analyze the ingredients.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_00.jpg"
+  },
+  {
+    "id": 118,
+    "text": "Yonekura sucked on the \"liquid left behind by the ghost.\"",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_01.jpg"
+  },
+  {
+    "id": 119,
+    "text": "Label and save",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_02.jpg"
+  },
+  {
+    "id": 120,
+    "text": "The \"liquid\" sucked by the vacuum is ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_03.jpg"
+  },
+  {
+    "id": 121,
+    "text": "Cleaning up after ghosts, so to speak, as part of my research, but...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_04.jpg"
+  },
+  {
+    "id": 122,
+    "text": "Yonekura was called upon by various cab companies because of his ability to provide free rides.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0031_square_05.jpg"
+  },
+  {
+    "id": 123,
+    "text": "(4) Intermittent low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20 or low engine noise below 20",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_00.jpg"
+  },
+  {
+    "id": 124,
+    "text": "Continued exposure to the same rhythmic stimuli can cause hallucinations.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_01.jpg"
+  },
+  {
+    "id": 125,
+    "text": "Blamed the ghost for those mistakes.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_02.jpg"
+  },
+  {
+    "id": 126,
+    "text": "(3) Driver's deceitful mistake e.g. leaving the window open and getting wet inside the car",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_03.jpg"
+  },
+  {
+    "id": 127,
+    "text": "In the first place, it's all a lie.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_04.jpg"
+  },
+  {
+    "id": 128,
+    "text": "(1) Human prank",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_05.jpg"
+  },
+  {
+    "id": 129,
+    "text": "Yonekura had several hypotheses about this phenomenon.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0032_square_06.jpg"
+  },
+  {
+    "id": 130,
+    "text": "Mr. Yonekura... That's the water, though.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_00.jpg"
+  },
+  {
+    "id": 131,
+    "text": "Compositional Contents - Electrolytes - Glucose - Amino acids - Lipids - Slightly ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_speech_bubble_01.jpg"
+  },
+  {
+    "id": 132,
+    "text": "A few days later... \"Water\" component results came back.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_02.jpg"
+  },
+  {
+    "id": 133,
+    "text": "6 Is a ghost",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_03.jpg"
+  },
+  {
+    "id": 134,
+    "text": "People can dream in brief slumbers of a few tenths of a second.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_04.jpg"
+  },
+  {
+    "id": 135,
+    "text": "(5) Micro Sleep state",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0033_square_05.jpg"
+  },
+  {
+    "id": 136,
+    "text": "Late 20s to 30s Asian woman ・・・ Pregnant with twins",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_00.jpg"
+  },
+  {
+    "id": 137,
+    "text": "The owner of this liquid is x ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_01.jpg"
+  },
+  {
+    "id": 138,
+    "text": "I'm sorry to go unannounced, but I also ran a DNA test.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_03.jpg"
+  },
+  {
+    "id": 139,
+    "text": "In conclusion, this is as close to amniotic fluid as you can get.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_speech_bubble_05.jpg"
+  },
+  {
+    "id": 140,
+    "text": "Sakagami SAKAGAMI Research Fellow, University-affiliated Institute of Forensic Medicine",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_square_02.jpg"
+  },
+  {
+    "id": 141,
+    "text": "Amniotic fluid is the fluid that surrounds the fetus during pregnancy ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0034_square_04.jpg"
+  },
+  {
+    "id": 142,
+    "text": "Okay, well... let's just watch the whole thing.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_00.jpg"
+  },
+  {
+    "id": 143,
+    "text": "Uh, I still have some of this liquid, but I'd like a bottle or so.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_01.jpg"
+  },
+  {
+    "id": 144,
+    "text": "No, no, no, no, no, no, no, no, no, no...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_02.jpg"
+  },
+  {
+    "id": 145,
+    "text": "I'd like to check a little more details.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_03.jpg"
+  },
+  {
+    "id": 146,
+    "text": "But if that's the case, then... that's what it means...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_04.jpg"
+  },
+  {
+    "id": 147,
+    "text": "That's a funny thing to say... you.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_05.jpg"
+  },
+  {
+    "id": 148,
+    "text": "This is the DNA of ghosts.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0035_speech_bubble_06.jpg"
+  },
+  {
+    "id": 149,
+    "text": "Ah :.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_00.jpg"
+  },
+  {
+    "id": 150,
+    "text": "I look forward to working with you.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_01.jpg"
+  },
+  {
+    "id": 151,
+    "text": "Hmmm... okay...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_02.jpg"
+  },
+  {
+    "id": 152,
+    "text": "I'll check on that, too.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_03.jpg"
+  },
+  {
+    "id": 153,
+    "text": "It's going down a little bit at a time.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_04.jpg"
+  },
+  {
+    "id": 154,
+    "text": "The water in the water closet, no matter how tightly sealed it is ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_05.jpg"
+  },
+  {
+    "id": 155,
+    "text": "Oh, by the way...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0036_speech_bubble_06.jpg"
+  },
+  {
+    "id": 156,
+    "text": "No way.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0037_speech_bubble_00.jpg"
+  },
+  {
+    "id": 157,
+    "text": "Ghost genes... Are ghosts living things too? Are ghosts alive?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0037_speech_bubble_01.jpg"
+  },
+  {
+    "id": 158,
+    "text": "way",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0038_speech_bubble_00.jpg"
+  },
+  {
+    "id": 159,
+    "text": "It's funny...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0039_speech_bubble_00.jpg"
+  },
+  {
+    "id": 160,
+    "text": "It's gone down. It's decreasing...?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0039_speech_bubble_01.jpg"
+  },
+  {
+    "id": 161,
+    "text": "That's all for today's \"Scary\".",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_00.jpg"
+  },
+  {
+    "id": 162,
+    "text": "Now...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_01.jpg"
+  },
+  {
+    "id": 163,
+    "text": "It was a lot of fun.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_02.jpg"
+  },
+  {
+    "id": 164,
+    "text": "Absolutely not...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_03.jpg"
+  },
+  {
+    "id": 165,
+    "text": "What do you drink? I'll take it.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_04.jpg"
+  },
+  {
+    "id": 166,
+    "text": "Let's have a drink. Let's try it.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_05.jpg"
+  },
+  {
+    "id": 167,
+    "text": "IK ....",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0040_speech_bubble_06.jpg"
+  },
+  {
+    "id": 168,
+    "text": "But I guess it helped pass the time.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_00.jpg"
+  },
+  {
+    "id": 169,
+    "text": "Weird store ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_01.jpg"
+  },
+  {
+    "id": 170,
+    "text": "In a foreign country ?",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_02.jpg"
+  },
+  {
+    "id": 171,
+    "text": "Any amount... . Thank you very much.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0041_speech_bubble_03.jpg"
+  },
+  {
+    "id": 172,
+    "text": "We look forward to seeing you again ...",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0042_speech_bubble_00.jpg"
+  },
+  {
+    "id": 173,
+    "text": "Thank you for coming to our store.",
+    "source": "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output/0042_speech_bubble_01.jpg"
   }
 ]

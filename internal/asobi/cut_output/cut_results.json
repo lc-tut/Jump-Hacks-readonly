@@ -1,0 +1,3984 @@
+[
+  {
+    "filename": "0001_speech_bubble_00.jpg",
+    "prov_filename": "0001_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0001_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 13134,
+    "bbox": [
+      449,
+      777,
+      117,
+      142
+    ],
+    "cropped_bbox": [
+      449,
+      777,
+      117,
+      142
+    ],
+    "colored_pixels": 13296,
+    "source_image": "0001"
+  },
+  {
+    "filename": "0001_speech_bubble_01.jpg",
+    "prov_filename": "0001_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0001_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 14396,
+    "bbox": [
+      582,
+      707,
+      120,
+      147
+    ],
+    "cropped_bbox": [
+      582,
+      707,
+      120,
+      147
+    ],
+    "colored_pixels": 14573,
+    "source_image": "0001"
+  },
+  {
+    "filename": "0001_speech_bubble_02.jpg",
+    "prov_filename": "0001_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0001_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 22097,
+    "bbox": [
+      124,
+      683,
+      144,
+      189
+    ],
+    "cropped_bbox": [
+      124,
+      683,
+      144,
+      189
+    ],
+    "colored_pixels": 22311,
+    "source_image": "0001"
+  },
+  {
+    "filename": "0001_square_03.jpg",
+    "prov_filename": "0001_square_03_prov.jpg",
+    "mask_filename_png": "0001_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 39184,
+    "bbox": [
+      110,
+      282,
+      170,
+      300
+    ],
+    "cropped_bbox": [
+      110,
+      282,
+      170,
+      300
+    ],
+    "colored_pixels": 39479,
+    "source_image": "0001"
+  },
+  {
+    "filename": "0001_square_04.jpg",
+    "prov_filename": "0001_square_04_prov.jpg",
+    "mask_filename_png": "0001_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 14830,
+    "bbox": [
+      570,
+      178,
+      105,
+      150
+    ],
+    "cropped_bbox": [
+      570,
+      178,
+      105,
+      150
+    ],
+    "colored_pixels": 15022,
+    "source_image": "0001"
+  },
+  {
+    "filename": "0002_speech_bubble_00.jpg",
+    "prov_filename": "0002_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0002_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 16388,
+    "bbox": [
+      69,
+      754,
+      139,
+      145
+    ],
+    "cropped_bbox": [
+      69,
+      754,
+      139,
+      145
+    ],
+    "colored_pixels": 16537,
+    "source_image": "0002"
+  },
+  {
+    "filename": "0002_speech_bubble_01.jpg",
+    "prov_filename": "0002_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0002_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 17736,
+    "bbox": [
+      624,
+      745,
+      138,
+      160
+    ],
+    "cropped_bbox": [
+      624,
+      745,
+      138,
+      160
+    ],
+    "colored_pixels": 17898,
+    "source_image": "0002"
+  },
+  {
+    "filename": "0002_speech_bubble_02.jpg",
+    "prov_filename": "0002_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0002_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 42814,
+    "bbox": [
+      494,
+      487,
+      280,
+      225
+    ],
+    "cropped_bbox": [
+      494,
+      487,
+      280,
+      225
+    ],
+    "colored_pixels": 43132,
+    "source_image": "0002"
+  },
+  {
+    "filename": "0002_square_03.jpg",
+    "prov_filename": "0002_square_03_prov.jpg",
+    "mask_filename_png": "0002_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 12657,
+    "bbox": [
+      512,
+      242,
+      88,
+      153
+    ],
+    "cropped_bbox": [
+      512,
+      242,
+      88,
+      153
+    ],
+    "colored_pixels": 12857,
+    "source_image": "0002"
+  },
+  {
+    "filename": "0002_speech_bubble_04.jpg",
+    "prov_filename": "0002_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0002_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 27704,
+    "bbox": [
+      80,
+      119,
+      174,
+      195
+    ],
+    "cropped_bbox": [
+      80,
+      119,
+      174,
+      195
+    ],
+    "colored_pixels": 27922,
+    "source_image": "0002"
+  },
+  {
+    "filename": "0003_speech_bubble_00.jpg",
+    "prov_filename": "0003_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0003_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 58311,
+    "bbox": [
+      27,
+      731,
+      192,
+      383
+    ],
+    "cropped_bbox": [
+      27,
+      731,
+      192,
+      383
+    ],
+    "colored_pixels": 58715,
+    "source_image": "0003"
+  },
+  {
+    "filename": "0003_speech_bubble_01.jpg",
+    "prov_filename": "0003_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0003_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 50780,
+    "bbox": [
+      549,
+      645,
+      204,
+      357
+    ],
+    "cropped_bbox": [
+      549,
+      645,
+      204,
+      357
+    ],
+    "colored_pixels": 51138,
+    "source_image": "0003"
+  },
+  {
+    "filename": "0004_speech_bubble_00.jpg",
+    "prov_filename": "0004_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 59338,
+    "bbox": [
+      54,
+      770,
+      271,
+      340
+    ],
+    "cropped_bbox": [
+      54,
+      770,
+      271,
+      340
+    ],
+    "colored_pixels": 59699,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_01.jpg",
+    "prov_filename": "0004_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 15796,
+    "bbox": [
+      612,
+      738,
+      124,
+      156
+    ],
+    "cropped_bbox": [
+      612,
+      738,
+      124,
+      156
+    ],
+    "colored_pixels": 15996,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_02.jpg",
+    "prov_filename": "0004_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 27284,
+    "bbox": [
+      87,
+      495,
+      174,
+      196
+    ],
+    "cropped_bbox": [
+      87,
+      495,
+      174,
+      196
+    ],
+    "colored_pixels": 27500,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_03.jpg",
+    "prov_filename": "0004_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 44603,
+    "bbox": [
+      286,
+      439,
+      243,
+      252
+    ],
+    "cropped_bbox": [
+      286,
+      439,
+      243,
+      252
+    ],
+    "colored_pixels": 44981,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_04.jpg",
+    "prov_filename": "0004_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26999,
+    "bbox": [
+      549,
+      430,
+      177,
+      186
+    ],
+    "cropped_bbox": [
+      549,
+      430,
+      177,
+      186
+    ],
+    "colored_pixels": 27230,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_05.jpg",
+    "prov_filename": "0004_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26073,
+    "bbox": [
+      58,
+      182,
+      177,
+      184
+    ],
+    "cropped_bbox": [
+      58,
+      182,
+      177,
+      184
+    ],
+    "colored_pixels": 26269,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0004_speech_bubble_06.jpg",
+    "prov_filename": "0004_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0004_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26222,
+    "bbox": [
+      570,
+      92,
+      171,
+      190
+    ],
+    "cropped_bbox": [
+      570,
+      92,
+      171,
+      190
+    ],
+    "colored_pixels": 26448,
+    "source_image": "0004"
+  },
+  {
+    "filename": "0005_speech_bubble_00.jpg",
+    "prov_filename": "0005_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0005_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26713,
+    "bbox": [
+      27,
+      996,
+      175,
+      187
+    ],
+    "cropped_bbox": [
+      27,
+      996,
+      175,
+      187
+    ],
+    "colored_pixels": 26904,
+    "source_image": "0005"
+  },
+  {
+    "filename": "0005_speech_bubble_01.jpg",
+    "prov_filename": "0005_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0005_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 18770,
+    "bbox": [
+      614,
+      771,
+      144,
+      158
+    ],
+    "cropped_bbox": [
+      614,
+      771,
+      144,
+      158
+    ],
+    "colored_pixels": 18955,
+    "source_image": "0005"
+  },
+  {
+    "filename": "0005_speech_bubble_02.jpg",
+    "prov_filename": "0005_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0005_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 10917,
+    "bbox": [
+      345,
+      750,
+      95,
+      132
+    ],
+    "cropped_bbox": [
+      345,
+      750,
+      95,
+      132
+    ],
+    "colored_pixels": 11073,
+    "source_image": "0005"
+  },
+  {
+    "filename": "0005_speech_bubble_03.jpg",
+    "prov_filename": "0005_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0005_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 21759,
+    "bbox": [
+      97,
+      532,
+      167,
+      168
+    ],
+    "cropped_bbox": [
+      97,
+      532,
+      167,
+      168
+    ],
+    "colored_pixels": 21973,
+    "source_image": "0005"
+  },
+  {
+    "filename": "0005_speech_bubble_04.jpg",
+    "prov_filename": "0005_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0005_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 36240,
+    "bbox": [
+      565,
+      411,
+      188,
+      278
+    ],
+    "cropped_bbox": [
+      565,
+      411,
+      188,
+      278
+    ],
+    "colored_pixels": 36527,
+    "source_image": "0005"
+  },
+  {
+    "filename": "0008_speech_bubble_00.jpg",
+    "prov_filename": "0008_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0008_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 28533,
+    "bbox": [
+      72,
+      137,
+      187,
+      186
+    ],
+    "cropped_bbox": [
+      72,
+      137,
+      187,
+      186
+    ],
+    "colored_pixels": 28752,
+    "source_image": "0008"
+  },
+  {
+    "filename": "0008_speech_bubble_01.jpg",
+    "prov_filename": "0008_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0008_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25791,
+    "bbox": [
+      558,
+      91,
+      173,
+      183
+    ],
+    "cropped_bbox": [
+      558,
+      91,
+      173,
+      183
+    ],
+    "colored_pixels": 25983,
+    "source_image": "0008"
+  },
+  {
+    "filename": "0009_speech_bubble_00.jpg",
+    "prov_filename": "0009_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 18959,
+    "bbox": [
+      10,
+      993,
+      150,
+      160
+    ],
+    "cropped_bbox": [
+      10,
+      993,
+      150,
+      160
+    ],
+    "colored_pixels": 19128,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_01.jpg",
+    "prov_filename": "0009_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26717,
+    "bbox": [
+      221,
+      841,
+      180,
+      187
+    ],
+    "cropped_bbox": [
+      221,
+      841,
+      180,
+      187
+    ],
+    "colored_pixels": 26940,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_02.jpg",
+    "prov_filename": "0009_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19802,
+    "bbox": [
+      623,
+      809,
+      151,
+      151
+    ],
+    "cropped_bbox": [
+      623,
+      809,
+      151,
+      151
+    ],
+    "colored_pixels": 20034,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_03.jpg",
+    "prov_filename": "0009_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 48026,
+    "bbox": [
+      38,
+      440,
+      238,
+      327
+    ],
+    "cropped_bbox": [
+      38,
+      440,
+      238,
+      327
+    ],
+    "colored_pixels": 48342,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_04.jpg",
+    "prov_filename": "0009_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 46972,
+    "bbox": [
+      552,
+      410,
+      196,
+      343
+    ],
+    "cropped_bbox": [
+      552,
+      410,
+      196,
+      343
+    ],
+    "colored_pixels": 47277,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_05.jpg",
+    "prov_filename": "0009_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24927,
+    "bbox": [
+      106,
+      143,
+      180,
+      179
+    ],
+    "cropped_bbox": [
+      106,
+      143,
+      180,
+      179
+    ],
+    "colored_pixels": 25135,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0009_speech_bubble_06.jpg",
+    "prov_filename": "0009_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0009_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 15726,
+    "bbox": [
+      606,
+      88,
+      138,
+      144
+    ],
+    "cropped_bbox": [
+      606,
+      88,
+      138,
+      144
+    ],
+    "colored_pixels": 15904,
+    "source_image": "0009"
+  },
+  {
+    "filename": "0010_speech_bubble_00.jpg",
+    "prov_filename": "0010_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0010_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 77707,
+    "bbox": [
+      81,
+      782,
+      398,
+      303
+    ],
+    "cropped_bbox": [
+      81,
+      782,
+      398,
+      303
+    ],
+    "colored_pixels": 78185,
+    "source_image": "0010"
+  },
+  {
+    "filename": "0010_speech_bubble_01.jpg",
+    "prov_filename": "0010_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0010_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 28895,
+    "bbox": [
+      60,
+      545,
+      187,
+      194
+    ],
+    "cropped_bbox": [
+      60,
+      545,
+      187,
+      194
+    ],
+    "colored_pixels": 29122,
+    "source_image": "0010"
+  },
+  {
+    "filename": "0010_speech_bubble_02.jpg",
+    "prov_filename": "0010_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0010_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 29909,
+    "bbox": [
+      558,
+      356,
+      194,
+      199
+    ],
+    "cropped_bbox": [
+      558,
+      356,
+      194,
+      199
+    ],
+    "colored_pixels": 30139,
+    "source_image": "0010"
+  },
+  {
+    "filename": "0010_speech_bubble_03.jpg",
+    "prov_filename": "0010_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0010_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23501,
+    "bbox": [
+      294,
+      85,
+      167,
+      179
+    ],
+    "cropped_bbox": [
+      294,
+      85,
+      167,
+      179
+    ],
+    "colored_pixels": 23651,
+    "source_image": "0010"
+  },
+  {
+    "filename": "0011_speech_bubble_00.jpg",
+    "prov_filename": "0011_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0011_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23090,
+    "bbox": [
+      13,
+      988,
+      163,
+      174
+    ],
+    "cropped_bbox": [
+      13,
+      988,
+      163,
+      174
+    ],
+    "colored_pixels": 23295,
+    "source_image": "0011"
+  },
+  {
+    "filename": "0011_speech_bubble_01.jpg",
+    "prov_filename": "0011_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0011_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 83074,
+    "bbox": [
+      274,
+      700,
+      274,
+      434
+    ],
+    "cropped_bbox": [
+      274,
+      700,
+      274,
+      434
+    ],
+    "colored_pixels": 83554,
+    "source_image": "0011"
+  },
+  {
+    "filename": "0011_speech_bubble_02.jpg",
+    "prov_filename": "0011_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0011_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 34458,
+    "bbox": [
+      34,
+      174,
+      206,
+      209
+    ],
+    "cropped_bbox": [
+      34,
+      174,
+      206,
+      209
+    ],
+    "colored_pixels": 34725,
+    "source_image": "0011"
+  },
+  {
+    "filename": "0011_speech_bubble_03.jpg",
+    "prov_filename": "0011_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0011_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 38794,
+    "bbox": [
+      525,
+      88,
+      227,
+      225
+    ],
+    "cropped_bbox": [
+      525,
+      88,
+      227,
+      225
+    ],
+    "colored_pixels": 39050,
+    "source_image": "0011"
+  },
+  {
+    "filename": "0012_speech_bubble_00.jpg",
+    "prov_filename": "0012_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25397,
+    "bbox": [
+      59,
+      926,
+      175,
+      184
+    ],
+    "cropped_bbox": [
+      59,
+      926,
+      175,
+      184
+    ],
+    "colored_pixels": 25636,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_01.jpg",
+    "prov_filename": "0012_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 59605,
+    "bbox": [
+      543,
+      735,
+      245,
+      362
+    ],
+    "cropped_bbox": [
+      543,
+      735,
+      245,
+      362
+    ],
+    "colored_pixels": 59994,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_02.jpg",
+    "prov_filename": "0012_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 37206,
+    "bbox": [
+      67,
+      486,
+      219,
+      216
+    ],
+    "cropped_bbox": [
+      67,
+      486,
+      219,
+      216
+    ],
+    "colored_pixels": 37483,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_03.jpg",
+    "prov_filename": "0012_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 53726,
+    "bbox": [
+      471,
+      429,
+      328,
+      248
+    ],
+    "cropped_bbox": [
+      471,
+      429,
+      328,
+      248
+    ],
+    "colored_pixels": 54054,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_04.jpg",
+    "prov_filename": "0012_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 12331,
+    "bbox": [
+      79,
+      277,
+      125,
+      124
+    ],
+    "cropped_bbox": [
+      79,
+      277,
+      125,
+      124
+    ],
+    "colored_pixels": 12478,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_05.jpg",
+    "prov_filename": "0012_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 31709,
+    "bbox": [
+      120,
+      84,
+      200,
+      203
+    ],
+    "cropped_bbox": [
+      120,
+      84,
+      200,
+      203
+    ],
+    "colored_pixels": 31937,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0012_speech_bubble_06.jpg",
+    "prov_filename": "0012_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0012_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 45091,
+    "bbox": [
+      543,
+      11,
+      270,
+      278
+    ],
+    "cropped_bbox": [
+      543,
+      11,
+      270,
+      278
+    ],
+    "colored_pixels": 45387,
+    "source_image": "0012"
+  },
+  {
+    "filename": "0013_speech_bubble_00.jpg",
+    "prov_filename": "0013_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 28071,
+    "bbox": [
+      25,
+      903,
+      183,
+      200
+    ],
+    "cropped_bbox": [
+      25,
+      903,
+      183,
+      200
+    ],
+    "colored_pixels": 28239,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0013_speech_bubble_01.jpg",
+    "prov_filename": "0013_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 53389,
+    "bbox": [
+      502,
+      765,
+      246,
+      327
+    ],
+    "cropped_bbox": [
+      502,
+      765,
+      246,
+      327
+    ],
+    "colored_pixels": 53740,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0013_speech_bubble_02.jpg",
+    "prov_filename": "0013_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26533,
+    "bbox": [
+      54,
+      532,
+      180,
+      186
+    ],
+    "cropped_bbox": [
+      54,
+      532,
+      180,
+      186
+    ],
+    "colored_pixels": 26741,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0013_speech_bubble_03.jpg",
+    "prov_filename": "0013_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 52982,
+    "bbox": [
+      466,
+      416,
+      295,
+      298
+    ],
+    "cropped_bbox": [
+      466,
+      416,
+      295,
+      298
+    ],
+    "colored_pixels": 53309,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0013_speech_bubble_04.jpg",
+    "prov_filename": "0013_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 20590,
+    "bbox": [
+      35,
+      200,
+      163,
+      160
+    ],
+    "cropped_bbox": [
+      35,
+      200,
+      163,
+      160
+    ],
+    "colored_pixels": 20755,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0013_speech_bubble_05.jpg",
+    "prov_filename": "0013_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0013_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 49940,
+    "bbox": [
+      465,
+      86,
+      290,
+      277
+    ],
+    "cropped_bbox": [
+      465,
+      86,
+      290,
+      277
+    ],
+    "colored_pixels": 50242,
+    "source_image": "0013"
+  },
+  {
+    "filename": "0014_speech_bubble_00.jpg",
+    "prov_filename": "0014_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0014_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 47006,
+    "bbox": [
+      545,
+      802,
+      200,
+      317
+    ],
+    "cropped_bbox": [
+      545,
+      802,
+      200,
+      317
+    ],
+    "colored_pixels": 47344,
+    "source_image": "0014"
+  },
+  {
+    "filename": "0014_speech_bubble_01.jpg",
+    "prov_filename": "0014_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0014_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 63027,
+    "bbox": [
+      52,
+      800,
+      305,
+      314
+    ],
+    "cropped_bbox": [
+      52,
+      800,
+      305,
+      314
+    ],
+    "colored_pixels": 63434,
+    "source_image": "0014"
+  },
+  {
+    "filename": "0014_speech_bubble_02.jpg",
+    "prov_filename": "0014_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0014_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 51186,
+    "bbox": [
+      467,
+      474,
+      261,
+      308
+    ],
+    "cropped_bbox": [
+      467,
+      474,
+      261,
+      308
+    ],
+    "colored_pixels": 51553,
+    "source_image": "0014"
+  },
+  {
+    "filename": "0014_speech_bubble_03.jpg",
+    "prov_filename": "0014_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0014_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26396,
+    "bbox": [
+      248,
+      122,
+      184,
+      183
+    ],
+    "cropped_bbox": [
+      248,
+      122,
+      184,
+      183
+    ],
+    "colored_pixels": 26603,
+    "source_image": "0014"
+  },
+  {
+    "filename": "0014_speech_bubble_04.jpg",
+    "prov_filename": "0014_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0014_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 48481,
+    "bbox": [
+      589,
+      18,
+      211,
+      333
+    ],
+    "cropped_bbox": [
+      589,
+      18,
+      211,
+      333
+    ],
+    "colored_pixels": 48843,
+    "source_image": "0014"
+  },
+  {
+    "filename": "0015_speech_bubble_00.jpg",
+    "prov_filename": "0015_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0015_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 13658,
+    "bbox": [
+      54,
+      966,
+      132,
+      130
+    ],
+    "cropped_bbox": [
+      54,
+      966,
+      132,
+      130
+    ],
+    "colored_pixels": 13821,
+    "source_image": "0015"
+  },
+  {
+    "filename": "0015_speech_bubble_01.jpg",
+    "prov_filename": "0015_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0015_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 37447,
+    "bbox": [
+      470,
+      651,
+      276,
+      212
+    ],
+    "cropped_bbox": [
+      470,
+      651,
+      276,
+      212
+    ],
+    "colored_pixels": 37774,
+    "source_image": "0015"
+  },
+  {
+    "filename": "0015_speech_bubble_02.jpg",
+    "prov_filename": "0015_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0015_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 55492,
+    "bbox": [
+      56,
+      240,
+      255,
+      343
+    ],
+    "cropped_bbox": [
+      56,
+      240,
+      255,
+      343
+    ],
+    "colored_pixels": 55874,
+    "source_image": "0015"
+  },
+  {
+    "filename": "0015_speech_bubble_03.jpg",
+    "prov_filename": "0015_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0015_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 42899,
+    "bbox": [
+      472,
+      85,
+      288,
+      224
+    ],
+    "cropped_bbox": [
+      472,
+      85,
+      288,
+      224
+    ],
+    "colored_pixels": 43218,
+    "source_image": "0015"
+  },
+  {
+    "filename": "0016_speech_bubble_27.jpg",
+    "prov_filename": "0016_speech_bubble_27_prov.jpg",
+    "mask_filename_png": "0016_speech_bubble_27_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 2165,
+    "bbox": [
+      355,
+      499,
+      79,
+      45
+    ],
+    "cropped_bbox": [
+      355,
+      499,
+      79,
+      45
+    ],
+    "colored_pixels": 1217,
+    "source_image": "0016"
+  },
+  {
+    "filename": "0017_speech_bubble_105.jpg",
+    "prov_filename": "0017_speech_bubble_105_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_105_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 3077,
+    "bbox": [
+      228,
+      736,
+      74,
+      105
+    ],
+    "cropped_bbox": [
+      228,
+      736,
+      74,
+      105
+    ],
+    "colored_pixels": 1860,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0017_speech_bubble_119.jpg",
+    "prov_filename": "0017_speech_bubble_119_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_119_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 3209,
+    "bbox": [
+      495,
+      684,
+      90,
+      126
+    ],
+    "cropped_bbox": [
+      495,
+      684,
+      90,
+      126
+    ],
+    "colored_pixels": 2017,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0017_speech_bubble_147.jpg",
+    "prov_filename": "0017_speech_bubble_147_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_147_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 1016,
+    "bbox": [
+      516,
+      590,
+      44,
+      53
+    ],
+    "cropped_bbox": [
+      516,
+      590,
+      44,
+      53
+    ],
+    "colored_pixels": 413,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0017_speech_bubble_150.jpg",
+    "prov_filename": "0017_speech_bubble_150_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_150_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 1474,
+    "bbox": [
+      160,
+      581,
+      80,
+      68
+    ],
+    "cropped_bbox": [
+      160,
+      581,
+      80,
+      68
+    ],
+    "colored_pixels": 656,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0017_speech_bubble_176.jpg",
+    "prov_filename": "0017_speech_bubble_176_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_176_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 1073,
+    "bbox": [
+      401,
+      512,
+      26,
+      93
+    ],
+    "cropped_bbox": [
+      401,
+      512,
+      26,
+      93
+    ],
+    "colored_pixels": 618,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0017_speech_bubble_205.jpg",
+    "prov_filename": "0017_speech_bubble_205_prov.jpg",
+    "mask_filename_png": "0017_speech_bubble_205_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 8498,
+    "bbox": [
+      331,
+      393,
+      172,
+      98
+    ],
+    "cropped_bbox": [
+      331,
+      393,
+      172,
+      98
+    ],
+    "colored_pixels": 5651,
+    "source_image": "0017"
+  },
+  {
+    "filename": "0018_speech_bubble_00.jpg",
+    "prov_filename": "0018_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19257,
+    "bbox": [
+      57,
+      887,
+      153,
+      157
+    ],
+    "cropped_bbox": [
+      57,
+      887,
+      153,
+      157
+    ],
+    "colored_pixels": 19435,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0018_speech_bubble_01.jpg",
+    "prov_filename": "0018_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 27159,
+    "bbox": [
+      550,
+      799,
+      181,
+      191
+    ],
+    "cropped_bbox": [
+      550,
+      799,
+      181,
+      191
+    ],
+    "colored_pixels": 27374,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0018_speech_bubble_02.jpg",
+    "prov_filename": "0018_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25647,
+    "bbox": [
+      81,
+      505,
+      174,
+      182
+    ],
+    "cropped_bbox": [
+      81,
+      505,
+      174,
+      182
+    ],
+    "colored_pixels": 25896,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0018_speech_bubble_03.jpg",
+    "prov_filename": "0018_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 34331,
+    "bbox": [
+      543,
+      438,
+      199,
+      216
+    ],
+    "cropped_bbox": [
+      543,
+      438,
+      199,
+      216
+    ],
+    "colored_pixels": 34568,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0018_speech_bubble_04.jpg",
+    "prov_filename": "0018_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 29395,
+    "bbox": [
+      64,
+      183,
+      192,
+      197
+    ],
+    "cropped_bbox": [
+      64,
+      183,
+      192,
+      197
+    ],
+    "colored_pixels": 29619,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0018_speech_bubble_05.jpg",
+    "prov_filename": "0018_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0018_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 40798,
+    "bbox": [
+      540,
+      50,
+      222,
+      229
+    ],
+    "cropped_bbox": [
+      540,
+      50,
+      222,
+      229
+    ],
+    "colored_pixels": 41107,
+    "source_image": "0018"
+  },
+  {
+    "filename": "0020_speech_bubble_00.jpg",
+    "prov_filename": "0020_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0020_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 35322,
+    "bbox": [
+      571,
+      540,
+      197,
+      225
+    ],
+    "cropped_bbox": [
+      571,
+      540,
+      197,
+      225
+    ],
+    "colored_pixels": 35552,
+    "source_image": "0020"
+  },
+  {
+    "filename": "0020_speech_bubble_01.jpg",
+    "prov_filename": "0020_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0020_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 32088,
+    "bbox": [
+      613,
+      18,
+      185,
+      214
+    ],
+    "cropped_bbox": [
+      613,
+      18,
+      185,
+      214
+    ],
+    "colored_pixels": 32314,
+    "source_image": "0020"
+  },
+  {
+    "filename": "0021_speech_bubble_00.jpg",
+    "prov_filename": "0021_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0021_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 21916,
+    "bbox": [
+      568,
+      132,
+      167,
+      171
+    ],
+    "cropped_bbox": [
+      568,
+      132,
+      167,
+      171
+    ],
+    "colored_pixels": 22099,
+    "source_image": "0021"
+  },
+  {
+    "filename": "0021_speech_bubble_01.jpg",
+    "prov_filename": "0021_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0021_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 34412,
+    "bbox": [
+      82,
+      119,
+      208,
+      216
+    ],
+    "cropped_bbox": [
+      82,
+      119,
+      208,
+      216
+    ],
+    "colored_pixels": 34690,
+    "source_image": "0021"
+  },
+  {
+    "filename": "0022_speech_bubble_00.jpg",
+    "prov_filename": "0022_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 42809,
+    "bbox": [
+      18,
+      809,
+      225,
+      300
+    ],
+    "cropped_bbox": [
+      18,
+      809,
+      225,
+      300
+    ],
+    "colored_pixels": 43156,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0022_speech_bubble_01.jpg",
+    "prov_filename": "0022_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 39259,
+    "bbox": [
+      416,
+      771,
+      167,
+      328
+    ],
+    "cropped_bbox": [
+      416,
+      771,
+      167,
+      328
+    ],
+    "colored_pixels": 39604,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0022_speech_bubble_02.jpg",
+    "prov_filename": "0022_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23949,
+    "bbox": [
+      127,
+      473,
+      159,
+      189
+    ],
+    "cropped_bbox": [
+      127,
+      473,
+      159,
+      189
+    ],
+    "colored_pixels": 24102,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0022_speech_bubble_03.jpg",
+    "prov_filename": "0022_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 35609,
+    "bbox": [
+      520,
+      434,
+      215,
+      265
+    ],
+    "cropped_bbox": [
+      520,
+      434,
+      215,
+      265
+    ],
+    "colored_pixels": 35915,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0022_speech_bubble_04.jpg",
+    "prov_filename": "0022_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23367,
+    "bbox": [
+      114,
+      198,
+      156,
+      184
+    ],
+    "cropped_bbox": [
+      114,
+      198,
+      156,
+      184
+    ],
+    "colored_pixels": 23548,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0022_speech_bubble_05.jpg",
+    "prov_filename": "0022_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0022_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 18881,
+    "bbox": [
+      555,
+      91,
+      143,
+      163
+    ],
+    "cropped_bbox": [
+      555,
+      91,
+      143,
+      163
+    ],
+    "colored_pixels": 19073,
+    "source_image": "0022"
+  },
+  {
+    "filename": "0023_speech_bubble_00.jpg",
+    "prov_filename": "0023_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25872,
+    "bbox": [
+      10,
+      977,
+      173,
+      182
+    ],
+    "cropped_bbox": [
+      10,
+      977,
+      173,
+      182
+    ],
+    "colored_pixels": 26048,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_01.jpg",
+    "prov_filename": "0023_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 31571,
+    "bbox": [
+      563,
+      768,
+      196,
+      198
+    ],
+    "cropped_bbox": [
+      563,
+      768,
+      196,
+      198
+    ],
+    "colored_pixels": 31804,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_02.jpg",
+    "prov_filename": "0023_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 35600,
+    "bbox": [
+      217,
+      768,
+      206,
+      209
+    ],
+    "cropped_bbox": [
+      217,
+      768,
+      206,
+      209
+    ],
+    "colored_pixels": 35844,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_03.jpg",
+    "prov_filename": "0023_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25511,
+    "bbox": [
+      97,
+      530,
+      169,
+      185
+    ],
+    "cropped_bbox": [
+      97,
+      530,
+      169,
+      185
+    ],
+    "colored_pixels": 25744,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_04.jpg",
+    "prov_filename": "0023_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 28870,
+    "bbox": [
+      574,
+      469,
+      185,
+      196
+    ],
+    "cropped_bbox": [
+      574,
+      469,
+      185,
+      196
+    ],
+    "colored_pixels": 29110,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_05.jpg",
+    "prov_filename": "0023_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 48571,
+    "bbox": [
+      36,
+      162,
+      286,
+      260
+    ],
+    "cropped_bbox": [
+      36,
+      162,
+      286,
+      260
+    ],
+    "colored_pixels": 48917,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0023_speech_bubble_06.jpg",
+    "prov_filename": "0023_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0023_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 28754,
+    "bbox": [
+      566,
+      96,
+      185,
+      193
+    ],
+    "cropped_bbox": [
+      566,
+      96,
+      185,
+      193
+    ],
+    "colored_pixels": 28988,
+    "source_image": "0023"
+  },
+  {
+    "filename": "0024_speech_bubble_00.jpg",
+    "prov_filename": "0024_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 34025,
+    "bbox": [
+      77,
+      860,
+      197,
+      209
+    ],
+    "cropped_bbox": [
+      77,
+      860,
+      197,
+      209
+    ],
+    "colored_pixels": 34275,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0024_speech_bubble_01.jpg",
+    "prov_filename": "0024_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 48762,
+    "bbox": [
+      514,
+      793,
+      264,
+      309
+    ],
+    "cropped_bbox": [
+      514,
+      793,
+      264,
+      309
+    ],
+    "colored_pixels": 49121,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0024_speech_bubble_02.jpg",
+    "prov_filename": "0024_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23113,
+    "bbox": [
+      74,
+      594,
+      160,
+      177
+    ],
+    "cropped_bbox": [
+      74,
+      594,
+      160,
+      177
+    ],
+    "colored_pixels": 23321,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0024_speech_bubble_03.jpg",
+    "prov_filename": "0024_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 54218,
+    "bbox": [
+      528,
+      405,
+      235,
+      359
+    ],
+    "cropped_bbox": [
+      528,
+      405,
+      235,
+      359
+    ],
+    "colored_pixels": 54543,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0024_speech_bubble_04.jpg",
+    "prov_filename": "0024_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 22921,
+    "bbox": [
+      78,
+      183,
+      160,
+      181
+    ],
+    "cropped_bbox": [
+      78,
+      183,
+      160,
+      181
+    ],
+    "colored_pixels": 23090,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0024_speech_bubble_05.jpg",
+    "prov_filename": "0024_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0024_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 54699,
+    "bbox": [
+      489,
+      43,
+      280,
+      325
+    ],
+    "cropped_bbox": [
+      489,
+      43,
+      280,
+      325
+    ],
+    "colored_pixels": 55078,
+    "source_image": "0024"
+  },
+  {
+    "filename": "0027_square_00.jpg",
+    "prov_filename": "0027_square_00_prov.jpg",
+    "mask_filename_png": "0027_square_00_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 28712,
+    "bbox": [
+      114,
+      902,
+      154,
+      195
+    ],
+    "cropped_bbox": [
+      114,
+      902,
+      154,
+      195
+    ],
+    "colored_pixels": 29038,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0027_square_01.jpg",
+    "prov_filename": "0027_square_01_prov.jpg",
+    "mask_filename_png": "0027_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 21116,
+    "bbox": [
+      604,
+      891,
+      131,
+      167
+    ],
+    "cropped_bbox": [
+      604,
+      891,
+      131,
+      167
+    ],
+    "colored_pixels": 21391,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0027_speech_bubble_02.jpg",
+    "prov_filename": "0027_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0027_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25891,
+    "bbox": [
+      105,
+      595,
+      165,
+      193
+    ],
+    "cropped_bbox": [
+      105,
+      595,
+      165,
+      193
+    ],
+    "colored_pixels": 26073,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0027_speech_bubble_03.jpg",
+    "prov_filename": "0027_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0027_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 46263,
+    "bbox": [
+      495,
+      580,
+      274,
+      260
+    ],
+    "cropped_bbox": [
+      495,
+      580,
+      274,
+      260
+    ],
+    "colored_pixels": 46599,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0027_square_04.jpg",
+    "prov_filename": "0027_square_04_prov.jpg",
+    "mask_filename_png": "0027_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 21629,
+    "bbox": [
+      103,
+      332,
+      117,
+      194
+    ],
+    "cropped_bbox": [
+      103,
+      332,
+      117,
+      194
+    ],
+    "colored_pixels": 21899,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0027_square_05.jpg",
+    "prov_filename": "0027_square_05_prov.jpg",
+    "mask_filename_png": "0027_square_05_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 50912,
+    "bbox": [
+      560,
+      105,
+      179,
+      397
+    ],
+    "cropped_bbox": [
+      560,
+      105,
+      179,
+      397
+    ],
+    "colored_pixels": 51379,
+    "source_image": "0027"
+  },
+  {
+    "filename": "0028_speech_bubble_00.jpg",
+    "prov_filename": "0028_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0028_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24703,
+    "bbox": [
+      20,
+      940,
+      167,
+      197
+    ],
+    "cropped_bbox": [
+      20,
+      940,
+      167,
+      197
+    ],
+    "colored_pixels": 24926,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_01.jpg",
+    "prov_filename": "0028_square_01_prov.jpg",
+    "mask_filename_png": "0028_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 52323,
+    "bbox": [
+      558,
+      738,
+      176,
+      370
+    ],
+    "cropped_bbox": [
+      558,
+      738,
+      176,
+      370
+    ],
+    "colored_pixels": 52752,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_02.jpg",
+    "prov_filename": "0028_square_02_prov.jpg",
+    "mask_filename_png": "0028_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 33413,
+    "bbox": [
+      216,
+      735,
+      120,
+      362
+    ],
+    "cropped_bbox": [
+      216,
+      735,
+      120,
+      362
+    ],
+    "colored_pixels": 33816,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_03.jpg",
+    "prov_filename": "0028_square_03_prov.jpg",
+    "mask_filename_png": "0028_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 18858,
+    "bbox": [
+      336,
+      526,
+      124,
+      160
+    ],
+    "cropped_bbox": [
+      336,
+      526,
+      124,
+      160
+    ],
+    "colored_pixels": 19105,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_04.jpg",
+    "prov_filename": "0028_square_04_prov.jpg",
+    "mask_filename_png": "0028_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 23001,
+    "bbox": [
+      75,
+      450,
+      134,
+      178
+    ],
+    "cropped_bbox": [
+      75,
+      450,
+      134,
+      178
+    ],
+    "colored_pixels": 23285,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_05.jpg",
+    "prov_filename": "0028_square_05_prov.jpg",
+    "mask_filename_png": "0028_square_05_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 19725,
+    "bbox": [
+      604,
+      444,
+      126,
+      163
+    ],
+    "cropped_bbox": [
+      604,
+      444,
+      126,
+      163
+    ],
+    "colored_pixels": 19929,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_06.jpg",
+    "prov_filename": "0028_square_06_prov.jpg",
+    "mask_filename_png": "0028_square_06_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 24343,
+    "bbox": [
+      111,
+      141,
+      143,
+      178
+    ],
+    "cropped_bbox": [
+      111,
+      141,
+      143,
+      178
+    ],
+    "colored_pixels": 24618,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0028_square_07.jpg",
+    "prov_filename": "0028_square_07_prov.jpg",
+    "mask_filename_png": "0028_square_07_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 23670,
+    "bbox": [
+      561,
+      117,
+      135,
+      183
+    ],
+    "cropped_bbox": [
+      561,
+      117,
+      135,
+      183
+    ],
+    "colored_pixels": 23967,
+    "source_image": "0028"
+  },
+  {
+    "filename": "0029_square_00.jpg",
+    "prov_filename": "0029_square_00_prov.jpg",
+    "mask_filename_png": "0029_square_00_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 42973,
+    "bbox": [
+      40,
+      790,
+      193,
+      349
+    ],
+    "cropped_bbox": [
+      40,
+      790,
+      193,
+      349
+    ],
+    "colored_pixels": 43320,
+    "source_image": "0029"
+  },
+  {
+    "filename": "0029_square_01.jpg",
+    "prov_filename": "0029_square_01_prov.jpg",
+    "mask_filename_png": "0029_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 22416,
+    "bbox": [
+      607,
+      775,
+      158,
+      182
+    ],
+    "cropped_bbox": [
+      607,
+      775,
+      158,
+      182
+    ],
+    "colored_pixels": 22712,
+    "source_image": "0029"
+  },
+  {
+    "filename": "0029_square_02.jpg",
+    "prov_filename": "0029_square_02_prov.jpg",
+    "mask_filename_png": "0029_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 45349,
+    "bbox": [
+      93,
+      437,
+      237,
+      275
+    ],
+    "cropped_bbox": [
+      93,
+      437,
+      237,
+      275
+    ],
+    "colored_pixels": 45740,
+    "source_image": "0029"
+  },
+  {
+    "filename": "0029_square_03.jpg",
+    "prov_filename": "0029_square_03_prov.jpg",
+    "mask_filename_png": "0029_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 25348,
+    "bbox": [
+      621,
+      435,
+      136,
+      193
+    ],
+    "cropped_bbox": [
+      621,
+      435,
+      136,
+      193
+    ],
+    "colored_pixels": 25607,
+    "source_image": "0029"
+  },
+  {
+    "filename": "0029_square_04.jpg",
+    "prov_filename": "0029_square_04_prov.jpg",
+    "mask_filename_png": "0029_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 42327,
+    "bbox": [
+      525,
+      88,
+      230,
+      279
+    ],
+    "cropped_bbox": [
+      525,
+      88,
+      230,
+      279
+    ],
+    "colored_pixels": 42703,
+    "source_image": "0029"
+  },
+  {
+    "filename": "0030_square_00.jpg",
+    "prov_filename": "0030_square_00_prov.jpg",
+    "mask_filename_png": "0030_square_00_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 22896,
+    "bbox": [
+      604,
+      762,
+      130,
+      183
+    ],
+    "cropped_bbox": [
+      604,
+      762,
+      130,
+      183
+    ],
+    "colored_pixels": 23186,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0030_square_01.jpg",
+    "prov_filename": "0030_square_01_prov.jpg",
+    "mask_filename_png": "0030_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 22096,
+    "bbox": [
+      57,
+      543,
+      134,
+      170
+    ],
+    "cropped_bbox": [
+      57,
+      543,
+      134,
+      170
+    ],
+    "colored_pixels": 22370,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0030_square_02.jpg",
+    "prov_filename": "0030_square_02_prov.jpg",
+    "mask_filename_png": "0030_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 22522,
+    "bbox": [
+      353,
+      506,
+      126,
+      188
+    ],
+    "cropped_bbox": [
+      353,
+      506,
+      126,
+      188
+    ],
+    "colored_pixels": 22810,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0030_square_03.jpg",
+    "prov_filename": "0030_square_03_prov.jpg",
+    "mask_filename_png": "0030_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 26742,
+    "bbox": [
+      628,
+      412,
+      142,
+      196
+    ],
+    "cropped_bbox": [
+      628,
+      412,
+      142,
+      196
+    ],
+    "colored_pixels": 27043,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0030_speech_bubble_04.jpg",
+    "prov_filename": "0030_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0030_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 21700,
+    "bbox": [
+      72,
+      152,
+      157,
+      172
+    ],
+    "cropped_bbox": [
+      72,
+      152,
+      157,
+      172
+    ],
+    "colored_pixels": 21925,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0030_speech_bubble_05.jpg",
+    "prov_filename": "0030_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0030_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19695,
+    "bbox": [
+      588,
+      79,
+      147,
+      166
+    ],
+    "cropped_bbox": [
+      588,
+      79,
+      147,
+      166
+    ],
+    "colored_pixels": 19875,
+    "source_image": "0030"
+  },
+  {
+    "filename": "0031_square_00.jpg",
+    "prov_filename": "0031_square_00_prov.jpg",
+    "mask_filename_png": "0031_square_00_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 21521,
+    "bbox": [
+      158,
+      924,
+      138,
+      161
+    ],
+    "cropped_bbox": [
+      158,
+      924,
+      138,
+      161
+    ],
+    "colored_pixels": 21797,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0031_square_01.jpg",
+    "prov_filename": "0031_square_01_prov.jpg",
+    "mask_filename_png": "0031_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 29309,
+    "bbox": [
+      596,
+      913,
+      159,
+      190
+    ],
+    "cropped_bbox": [
+      596,
+      913,
+      159,
+      190
+    ],
+    "colored_pixels": 29585,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0031_square_02.jpg",
+    "prov_filename": "0031_square_02_prov.jpg",
+    "mask_filename_png": "0031_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 23657,
+    "bbox": [
+      103,
+      672,
+      147,
+      167
+    ],
+    "cropped_bbox": [
+      103,
+      672,
+      147,
+      167
+    ],
+    "colored_pixels": 23912,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0031_square_03.jpg",
+    "prov_filename": "0031_square_03_prov.jpg",
+    "mask_filename_png": "0031_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 21871,
+    "bbox": [
+      622,
+      522,
+      134,
+      170
+    ],
+    "cropped_bbox": [
+      622,
+      522,
+      134,
+      170
+    ],
+    "colored_pixels": 22139,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0031_square_04.jpg",
+    "prov_filename": "0031_square_04_prov.jpg",
+    "mask_filename_png": "0031_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 42537,
+    "bbox": [
+      568,
+      101,
+      183,
+      314
+    ],
+    "cropped_bbox": [
+      568,
+      101,
+      183,
+      314
+    ],
+    "colored_pixels": 42881,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0031_square_05.jpg",
+    "prov_filename": "0031_square_05_prov.jpg",
+    "mask_filename_png": "0031_square_05_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 52862,
+    "bbox": [
+      86,
+      96,
+      214,
+      350
+    ],
+    "cropped_bbox": [
+      86,
+      96,
+      214,
+      350
+    ],
+    "colored_pixels": 53322,
+    "source_image": "0031"
+  },
+  {
+    "filename": "0032_square_00.jpg",
+    "prov_filename": "0032_square_00_prov.jpg",
+    "mask_filename_png": "0032_square_00_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 46779,
+    "bbox": [
+      628,
+      828,
+      166,
+      337
+    ],
+    "cropped_bbox": [
+      628,
+      828,
+      166,
+      337
+    ],
+    "colored_pixels": 47213,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_01.jpg",
+    "prov_filename": "0032_square_01_prov.jpg",
+    "mask_filename_png": "0032_square_01_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 53871,
+    "bbox": [
+      99,
+      818,
+      192,
+      357
+    ],
+    "cropped_bbox": [
+      99,
+      818,
+      192,
+      357
+    ],
+    "colored_pixels": 54332,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_02.jpg",
+    "prov_filename": "0032_square_02_prov.jpg",
+    "mask_filename_png": "0032_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 28465,
+    "bbox": [
+      73,
+      576,
+      155,
+      191
+    ],
+    "cropped_bbox": [
+      73,
+      576,
+      155,
+      191
+    ],
+    "colored_pixels": 28756,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_03.jpg",
+    "prov_filename": "0032_square_03_prov.jpg",
+    "mask_filename_png": "0032_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 48202,
+    "bbox": [
+      514,
+      426,
+      249,
+      309
+    ],
+    "cropped_bbox": [
+      514,
+      426,
+      249,
+      309
+    ],
+    "colored_pixels": 48634,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_04.jpg",
+    "prov_filename": "0032_square_04_prov.jpg",
+    "mask_filename_png": "0032_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 18379,
+    "bbox": [
+      78,
+      231,
+      126,
+      151
+    ],
+    "cropped_bbox": [
+      78,
+      231,
+      126,
+      151
+    ],
+    "colored_pixels": 18641,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_05.jpg",
+    "prov_filename": "0032_square_05_prov.jpg",
+    "mask_filename_png": "0032_square_05_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 13842,
+    "bbox": [
+      223,
+      102,
+      102,
+      142
+    ],
+    "cropped_bbox": [
+      223,
+      102,
+      102,
+      142
+    ],
+    "colored_pixels": 14064,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0032_square_06.jpg",
+    "prov_filename": "0032_square_06_prov.jpg",
+    "mask_filename_png": "0032_square_06_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 36643,
+    "bbox": [
+      540,
+      95,
+      200,
+      291
+    ],
+    "cropped_bbox": [
+      540,
+      95,
+      200,
+      291
+    ],
+    "colored_pixels": 36995,
+    "source_image": "0032"
+  },
+  {
+    "filename": "0033_speech_bubble_00.jpg",
+    "prov_filename": "0033_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0033_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26315,
+    "bbox": [
+      554,
+      856,
+      163,
+      201
+    ],
+    "cropped_bbox": [
+      554,
+      856,
+      163,
+      201
+    ],
+    "colored_pixels": 26545,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0033_speech_bubble_01.jpg",
+    "prov_filename": "0033_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0033_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 65428,
+    "bbox": [
+      48,
+      695,
+      295,
+      451
+    ],
+    "cropped_bbox": [
+      48,
+      695,
+      295,
+      451
+    ],
+    "colored_pixels": 65958,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0033_square_02.jpg",
+    "prov_filename": "0033_square_02_prov.jpg",
+    "mask_filename_png": "0033_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 23067,
+    "bbox": [
+      90,
+      510,
+      153,
+      159
+    ],
+    "cropped_bbox": [
+      90,
+      510,
+      153,
+      159
+    ],
+    "colored_pixels": 23326,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0033_square_03.jpg",
+    "prov_filename": "0033_square_03_prov.jpg",
+    "mask_filename_png": "0033_square_03_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 14450,
+    "bbox": [
+      682,
+      419,
+      86,
+      179
+    ],
+    "cropped_bbox": [
+      682,
+      419,
+      86,
+      179
+    ],
+    "colored_pixels": 14681,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0033_square_04.jpg",
+    "prov_filename": "0033_square_04_prov.jpg",
+    "mask_filename_png": "0033_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 21388,
+    "bbox": [
+      118,
+      197,
+      136,
+      168
+    ],
+    "cropped_bbox": [
+      118,
+      197,
+      136,
+      168
+    ],
+    "colored_pixels": 21645,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0033_square_05.jpg",
+    "prov_filename": "0033_square_05_prov.jpg",
+    "mask_filename_png": "0033_square_05_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 18504,
+    "bbox": [
+      636,
+      102,
+      120,
+      166
+    ],
+    "cropped_bbox": [
+      636,
+      102,
+      120,
+      166
+    ],
+    "colored_pixels": 18739,
+    "source_image": "0033"
+  },
+  {
+    "filename": "0034_speech_bubble_00.jpg",
+    "prov_filename": "0034_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0034_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 52412,
+    "bbox": [
+      59,
+      841,
+      298,
+      259
+    ],
+    "cropped_bbox": [
+      59,
+      841,
+      298,
+      259
+    ],
+    "colored_pixels": 52761,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0034_speech_bubble_01.jpg",
+    "prov_filename": "0034_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0034_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24066,
+    "bbox": [
+      562,
+      831,
+      159,
+      188
+    ],
+    "cropped_bbox": [
+      562,
+      831,
+      159,
+      188
+    ],
+    "colored_pixels": 24261,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0034_square_02.jpg",
+    "prov_filename": "0034_square_02_prov.jpg",
+    "mask_filename_png": "0034_square_02_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 33375,
+    "bbox": [
+      68,
+      518,
+      181,
+      271
+    ],
+    "cropped_bbox": [
+      68,
+      518,
+      181,
+      271
+    ],
+    "colored_pixels": 33777,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0034_speech_bubble_03.jpg",
+    "prov_filename": "0034_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0034_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 29671,
+    "bbox": [
+      524,
+      491,
+      174,
+      211
+    ],
+    "cropped_bbox": [
+      524,
+      491,
+      174,
+      211
+    ],
+    "colored_pixels": 29895,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0034_square_04.jpg",
+    "prov_filename": "0034_square_04_prov.jpg",
+    "mask_filename_png": "0034_square_04_mask.png",
+    "object_type": "square",
+    "color": "cyan",
+    "area": 26336,
+    "bbox": [
+      63,
+      253,
+      139,
+      197
+    ],
+    "cropped_bbox": [
+      63,
+      253,
+      139,
+      197
+    ],
+    "colored_pixels": 26623,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0034_speech_bubble_05.jpg",
+    "prov_filename": "0034_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0034_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 42591,
+    "bbox": [
+      538,
+      108,
+      208,
+      320
+    ],
+    "cropped_bbox": [
+      538,
+      108,
+      208,
+      320
+    ],
+    "colored_pixels": 42976,
+    "source_image": "0034"
+  },
+  {
+    "filename": "0035_speech_bubble_00.jpg",
+    "prov_filename": "0035_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 30205,
+    "bbox": [
+      15,
+      938,
+      186,
+      200
+    ],
+    "cropped_bbox": [
+      15,
+      938,
+      186,
+      200
+    ],
+    "colored_pixels": 30379,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_01.jpg",
+    "prov_filename": "0035_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 48762,
+    "bbox": [
+      546,
+      718,
+      203,
+      339
+    ],
+    "cropped_bbox": [
+      546,
+      718,
+      203,
+      339
+    ],
+    "colored_pixels": 49072,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_02.jpg",
+    "prov_filename": "0035_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25291,
+    "bbox": [
+      46,
+      718,
+      174,
+      187
+    ],
+    "cropped_bbox": [
+      46,
+      718,
+      174,
+      187
+    ],
+    "colored_pixels": 25481,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_03.jpg",
+    "prov_filename": "0035_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24781,
+    "bbox": [
+      124,
+      444,
+      172,
+      183
+    ],
+    "cropped_bbox": [
+      124,
+      444,
+      172,
+      183
+    ],
+    "colored_pixels": 24987,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_04.jpg",
+    "prov_filename": "0035_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 43334,
+    "bbox": [
+      498,
+      402,
+      254,
+      260
+    ],
+    "cropped_bbox": [
+      498,
+      402,
+      254,
+      260
+    ],
+    "colored_pixels": 43625,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_05.jpg",
+    "prov_filename": "0035_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 25460,
+    "bbox": [
+      142,
+      143,
+      168,
+      188
+    ],
+    "cropped_bbox": [
+      142,
+      143,
+      168,
+      188
+    ],
+    "colored_pixels": 25665,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0035_speech_bubble_06.jpg",
+    "prov_filename": "0035_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0035_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 29767,
+    "bbox": [
+      535,
+      97,
+      188,
+      197
+    ],
+    "cropped_bbox": [
+      535,
+      97,
+      188,
+      197
+    ],
+    "colored_pixels": 29967,
+    "source_image": "0035"
+  },
+  {
+    "filename": "0036_speech_bubble_00.jpg",
+    "prov_filename": "0036_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 14821,
+    "bbox": [
+      72,
+      938,
+      138,
+      148
+    ],
+    "cropped_bbox": [
+      72,
+      938,
+      138,
+      148
+    ],
+    "colored_pixels": 14996,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_01.jpg",
+    "prov_filename": "0036_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24907,
+    "bbox": [
+      563,
+      879,
+      163,
+      184
+    ],
+    "cropped_bbox": [
+      563,
+      879,
+      163,
+      184
+    ],
+    "colored_pixels": 25022,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_02.jpg",
+    "prov_filename": "0036_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 20982,
+    "bbox": [
+      554,
+      647,
+      160,
+      168
+    ],
+    "cropped_bbox": [
+      554,
+      647,
+      160,
+      168
+    ],
+    "colored_pixels": 21189,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_03.jpg",
+    "prov_filename": "0036_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 36791,
+    "bbox": [
+      65,
+      628,
+      243,
+      231
+    ],
+    "cropped_bbox": [
+      65,
+      628,
+      243,
+      231
+    ],
+    "colored_pixels": 37065,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_04.jpg",
+    "prov_filename": "0036_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23338,
+    "bbox": [
+      84,
+      294,
+      160,
+      179
+    ],
+    "cropped_bbox": [
+      84,
+      294,
+      160,
+      179
+    ],
+    "colored_pixels": 23546,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_05.jpg",
+    "prov_filename": "0036_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 26939,
+    "bbox": [
+      579,
+      268,
+      172,
+      192
+    ],
+    "cropped_bbox": [
+      579,
+      268,
+      172,
+      192
+    ],
+    "colored_pixels": 27168,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0036_speech_bubble_06.jpg",
+    "prov_filename": "0036_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0036_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 20418,
+    "bbox": [
+      575,
+      93,
+      156,
+      165
+    ],
+    "cropped_bbox": [
+      575,
+      93,
+      156,
+      165
+    ],
+    "colored_pixels": 20583,
+    "source_image": "0036"
+  },
+  {
+    "filename": "0037_speech_bubble_00.jpg",
+    "prov_filename": "0037_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0037_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 18110,
+    "bbox": [
+      23,
+      974,
+      140,
+      164
+    ],
+    "cropped_bbox": [
+      23,
+      974,
+      140,
+      164
+    ],
+    "colored_pixels": 18268,
+    "source_image": "0037"
+  },
+  {
+    "filename": "0037_speech_bubble_01.jpg",
+    "prov_filename": "0037_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0037_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 39170,
+    "bbox": [
+      489,
+      345,
+      265,
+      221
+    ],
+    "cropped_bbox": [
+      489,
+      345,
+      265,
+      221
+    ],
+    "colored_pixels": 39515,
+    "source_image": "0037"
+  },
+  {
+    "filename": "0038_speech_bubble_00.jpg",
+    "prov_filename": "0038_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0038_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19713,
+    "bbox": [
+      479,
+      96,
+      149,
+      164
+    ],
+    "cropped_bbox": [
+      479,
+      96,
+      149,
+      164
+    ],
+    "colored_pixels": 19872,
+    "source_image": "0038"
+  },
+  {
+    "filename": "0039_speech_bubble_00.jpg",
+    "prov_filename": "0039_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0039_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 27760,
+    "bbox": [
+      97,
+      888,
+      168,
+      204
+    ],
+    "cropped_bbox": [
+      97,
+      888,
+      168,
+      204
+    ],
+    "colored_pixels": 28037,
+    "source_image": "0039"
+  },
+  {
+    "filename": "0039_speech_bubble_01.jpg",
+    "prov_filename": "0039_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0039_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24225,
+    "bbox": [
+      592,
+      814,
+      158,
+      187
+    ],
+    "cropped_bbox": [
+      592,
+      814,
+      158,
+      187
+    ],
+    "colored_pixels": 24483,
+    "source_image": "0039"
+  },
+  {
+    "filename": "0040_speech_bubble_00.jpg",
+    "prov_filename": "0040_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 23142,
+    "bbox": [
+      414,
+      826,
+      154,
+      184
+    ],
+    "cropped_bbox": [
+      414,
+      826,
+      154,
+      184
+    ],
+    "colored_pixels": 23336,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_01.jpg",
+    "prov_filename": "0040_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 10959,
+    "bbox": [
+      651,
+      782,
+      103,
+      130
+    ],
+    "cropped_bbox": [
+      651,
+      782,
+      103,
+      130
+    ],
+    "colored_pixels": 11115,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_02.jpg",
+    "prov_filename": "0040_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 24639,
+    "bbox": [
+      232,
+      752,
+      159,
+      180
+    ],
+    "cropped_bbox": [
+      232,
+      752,
+      159,
+      180
+    ],
+    "colored_pixels": 24865,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_03.jpg",
+    "prov_filename": "0040_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 15412,
+    "bbox": [
+      64,
+      570,
+      127,
+      151
+    ],
+    "cropped_bbox": [
+      64,
+      570,
+      127,
+      151
+    ],
+    "colored_pixels": 15591,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_04.jpg",
+    "prov_filename": "0040_speech_bubble_04_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_04_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 20877,
+    "bbox": [
+      554,
+      452,
+      147,
+      178
+    ],
+    "cropped_bbox": [
+      554,
+      452,
+      147,
+      178
+    ],
+    "colored_pixels": 21058,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_05.jpg",
+    "prov_filename": "0040_speech_bubble_05_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_05_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 18307,
+    "bbox": [
+      177,
+      450,
+      140,
+      161
+    ],
+    "cropped_bbox": [
+      177,
+      450,
+      140,
+      161
+    ],
+    "colored_pixels": 18477,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0040_speech_bubble_06.jpg",
+    "prov_filename": "0040_speech_bubble_06_prov.jpg",
+    "mask_filename_png": "0040_speech_bubble_06_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19499,
+    "bbox": [
+      626,
+      45,
+      143,
+      167
+    ],
+    "cropped_bbox": [
+      626,
+      45,
+      143,
+      167
+    ],
+    "colored_pixels": 19670,
+    "source_image": "0040"
+  },
+  {
+    "filename": "0041_speech_bubble_00.jpg",
+    "prov_filename": "0041_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0041_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 31082,
+    "bbox": [
+      562,
+      793,
+      179,
+      217
+    ],
+    "cropped_bbox": [
+      562,
+      793,
+      179,
+      217
+    ],
+    "colored_pixels": 31340,
+    "source_image": "0041"
+  },
+  {
+    "filename": "0041_speech_bubble_01.jpg",
+    "prov_filename": "0041_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0041_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 19328,
+    "bbox": [
+      117,
+      512,
+      139,
+      170
+    ],
+    "cropped_bbox": [
+      117,
+      512,
+      139,
+      170
+    ],
+    "colored_pixels": 19518,
+    "source_image": "0041"
+  },
+  {
+    "filename": "0041_speech_bubble_02.jpg",
+    "prov_filename": "0041_speech_bubble_02_prov.jpg",
+    "mask_filename_png": "0041_speech_bubble_02_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 20911,
+    "bbox": [
+      598,
+      113,
+      151,
+      172
+    ],
+    "cropped_bbox": [
+      598,
+      113,
+      151,
+      172
+    ],
+    "colored_pixels": 21110,
+    "source_image": "0041"
+  },
+  {
+    "filename": "0041_speech_bubble_03.jpg",
+    "prov_filename": "0041_speech_bubble_03_prov.jpg",
+    "mask_filename_png": "0041_speech_bubble_03_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 42440,
+    "bbox": [
+      82,
+      101,
+      266,
+      282
+    ],
+    "cropped_bbox": [
+      82,
+      101,
+      266,
+      282
+    ],
+    "colored_pixels": 42771,
+    "source_image": "0041"
+  },
+  {
+    "filename": "0042_speech_bubble_00.jpg",
+    "prov_filename": "0042_speech_bubble_00_prov.jpg",
+    "mask_filename_png": "0042_speech_bubble_00_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 32174,
+    "bbox": [
+      61,
+      867,
+      176,
+      226
+    ],
+    "cropped_bbox": [
+      61,
+      867,
+      176,
+      226
+    ],
+    "colored_pixels": 32455,
+    "source_image": "0042"
+  },
+  {
+    "filename": "0042_speech_bubble_01.jpg",
+    "prov_filename": "0042_speech_bubble_01_prov.jpg",
+    "mask_filename_png": "0042_speech_bubble_01_mask.png",
+    "object_type": "speech_bubble",
+    "color": "magenta",
+    "area": 41731,
+    "bbox": [
+      587,
+      43,
+      183,
+      325
+    ],
+    "cropped_bbox": [
+      587,
+      43,
+      183,
+      325
+    ],
+    "colored_pixels": 42025,
+    "source_image": "0042"
+  }
+]
