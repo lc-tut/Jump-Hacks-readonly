@@ -43,6 +43,7 @@ if not os.path.isfile(cfg.MODEL.WEIGHTS):
         raise
 
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # 信頼度の閾値を学習時と一致させる
+cfg.MODEL.DEVICE = "cpu"
 predictor = DefaultPredictor(cfg)
 
 # 2. 新しい画像の読み込みと推論

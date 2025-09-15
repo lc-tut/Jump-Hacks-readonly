@@ -12,11 +12,11 @@ from detectron2 import model_zoo
 # 1. データセットの登録
 # "my_dataset_train" という名前でデータセットを登録
 register_coco_instances("my_dataset_train", {}, 
-                        "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/asobi_coco/annotations.json", 
-                        "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/asobi_coco/")
+                        "internal/asobi/asobi_coco/annotations.json", 
+                        "internal/asobi/asobi_coco/")
 register_coco_instances("my_dataset_val", {}, 
-                        "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/asobi_coco/annotations.json", 
-                        "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/asobi_coco/")
+                        "internal/asobi/asobi_coco/annotations.json", 
+                        "internal/asobi/asobi_coco/")
 
 # データセットの統計情報を確認
 from detectron2.data import DatasetCatalog, MetadataCatalog

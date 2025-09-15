@@ -273,8 +273,8 @@ def extract_exact_colored_regions(image_path, output_dir):
 def main():
     """メイン処理"""
     # パス設定
-    input_dir = "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/output"
-    output_dir = "/home/luy869/works/hackathon/Jump-Hacks-readonly/internal/asobi/cut_output"
+    input_dir = "internal/asobi/output"
+    output_dir = "internal/asobi/cut_output"
     
     print("=== 色付きマスク領域切り取りツール ===")
     print(f"入力ディレクトリ: {input_dir}")
