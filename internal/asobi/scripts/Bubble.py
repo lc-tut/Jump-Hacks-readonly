@@ -47,16 +47,14 @@ cfg.MODEL.DEVICE = "cpu"
 predictor = DefaultPredictor(cfg)
 
 # 2. 新しい画像の読み込みと推論
-# スクリプトの位置を基準に、実際に存在するフォルダを優先して参照する
+# スクリプトの位置を基準に、新しい画像フォルダの場所を参照する
 scripts_dir = os.path.dirname(os.path.abspath(__file__))
-candidate1 = os.path.join(scripts_dir, 'こわいやさん[第1話]')  # 見つかったパス（scripts 内）
-candidate2 = os.path.abspath(os.path.join(scripts_dir, '..', 'こわいやさん[第1話]'))
-if os.path.isdir(candidate1):
-    input_dir = candidate1
-elif os.path.isdir(candidate2):
-    input_dir = candidate2
+# 新しい画像フォルダの場所: internal/asobi/image/original
+image_dir = os.path.abspath(os.path.join(scripts_dir, '..', 'image', 'original'))
+if os.path.isdir(image_dir):
+    input_dir = image_dir
 else:
-    raise FileNotFoundError(f"入力ディレクトリが見つかりません: tried {candidate1} and {candidate2}")
+    raise FileNotFoundError(f"入力ディレクトリが見つかりません: {image_dir}")
 
 output_dir = os.path.abspath(os.path.join(scripts_dir, '..', 'output'))
 os.makedirs(output_dir, exist_ok=True)
