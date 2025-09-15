@@ -1,182 +1,607 @@
 [
   {
     "id": 1,
-    "text": "面白い 本 メー ",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_00.jpg"
+    "text": "カラス は 警戒 心 が 強い 生き物 です ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_00.jpg"
+  },
+  {
+    "id": 1,
+    "text": "何かしら の 変化 に 気付く と 群れ で 警戒 し て 飛び回る ん です ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_00.jpg"
   },
   {
     "id": 2,
-    "text": "美味しい お 肉 だ よー ",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_01.jpg"
+    "text": "飛ん で い まし た ･･･ ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_01.jpg"
   },
   {
     "id": 3,
-    "text": "ニャハハ ! 新鮮 な お 魚 だ ニャ ! ",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_02.jpg"
+    "text": "... ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_02.jpg"
+  },
+  {
+    "id": 3,
+    "text": "ものすごい 数 の カラス ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_02.jpg"
   },
   {
     "id": 4,
-    "text": "可愛らしい 『 どうぶつ 』 たち が ... ",
-    "source": "internal/asobi/cut_output/0001_square_03.jpg"
-  },
-  {
-    "id": 4,
-    "text": "様々 な お 店 を 開い て い ます ",
-    "source": "internal/asobi/cut_output/0001_square_03.jpg"
+    "text": "カラス でし た ",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_03.jpg"
   },
   {
     "id": 5,
-    "text": "ここ は ",
-    "source": "internal/asobi/cut_output/0001_square_04.jpg"
-  },
-  {
-    "id": 5,
-    "text": "『 どうぶつ 村 』 ",
-    "source": "internal/asobi/cut_output/0001_square_04.jpg"
+    "text": "因果 が 逆 ･･･ なん です ",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_00.jpg"
   },
   {
     "id": 6,
-    "text": "✓ .... ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_00.jpg"
+    "text": "実は ･･･ カラス が 不吉 な ん じゃ なく て ... ",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_01.jpg"
+  },
+  {
+    "id": 6,
+    "text": "不吉 な こと が 起こる と カラス って 騒ぐ ん です ... ",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_01.jpg"
   },
   {
     "id": 7,
-    "text": "こん に ち は ! ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_01.jpg"
+    "text": "不吉 の 象徴 だ とか ",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_02.jpg"
   },
   {
     "id": 8,
-    "text": "引っ越し て き て 良かっ た ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
-  },
-  {
-    "id": 8,
-    "text": "な ･･･ ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
-  },
-  {
-    "id": 8,
-    "text": "これから 楽しく なり そう … ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
+    "text": "カラス って 不気味 な 鳥 だ と 思わ れ て い ます よ ね ・・・ ",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_03.jpg"
   },
   {
     "id": 9,
-    "text": "にぎやか な 村 だ なぁ ･･･ ",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_04.jpg"
+    "text": "あと : ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_00.jpg"
   },
   {
     "id": 10,
-    "text": "かえる くん ",
-    "source": "internal/asobi/cut_output/0002_square_03.jpg"
+    "text": "死 肉 より ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_01.jpg"
+  },
+  {
+    "id": 10,
+    "text": "生 ゴミ の ほうが 美味しい ですから … ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_01.jpg"
   },
   {
     "id": 11,
-    "text": "『 こわい や ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "『 こわい 』 を ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "さん 』 です ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "売っ て おり ます ! ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+    "text": "都会 に 住ん で いる子 は ほとんど 食べ ませ ん ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_02.jpg"
   },
   {
     "id": 12,
-    "text": "こん に ち は … ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+    "text": "カラス が 死体 を 食べ ちゃう イメージ ･･･ ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_03.jpg"
   },
   {
     "id": 12,
-    "text": "ここ は 何 を 売っ て いる ん です ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
-  },
-  {
-    "id": 12,
-    "text": ".... ",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+    "text": "あれ も そんな こと なく て ... ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_03.jpg"
   },
   {
     "id": 13,
-    "text": "どうぞ どうぞ ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_00.jpg"
-  },
-  {
-    "id": 13,
-    "text": "ご 納得 いただか なけれ ば お代 は 一切 いただき ませ ん ので ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_00.jpg"
+    "text": "です ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_04.jpg"
   },
   {
     "id": 14,
-    "text": "え ! ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_01.jpg"
+    "text": "生き物 の 死体 とか ･･･ ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_05.jpg"
   },
   {
     "id": 15,
-    "text": "入れ ば わかり ます ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_02.jpg"
+    "text": "例えば ･･･ ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_06.jpg"
+  },
+  {
+    "id": 15,
+    "text": "騒ぐ 理由 で 一番 多い の は ･･･ ",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_06.jpg"
   },
   {
     "id": 16,
-    "text": "とりあえず 一度 入っ て み ませ ん か ? ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_04.jpg"
+    "text": "園芸 部 の 仕事 なん です よ … ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_00.jpg"
   },
   {
     "id": 17,
-    "text": "うーん … そう です ねえ ･･･ ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_05.jpg"
+    "text": "実は ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_01.jpg"
+  },
+  {
+    "id": 17,
+    "text": "そういう 学校 で 出 た 死骸 の 処理 って … ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_01.jpg"
   },
   {
     "id": 18,
-    "text": "怖い もの を 売っ て いる ん です か ... ? ",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_06.jpg"
+    "text": "警戒 … し ます よ ね … ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_02.jpg"
   },
   {
     "id": 19,
-    "text": "箱 でわ すい ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_00.jpg"
+    "text": "それ が ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
+  },
+  {
+    "id": 19,
+    "text": "死ん だ 原因 が 近く に ある ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
+  },
+  {
+    "id": 19,
+    "text": "って こと ですから … ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
   },
   {
     "id": 20,
-    "text": "なに … ? この 箱 ･･･ ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_01.jpg"
+    "text": "だって ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_04.jpg"
   },
   {
     "id": 21,
-    "text": "これ は ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_02.jpg"
+    "text": "死体 って 動物 から し て も ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_05.jpg"
+  },
+  {
+    "id": 21,
+    "text": "怖い もの なん です ",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_05.jpg"
   },
   {
     "id": 22,
+    "text": "だから ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "生き物 が 死ん で いる ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "の を ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "見つけ たら ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 23,
+    "text": "園 芸 倉庫 の 裏 に … こっそり ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 23,
+    "text": "小さな ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 23,
+    "text": "お 墓 を 作っ て い まし た ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 24,
+    "text": "私 で ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": "私 ･･･ ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": ".... ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": "死骸 を ゴミ に 出す の が 嫌 な ん です ･･･ ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 25,
+    "text": "燃える ゴミ な ん です よ ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_03.jpg"
+  },
+  {
+    "id": 26,
+    "text": "学校 の ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "ルール ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "死ん だ ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "では ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "生き物 ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "って ",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 27,
+    "text": "そう し ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_00.jpg"
+  },
+  {
+    "id": 27,
+    "text": "たら ... ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_00.jpg"
+  },
+  {
+    "id": 28,
+    "text": "って 思っ て ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_01.jpg"
+  },
+  {
+    "id": 28,
+    "text": "校舎 裏 の 茂み を 探し て み た ん です ... ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_01.jpg"
+  },
+  {
+    "id": 29,
+    "text": "もしかして けっこう 大きな もの が 死ん で いる ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_02.jpg"
+  },
+  {
+    "id": 29,
+    "text": "かも しれ ない な ... ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_02.jpg"
+  },
+  {
+    "id": 30,
+    "text": "あの 日 も ･･･ ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 30,
+    "text": "あんなに カラス が 集まっ て いる ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 30,
+    "text": "なら ･･･ ",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 31,
+    "text": "これ です ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_00.jpg"
+  },
+  {
+    "id": 32,
+    "text": "その 時 に 差し出し た ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_01.jpg"
+  },
+  {
+    "id": 32,
+    "text": "の が ･･･ ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_01.jpg"
+  },
+  {
+    "id": 33,
+    "text": "死に まし た ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_02.jpg"
+  },
+  {
+    "id": 34,
+    "text": "ぶくぶく 口 から 泡 を 吐い て ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_03.jpg"
+  },
+  {
+    "id": 35,
+    "text": "き 近 私 ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "に ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "近づい て き て … ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "て ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 36,
+    "text": "その ･･･ でっかい 頭 の 生き物 が ･･･ ",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_05.jpg"
+  },
+  {
+    "id": 37,
+    "text": "面白い 本 メー ",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_00.jpg"
+  },
+  {
+    "id": 38,
+    "text": "美味しい お 肉 だ よー ",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_01.jpg"
+  },
+  {
+    "id": 39,
+    "text": "ニャハハ ! 新鮮 な お 魚 だ ニャ ! ",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_02.jpg"
+  },
+  {
+    "id": 40,
+    "text": "可愛らしい 『 どうぶつ 』 たち が ... ",
+    "source": "internal/asobi/cut_output/page-1_square_03.jpg"
+  },
+  {
+    "id": 40,
+    "text": "様々 な お 店 を 開い て い ます ",
+    "source": "internal/asobi/cut_output/page-1_square_03.jpg"
+  },
+  {
+    "id": 41,
+    "text": "ここ は ",
+    "source": "internal/asobi/cut_output/page-1_square_04.jpg"
+  },
+  {
+    "id": 41,
+    "text": "『 どうぶつ 村 』 ",
+    "source": "internal/asobi/cut_output/page-1_square_04.jpg"
+  },
+  {
+    "id": 42,
+    "text": "すごく 悲しい 気持ち に なり まし た ",
+    "source": "internal/asobi/cut_output/page-20_speech_bubble_00.jpg"
+  },
+  {
+    "id": 43,
+    "text": "お 墓 を 作っ て あげ た ん です ",
+    "source": "internal/asobi/cut_output/page-20_speech_bubble_01.jpg"
+  },
+  {
+    "id": 44,
+    "text": "遠藤 さん あなた ・・・ ",
+    "source": "internal/asobi/cut_output/page-21_speech_bubble_00.jpg"
+  },
+  {
+    "id": 45,
+    "text": "どう 見 て も 悲しい 顔 し て ませ ん よ ",
+    "source": "internal/asobi/cut_output/page-21_speech_bubble_01.jpg"
+  },
+  {
+    "id": 46,
+    "text": "✓ .... ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_00.jpg"
+  },
+  {
+    "id": 47,
+    "text": "こん に ち は ! ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_01.jpg"
+  },
+  {
+    "id": 48,
+    "text": "引っ越し て き て 良かっ た ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 48,
+    "text": "な ･･･ ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 48,
+    "text": "これから 楽しく なり そう … ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 49,
+    "text": "にぎやか な 村 だ なぁ ･･･ ",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_04.jpg"
+  },
+  {
+    "id": 50,
+    "text": "かえる くん ",
+    "source": "internal/asobi/cut_output/page-2_square_03.jpg"
+  },
+  {
+    "id": 51,
+    "text": "『 こわい や ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "『 こわい 』 を ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "さん 』 です ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "売っ て おり ます ! ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 52,
+    "text": "こん に ち は … ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 52,
+    "text": "ここ は 何 を 売っ て いる ん です ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 52,
+    "text": ".... ",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 53,
+    "text": "どうぞ どうぞ ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_00.jpg"
+  },
+  {
+    "id": 53,
+    "text": "ご 納得 いただか なけれ ば お代 は 一切 いただき ませ ん ので ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_00.jpg"
+  },
+  {
+    "id": 54,
+    "text": "え ! ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_01.jpg"
+  },
+  {
+    "id": 55,
+    "text": "入れ ば わかり ます ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_02.jpg"
+  },
+  {
+    "id": 56,
+    "text": "とりあえず 一度 入っ て み ませ ん か ? ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_04.jpg"
+  },
+  {
+    "id": 57,
+    "text": "うーん … そう です ねえ ･･･ ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_05.jpg"
+  },
+  {
+    "id": 58,
+    "text": "怖い もの を 売っ て いる ん です か ... ? ",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_06.jpg"
+  },
+  {
+    "id": 59,
+    "text": "箱 でわ すい ",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_00.jpg"
+  },
+  {
+    "id": 60,
+    "text": "なに … ? この 箱 ･･･ ",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_01.jpg"
+  },
+  {
+    "id": 61,
+    "text": "これ は ",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_02.jpg"
+  },
+  {
+    "id": 62,
     "text": "『 こわい 』 Ad ... を ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_03.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_03.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "さて ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "さて … .. ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "まずは ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "最初 の ",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
+  },
+  {
+    "id": 64,
+    "text": "お話 の はじまり はじまり … ",
+    "source": "internal/asobi/cut_output/page-8_speech_bubble_00.jpg"
+  },
+  {
+    "id": 65,
+    "text": "『 こわい 』 に つい て の ... ",
+    "source": "internal/asobi/cut_output/page-8_speech_bubble_01.jpg"
+  },
+  {
+    "id": 66,
+    "text": "そう 思っ て 見上げる と ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_00.jpg"
+  },
+  {
+    "id": 67,
+    "text": "やけに たくさん 鳥 が 飛ん で いる な って ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_01.jpg"
+  },
+  {
+    "id": 68,
+    "text": "その 日 : ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_02.jpg"
+  },
+  {
+    "id": 69,
+    "text": "私 ･･･ 高校 で ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_03.jpg"
+  },
+  {
+    "id": 69,
+    "text": "園芸 部 な ん です けど ... ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_03.jpg"
+  },
+  {
+    "id": 70,
+    "text": "こんにちは ･･･ ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 70,
+    "text": "あの ... ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 70,
+    "text": "えんどう 遠藤 と 申し ます ･･･ ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 71,
+    "text": "話 拾 ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_05.jpg"
+  },
+  {
+    "id": 71,
+    "text": "拾っ た 時 の 話 を し ます ･･･ ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_05.jpg"
+  },
+  {
+    "id": 72,
+    "text": "あの ... 金属 球 を ",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_06.jpg"
   }
 ]

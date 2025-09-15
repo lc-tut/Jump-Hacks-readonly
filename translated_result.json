@@ -1,182 +1,607 @@
 [
   {
     "id": 1,
-    "text": "Interesting Book May",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_00.jpg"
+    "text": "Crows are very wary creatures.",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_00.jpg"
+  },
+  {
+    "id": 1,
+    "text": "When they notice any change, they fly around in packs, on alert.",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_00.jpg"
   },
   {
     "id": 2,
-    "text": "Delicious meat!",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_01.jpg"
+    "text": "He was flying...",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_01.jpg"
   },
   {
     "id": 3,
-    "text": "Nyahaha! Fresh fish!",
-    "source": "internal/asobi/cut_output/0001_speech_bubble_02.jpg"
+    "text": "...",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_02.jpg"
+  },
+  {
+    "id": 3,
+    "text": "A tremendous number of crows",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_02.jpg"
   },
   {
     "id": 4,
-    "text": "Cute animals are ...",
-    "source": "internal/asobi/cut_output/0001_square_03.jpg"
-  },
-  {
-    "id": 4,
-    "text": "We have a variety of stores.",
-    "source": "internal/asobi/cut_output/0001_square_03.jpg"
+    "text": "It was a crow.",
+    "source": "internal/asobi/cut_output/page-10_speech_bubble_03.jpg"
   },
   {
     "id": 5,
-    "text": "This is the place.",
-    "source": "internal/asobi/cut_output/0001_square_04.jpg"
-  },
-  {
-    "id": 5,
-    "text": "Animal Village",
-    "source": "internal/asobi/cut_output/0001_square_04.jpg"
+    "text": "Causes and effects are reversed.",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_00.jpg"
   },
   {
     "id": 6,
-    "text": "✓ ....",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_00.jpg"
+    "text": "Actually, it's not that crows are bad luck...",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_01.jpg"
+  },
+  {
+    "id": 6,
+    "text": "Crows get very noisy when bad things happen.",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_01.jpg"
   },
   {
     "id": 7,
-    "text": "Good day!",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_01.jpg"
+    "text": "They say it's a symbol of bad luck.",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_02.jpg"
   },
   {
     "id": 8,
-    "text": "I'm glad I moved here.",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
-  },
-  {
-    "id": 8,
-    "text": ".......",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
-  },
-  {
-    "id": 8,
-    "text": "It's going to be fun from now on...",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_02.jpg"
+    "text": "Crows are considered creepy birds.",
+    "source": "internal/asobi/cut_output/page-11_speech_bubble_03.jpg"
   },
   {
     "id": 9,
-    "text": "What a lively village.",
-    "source": "internal/asobi/cut_output/0002_speech_bubble_04.jpg"
+    "text": "Also :.",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_00.jpg"
   },
   {
     "id": 10,
-    "text": "frog",
-    "source": "internal/asobi/cut_output/0002_square_03.jpg"
+    "text": "From Dead Flesh",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_01.jpg"
+  },
+  {
+    "id": 10,
+    "text": "Garbage tastes better, so ...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_01.jpg"
   },
   {
     "id": 11,
-    "text": "I'm scared.",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "I'm scared.",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "The first is \"3.",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
-  },
-  {
-    "id": 11,
-    "text": "We are selling!",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_00.jpg"
+    "text": "Most city dwellers don't eat.",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_02.jpg"
   },
   {
     "id": 12,
-    "text": "Today is ...",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+    "text": "The image of a crow eating a dead body...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_03.jpg"
   },
   {
     "id": 12,
-    "text": "What do you sell here?",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
-  },
-  {
-    "id": 12,
-    "text": "....",
-    "source": "internal/asobi/cut_output/0003_speech_bubble_01.jpg"
+    "text": "That's not even...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_03.jpg"
   },
   {
     "id": 13,
-    "text": "Go ahead. Go ahead.",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_00.jpg"
-  },
-  {
-    "id": 13,
-    "text": "If you do not agree, we will not charge you anything.",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_00.jpg"
+    "text": "is",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_04.jpg"
   },
   {
     "id": 14,
-    "text": "Eh !",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_01.jpg"
+    "text": "Dead creatures and...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_05.jpg"
   },
   {
     "id": 15,
-    "text": "Come on in and we'll see.",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_02.jpg"
+    "text": "For example...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_06.jpg"
+  },
+  {
+    "id": 15,
+    "text": "The most common reason for making a fuss is...",
+    "source": "internal/asobi/cut_output/page-12_speech_bubble_06.jpg"
   },
   {
     "id": 16,
-    "text": "Would you like to join us for the first time?",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_04.jpg"
+    "text": "It's a job for the gardening department ...",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_00.jpg"
   },
   {
     "id": 17,
-    "text": "Well... yes...",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_05.jpg"
+    "text": "as a matter of fact",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_01.jpg"
+  },
+  {
+    "id": 17,
+    "text": "What do you do with the carcasses from a school like that?",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_01.jpg"
   },
   {
     "id": 18,
-    "text": "Are you selling something scary ...? ...?",
-    "source": "internal/asobi/cut_output/0004_speech_bubble_06.jpg"
+    "text": "You'll be on the lookout...",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_02.jpg"
   },
   {
     "id": 19,
-    "text": "Boxes are water.",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_00.jpg"
+    "text": "It is.",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
+  },
+  {
+    "id": 19,
+    "text": "The cause of death is nearby.",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
+  },
+  {
+    "id": 19,
+    "text": "That's why...",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_03.jpg"
   },
   {
     "id": 20,
-    "text": "What ...? This box...",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_01.jpg"
+    "text": "also",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_04.jpg"
   },
   {
     "id": 21,
-    "text": "This is",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_02.jpg"
+    "text": "Even from an animal's point of view, a corpse.",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_05.jpg"
+  },
+  {
+    "id": 21,
+    "text": "It's a scary thing.",
+    "source": "internal/asobi/cut_output/page-13_speech_bubble_05.jpg"
   },
   {
     "id": 22,
-    "text": "Scary\" Ad ... Ad ...",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_03.jpg"
+    "text": "therefore",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "Dead creatures.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "of",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
+  },
+  {
+    "id": 22,
+    "text": "Find it, Tara.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_00.jpg"
   },
   {
     "id": 23,
+    "text": "Behind the warehouse...",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 23,
+    "text": "small",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 23,
+    "text": "They were building a tomb.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_01.jpg"
+  },
+  {
+    "id": 24,
+    "text": "I am.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": "I... I...",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": "....",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 24,
+    "text": "I don't like to take the carcass to the garbage.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_02.jpg"
+  },
+  {
+    "id": 25,
+    "text": "It's burnable trash.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_03.jpg"
+  },
+  {
+    "id": 26,
+    "text": "School",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "rule",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "Dead.",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
     "text": "well",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 26,
+    "text": "animal",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 26,
+    "text": "if ... then",
+    "source": "internal/asobi/cut_output/page-14_speech_bubble_04.jpg"
+  },
+  {
+    "id": 27,
+    "text": "twin",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_00.jpg"
+  },
+  {
+    "id": 27,
+    "text": "Tara ...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_00.jpg"
+  },
+  {
+    "id": 28,
+    "text": "I think...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_01.jpg"
+  },
+  {
+    "id": 28,
+    "text": "I looked in the bushes behind the school building...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_01.jpg"
+  },
+  {
+    "id": 29,
+    "text": "Maybe there's something bigger dead out there.",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_02.jpg"
+  },
+  {
+    "id": 29,
+    "text": "Maybe... maybe...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_02.jpg"
+  },
+  {
+    "id": 30,
+    "text": "And that day...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 30,
+    "text": "There's a lot of crows up there.",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 30,
+    "text": "Then...",
+    "source": "internal/asobi/cut_output/page-15_speech_bubble_03.jpg"
+  },
+  {
+    "id": 31,
+    "text": "Here it is.",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_00.jpg"
+  },
+  {
+    "id": 32,
+    "text": "I offered it to him at that time.",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_01.jpg"
+  },
+  {
+    "id": 32,
+    "text": "I'm sorry, but...",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_01.jpg"
+  },
+  {
+    "id": 33,
+    "text": "He died.",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_02.jpg"
+  },
+  {
+    "id": 34,
+    "text": "Foaming at the mouth.",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_03.jpg"
+  },
+  {
+    "id": 35,
+    "text": "Near me",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "indicates such things as location of person or thing, location of short-term action, etc.",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "It's getting closer and closer...",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 35,
+    "text": "move (in go, shogi, etc.)",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_04.jpg"
+  },
+  {
+    "id": 36,
+    "text": "The creature with the big head...",
+    "source": "internal/asobi/cut_output/page-18_speech_bubble_05.jpg"
+  },
+  {
+    "id": 37,
+    "text": "Interesting Book May",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_00.jpg"
+  },
+  {
+    "id": 38,
+    "text": "Delicious meat!",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_01.jpg"
+  },
+  {
+    "id": 39,
+    "text": "Nyahaha! Fresh fish!",
+    "source": "internal/asobi/cut_output/page-1_speech_bubble_02.jpg"
+  },
+  {
+    "id": 40,
+    "text": "Cute animals are ...",
+    "source": "internal/asobi/cut_output/page-1_square_03.jpg"
+  },
+  {
+    "id": 40,
+    "text": "We have a variety of stores.",
+    "source": "internal/asobi/cut_output/page-1_square_03.jpg"
+  },
+  {
+    "id": 41,
+    "text": "This is the place.",
+    "source": "internal/asobi/cut_output/page-1_square_04.jpg"
+  },
+  {
+    "id": 41,
+    "text": "Animal Village",
+    "source": "internal/asobi/cut_output/page-1_square_04.jpg"
+  },
+  {
+    "id": 42,
+    "text": "I felt very sad.",
+    "source": "internal/asobi/cut_output/page-20_speech_bubble_00.jpg"
+  },
+  {
+    "id": 43,
+    "text": "I built him a tomb.",
+    "source": "internal/asobi/cut_output/page-20_speech_bubble_01.jpg"
+  },
+  {
+    "id": 44,
+    "text": "Mr. Endo, you...",
+    "source": "internal/asobi/cut_output/page-21_speech_bubble_00.jpg"
+  },
+  {
+    "id": 45,
+    "text": "You don't look sad by any stretch of the imagination.",
+    "source": "internal/asobi/cut_output/page-21_speech_bubble_01.jpg"
+  },
+  {
+    "id": 46,
+    "text": "✓ ....",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_00.jpg"
+  },
+  {
+    "id": 47,
+    "text": "Good day!",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_01.jpg"
+  },
+  {
+    "id": 48,
+    "text": "I'm glad I moved here.",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 48,
+    "text": ".......",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 48,
+    "text": "It's going to be fun from now on...",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_02.jpg"
+  },
+  {
+    "id": 49,
+    "text": "What a lively village.",
+    "source": "internal/asobi/cut_output/page-2_speech_bubble_04.jpg"
+  },
+  {
+    "id": 50,
+    "text": "frog",
+    "source": "internal/asobi/cut_output/page-2_square_03.jpg"
+  },
+  {
+    "id": 51,
+    "text": "I'm scared.",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "I'm scared.",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "The first is \"3.",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 51,
+    "text": "We are selling!",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_00.jpg"
+  },
+  {
+    "id": 52,
+    "text": "Today is ...",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 52,
+    "text": "What do you sell here?",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 52,
+    "text": "....",
+    "source": "internal/asobi/cut_output/page-3_speech_bubble_01.jpg"
+  },
+  {
+    "id": 53,
+    "text": "Go ahead. Go ahead.",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_00.jpg"
+  },
+  {
+    "id": 53,
+    "text": "If you do not agree, we will not charge you anything.",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_00.jpg"
+  },
+  {
+    "id": 54,
+    "text": "Eh !",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_01.jpg"
+  },
+  {
+    "id": 55,
+    "text": "Come on in and we'll see.",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_02.jpg"
+  },
+  {
+    "id": 56,
+    "text": "Would you like to join us for the first time?",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_04.jpg"
+  },
+  {
+    "id": 57,
+    "text": "Well... yes...",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_05.jpg"
+  },
+  {
+    "id": 58,
+    "text": "Are you selling something scary ...? ...?",
+    "source": "internal/asobi/cut_output/page-4_speech_bubble_06.jpg"
+  },
+  {
+    "id": 59,
+    "text": "Boxes are water.",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_00.jpg"
+  },
+  {
+    "id": 60,
+    "text": "What ...? This box...",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_01.jpg"
+  },
+  {
+    "id": 61,
+    "text": "This is",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_02.jpg"
+  },
+  {
+    "id": 62,
+    "text": "Scary\" Ad ... Ad ...",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_03.jpg"
+  },
+  {
+    "id": 63,
+    "text": "well",
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
+  },
+  {
+    "id": 63,
     "text": "Well ... ...",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "First.",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
   },
   {
-    "id": 23,
+    "id": 63,
     "text": "First",
-    "source": "internal/asobi/cut_output/0005_speech_bubble_04.jpg"
+    "source": "internal/asobi/cut_output/page-5_speech_bubble_04.jpg"
+  },
+  {
+    "id": 64,
+    "text": "The Beginning of a Story The Beginning of a Story ...",
+    "source": "internal/asobi/cut_output/page-8_speech_bubble_00.jpg"
+  },
+  {
+    "id": 65,
+    "text": "About \"Scary\" ...",
+    "source": "internal/asobi/cut_output/page-8_speech_bubble_01.jpg"
+  },
+  {
+    "id": 66,
+    "text": "And I look up and I see it.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_00.jpg"
+  },
+  {
+    "id": 67,
+    "text": "I thought, \"Why are there so many birds flying around?",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_01.jpg"
+  },
+  {
+    "id": 68,
+    "text": "The day :.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_02.jpg"
+  },
+  {
+    "id": 69,
+    "text": "I... In high school.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_03.jpg"
+  },
+  {
+    "id": 69,
+    "text": "I'm in the gardening club...",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_03.jpg"
+  },
+  {
+    "id": 70,
+    "text": "Hello. - Hello.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 70,
+    "text": "Um ...",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 70,
+    "text": "My name is Endo Endo.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_04.jpg"
+  },
+  {
+    "id": 71,
+    "text": "Talking about the story.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_05.jpg"
+  },
+  {
+    "id": 71,
+    "text": "Let me tell you the story of when I picked it up...",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_05.jpg"
+  },
+  {
+    "id": 72,
+    "text": "The ... The metal ball.",
+    "source": "internal/asobi/cut_output/page-9_speech_bubble_06.jpg"
   }
 ]

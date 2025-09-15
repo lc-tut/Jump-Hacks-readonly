@@ -20,7 +20,9 @@ RUN pip install 'git+https://github.com/facebookresearch/detectron2.git'
 
 RUN apt-get update && apt-get install -y golang
 
+RUN pip install flask
+
 # プロジェクトファイルをコピー
 COPY . .
 
-CMD ["/bin/bash"]
+CMD ["python", "/workspace/internal/asobi/pipeline_api.py"]

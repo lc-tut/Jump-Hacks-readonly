@@ -110,6 +110,8 @@ services:
     tty: true
     networks:
       - hackathon-network
+    ports:
+      - "5001:5001"
 
 volumes:
   postgres_data:
