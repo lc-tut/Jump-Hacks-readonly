@@ -32,10 +32,28 @@ func main() {
 		targets = append(targets, os.Args[1])
 	}
 
+	path := os.Args[1]
+
+	blocks, err := OCR(path)
+	if err != nil {
+		log.Fatalf("OCR failed: %v", err)
+	}
+
+	err = SaveJSON("ocr_result.json", blocks)
+	if err != nil {
+		log.Fatalf("Failed to save JSON: %v", err)
+	}
+
+	fmt.Println("OCR結果をocr_result.jsonに保存しました")
+}
+
+// OCR は画像ファイルを受け取り OCRBlock のスライスを返す
+func OCR(filename string) ([]OCRBlock, error) {
 	ctx := context.Background()
 	client, err := vision.NewImageAnnotatorClient(ctx, option.WithCredentialsFile("./internal/config/service-account.json"))
 	if err != nil {
 		log.Fatalf("failed to create client: %v", err)
+		return nil, fmt.Errorf("failed to create client: %w", err)
 	}
 	defer client.Close()
 
@@ -144,6 +162,7 @@ func OCRFile(ctx context.Context, client *vision.ImageAnnotatorClient, filename 
 	}
 
 	var blocks []OCRBlock
+	id := 1
 	for _, page := range annotation.Pages {
 		for _, block := range page.Blocks {
 			var text string

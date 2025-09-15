@@ -86,3 +86,5 @@ internal/asobi/result_*.jpg
 internal/asobi/asobi_coco/
 # 学習済みモデル（個別指定が必要な場合のみ）
 internal/asobi/output/model_final.pth
+
+mypace.env

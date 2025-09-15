@@ -65,7 +65,12 @@ echo -e "  ${YELLOW}$DOCKER_COMPOSE down${NC}          - Stop all services"
 echo -e "  ${YELLOW}$DOCKER_COMPOSE restart api${NC}   - Restart API service"
 echo ""
 
-LOCAL_DIR="./private_files/kowaiyasan01"
+LOCAL_DIR="./private_files/"
+
+docker exec -it $(docker compose ps -q localstack) \
+  awslocal s3 mb s3://hackathon-uploads --region ${AWS_REGION:-ap-northeast-1}
+
 docker cp "$LOCAL_DIR" $(docker compose ps -q localstack):/tmp/uploads
 docker exec -it $(docker compose ps -q localstack) \
   awslocal s3 cp /tmp/uploads s3://hackathon-uploads/uploads/ --recursive --exclude "*" --include "*.jpg" --include "*.png"
+  
