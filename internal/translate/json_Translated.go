@@ -118,10 +118,10 @@ func saveOCRResults(results []OCRResult, filename string) error {
 
 func main() {
 	// source を固定: ocr_result.json
-	inputFile := "/home/luy869/works/hackathon/Jump-Hacks-readonly/ocr_result.json"
+	inputFile := "ocr_result.json"
 
 	// 出力ファイルと targetLang は引数で指定可能
-	outputFile := "/home/luy869/works/hackathon/Jump-Hacks-readonly/translated_result.json"
+	outputFile := "translated_result.json"
 	targetLang := "en" // デフォルト
 
 	if len(os.Args) >= 2 {

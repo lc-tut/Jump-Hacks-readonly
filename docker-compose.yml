@@ -100,6 +100,17 @@ services:
     networks:
       - hackathon-network
 
+  asobi:
+    build:
+      context: .
+      dockerfile: Dockerfile.asobi
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    tty: true
+    networks:
+      - hackathon-network
+
 volumes:
   postgres_data:
   redis_data:

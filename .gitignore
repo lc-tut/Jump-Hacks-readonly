@@ -88,3 +88,5 @@ internal/asobi/asobi_coco/
 internal/asobi/output/model_final.pth
 
 mypace.env
+
+venv/
