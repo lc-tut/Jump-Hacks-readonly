@@ -31,25 +31,24 @@ func Initialize(cfg *config.Config) (DB, error) {
 		cfg.DB.SSLMode,
 	)
 
-	// Configure GORM logger
-	var logLevel logger.LogLevel
-	switch cfg.LogLevel {
-	case "debug":
-		logLevel = logger.Info
-	case "error":
-		logLevel = logger.Error
-	default:
-		logLevel = logger.Warn
+	var db *gorm.DB
+	var err error
+	maxRetries := 10
+	for i := 0; i < maxRetries; i++ {
+		db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{
+			Logger: logger.Default.LogMode(getLogLevel(cfg.LogLevel)),
+		})
+		if err == nil {
+			break
+		}
+		fmt.Printf("DB connect failed: %v (try %d/%d)\n", err, i+1, maxRetries)
+		time.Sleep(3 * time.Second)
 	}
-
-	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{
-		Logger: logger.Default.LogMode(logLevel),
-	})
 	if err != nil {
-		return nil, fmt.Errorf("failed to connect to database: %w", err)
+		return nil, fmt.Errorf("failed to connect to database after retries: %w", err)
 	}
 
-	// Get underlying sql.DB
+	// ... existing code (from line 52 onward) ...
 	sqlDB, err := db.DB()
 	if err != nil {
 		return nil, fmt.Errorf("failed to get underlying sql.DB: %w", err)
@@ -101,3 +100,15 @@ func (d *database) Close() error {
 	}
 	return sqlDB.Close()
 } 
+
+// 補助関数
+func getLogLevel(logLevel string) logger.LogLevel {
+	switch logLevel {
+	case "debug":
+		return logger.Info
+	case "error":
+		return logger.Error
+	default:
+		return logger.Warn
+	}
+}
